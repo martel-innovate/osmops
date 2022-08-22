@@ -1,0 +1,1 @@
+7044f64c16d4ef3eeef7f8668a4dc5a1  openldap_knf/openldap_vnfd.yaml

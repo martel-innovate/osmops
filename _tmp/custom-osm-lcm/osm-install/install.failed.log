@@ -1,0 +1,1458 @@
+ Checking required packages to add ETSI OSM debian repo: software-properties-common apt-transport-https
+OK
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:4 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease [4086 B]
+Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:6 http://archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [8570 kB]
+Get:7 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [2309 kB]
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [402 kB]
+Get:9 http://archive.ubuntu.com/ubuntu bionic/universe Translation-en [4941 kB]
+Get:10 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/devops amd64 Packages [483 B]
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [797 kB]
+Get:12 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [109 kB]
+Get:13 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1212 kB]
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [279 kB]
+Get:15 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [19.0 kB]
+Get:16 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [3836 B]
+Get:17 http://archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [151 kB]
+Get:18 http://archive.ubuntu.com/ubuntu bionic/multiverse Translation-en [108 kB]
+Get:19 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [2650 kB]
+Get:20 http://archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [492 kB]
+Get:21 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [829 kB]
+Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [114 kB]
+Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1826 kB]
+Get:24 http://archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [396 kB]
+Get:25 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [24.9 kB]
+Get:26 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [6012 B]
+Get:27 http://archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [10.8 kB]
+Get:28 http://archive.ubuntu.com/ubuntu bionic-backports/main Translation-en [5016 B]
+Get:29 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [11.6 kB]
+Get:30 http://archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [5864 B]
+Fetched 25.5 MB in 8s (3116 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:4 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:5 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  osm-devops
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+Need to get 731 kB of archives.
+After this operation, 5661 kB of additional disk space will be used.
+Get:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/devops amd64 osm-devops all 11.0.3-1 [731 kB]
+Fetched 731 kB in 0s (2394 kB/s)
+Selecting previously unselected package osm-devops.
+(Reading database ... 60493 files and directories currently installed.)
+Preparing to unpack .../osm-devops_11.0.3-1_all.deb ...
+Unpacking osm-devops (11.0.3-1) ...
+Setting up osm-devops (11.0.3-1) ...
+##  Wed Jun 29 14:39:38 CEST 2022 source: INFO: logging sourced
+##  Wed Jun 29 14:39:38 CEST 2022 source: INFO: config sourced
+##  Wed Jun 29 14:39:38 CEST 2022 source: INFO: container sourced
+##  Wed Jun 29 14:39:38 CEST 2022 source: INFO: git_functions sourced
+##  Wed Jun 29 14:39:38 CEST 2022 source: INFO: track sourced
+Checking required packages: git wget curl tar snapd
+/.
+/etc
+/etc/bash_completion.d
+/etc/bash_completion.d/git-prompt
+/usr
+/usr/bin
+/usr/bin/git
+/usr/bin/git-shell
+/usr/bin/git-upload-pack
+/usr/lib
+/usr/lib/git-core
+/usr/lib/git-core/git
+/usr/lib/git-core/git-add--interactive
+/usr/lib/git-core/git-bisect
+/usr/lib/git-core/git-credential-cache
+/usr/lib/git-core/git-credential-cache--daemon
+/usr/lib/git-core/git-credential-store
+/usr/lib/git-core/git-daemon
+/usr/lib/git-core/git-difftool--helper
+/usr/lib/git-core/git-fast-import
+/usr/lib/git-core/git-filter-branch
+/usr/lib/git-core/git-http-backend
+/usr/lib/git-core/git-http-fetch
+/usr/lib/git-core/git-http-push
+/usr/lib/git-core/git-imap-send
+/usr/lib/git-core/git-instaweb
+/usr/lib/git-core/git-merge-octopus
+/usr/lib/git-core/git-merge-one-file
+/usr/lib/git-core/git-merge-resolve
+/usr/lib/git-core/git-mergetool
+/usr/lib/git-core/git-mergetool--lib
+/usr/lib/git-core/git-parse-remote
+/usr/lib/git-core/git-quiltimport
+/usr/lib/git-core/git-rebase
+/usr/lib/git-core/git-rebase--am
+/usr/lib/git-core/git-rebase--interactive
+/usr/lib/git-core/git-rebase--merge
+/usr/lib/git-core/git-remote-http
+/usr/lib/git-core/git-remote-testsvn
+/usr/lib/git-core/git-request-pull
+/usr/lib/git-core/git-sh-i18n
+/usr/lib/git-core/git-sh-i18n--envsubst
+/usr/lib/git-core/git-sh-prompt
+/usr/lib/git-core/git-sh-setup
+/usr/lib/git-core/git-shell
+/usr/lib/git-core/git-show-index
+/usr/lib/git-core/git-stash
+/usr/lib/git-core/git-submodule
+/usr/lib/git-core/git-subtree
+/usr/lib/git-core/git-upload-pack
+/usr/lib/git-core/git-web--browse
+/usr/lib/git-core/mergetools
+/usr/lib/git-core/mergetools/araxis
+/usr/lib/git-core/mergetools/bc
+/usr/lib/git-core/mergetools/bc3
+/usr/lib/git-core/mergetools/codecompare
+/usr/lib/git-core/mergetools/deltawalker
+/usr/lib/git-core/mergetools/diffmerge
+/usr/lib/git-core/mergetools/diffuse
+/usr/lib/git-core/mergetools/ecmerge
+/usr/lib/git-core/mergetools/emerge
+/usr/lib/git-core/mergetools/examdiff
+/usr/lib/git-core/mergetools/gvimdiff
+/usr/lib/git-core/mergetools/gvimdiff2
+/usr/lib/git-core/mergetools/gvimdiff3
+/usr/lib/git-core/mergetools/kdiff3
+/usr/lib/git-core/mergetools/kompare
+/usr/lib/git-core/mergetools/meld
+/usr/lib/git-core/mergetools/opendiff
+/usr/lib/git-core/mergetools/p4merge
+/usr/lib/git-core/mergetools/tkdiff
+/usr/lib/git-core/mergetools/tortoisemerge
+/usr/lib/git-core/mergetools/vimdiff
+/usr/lib/git-core/mergetools/vimdiff2
+/usr/lib/git-core/mergetools/vimdiff3
+/usr/lib/git-core/mergetools/winmerge
+/usr/lib/git-core/mergetools/xxdiff
+/usr/share
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/git
+/usr/share/doc
+/usr/share/doc/git
+/usr/share/doc/git/NEWS.Debian.gz
+/usr/share/doc/git/README.Debian
+/usr/share/doc/git/README.emacs
+/usr/share/doc/git/README.md
+/usr/share/doc/git/README.source
+/usr/share/doc/git/RelNotes
+/usr/share/doc/git/RelNotes/1.5.0.1.txt
+/usr/share/doc/git/RelNotes/1.5.0.2.txt
+/usr/share/doc/git/RelNotes/1.5.0.3.txt
+/usr/share/doc/git/RelNotes/1.5.0.4.txt
+/usr/share/doc/git/RelNotes/1.5.0.5.txt
+/usr/share/doc/git/RelNotes/1.5.0.6.txt
+/usr/share/doc/git/RelNotes/1.5.0.7.txt
+/usr/share/doc/git/RelNotes/1.5.0.txt
+/usr/share/doc/git/RelNotes/1.5.1.1.txt
+/usr/share/doc/git/RelNotes/1.5.1.2.txt
+/usr/share/doc/git/RelNotes/1.5.1.3.txt
+/usr/share/doc/git/RelNotes/1.5.1.4.txt
+/usr/share/doc/git/RelNotes/1.5.1.5.txt
+/usr/share/doc/git/RelNotes/1.5.1.6.txt
+/usr/share/doc/git/RelNotes/1.5.1.txt
+/usr/share/doc/git/RelNotes/1.5.2.1.txt
+/usr/share/doc/git/RelNotes/1.5.2.2.txt
+/usr/share/doc/git/RelNotes/1.5.2.3.txt
+/usr/share/doc/git/RelNotes/1.5.2.4.txt
+/usr/share/doc/git/RelNotes/1.5.2.5.txt
+/usr/share/doc/git/RelNotes/1.5.2.txt
+/usr/share/doc/git/RelNotes/1.5.3.1.txt
+/usr/share/doc/git/RelNotes/1.5.3.2.txt
+/usr/share/doc/git/RelNotes/1.5.3.3.txt
+/usr/share/doc/git/RelNotes/1.5.3.4.txt
+/usr/share/doc/git/RelNotes/1.5.3.5.txt
+/usr/share/doc/git/RelNotes/1.5.3.6.txt
+/usr/share/doc/git/RelNotes/1.5.3.7.txt
+/usr/share/doc/git/RelNotes/1.5.3.8.txt
+/usr/share/doc/git/RelNotes/1.5.3.txt
+/usr/share/doc/git/RelNotes/1.5.4.1.txt
+/usr/share/doc/git/RelNotes/1.5.4.2.txt
+/usr/share/doc/git/RelNotes/1.5.4.3.txt
+/usr/share/doc/git/RelNotes/1.5.4.4.txt
+/usr/share/doc/git/RelNotes/1.5.4.5.txt
+/usr/share/doc/git/RelNotes/1.5.4.6.txt
+/usr/share/doc/git/RelNotes/1.5.4.7.txt
+/usr/share/doc/git/RelNotes/1.5.4.txt
+/usr/share/doc/git/RelNotes/1.5.5.1.txt
+/usr/share/doc/git/RelNotes/1.5.5.2.txt
+/usr/share/doc/git/RelNotes/1.5.5.3.txt
+/usr/share/doc/git/RelNotes/1.5.5.4.txt
+/usr/share/doc/git/RelNotes/1.5.5.5.txt
+/usr/share/doc/git/RelNotes/1.5.5.6.txt
+/usr/share/doc/git/RelNotes/1.5.5.txt
+/usr/share/doc/git/RelNotes/1.5.6.1.txt
+/usr/share/doc/git/RelNotes/1.5.6.2.txt
+/usr/share/doc/git/RelNotes/1.5.6.3.txt
+/usr/share/doc/git/RelNotes/1.5.6.4.txt
+/usr/share/doc/git/RelNotes/1.5.6.5.txt
+/usr/share/doc/git/RelNotes/1.5.6.6.txt
+/usr/share/doc/git/RelNotes/1.5.6.txt
+/usr/share/doc/git/RelNotes/1.6.0.1.txt
+/usr/share/doc/git/RelNotes/1.6.0.2.txt
+/usr/share/doc/git/RelNotes/1.6.0.3.txt
+/usr/share/doc/git/RelNotes/1.6.0.4.txt
+/usr/share/doc/git/RelNotes/1.6.0.5.txt
+/usr/share/doc/git/RelNotes/1.6.0.6.txt
+/usr/share/doc/git/RelNotes/1.6.0.txt
+/usr/share/doc/git/RelNotes/1.6.1.1.txt
+/usr/share/doc/git/RelNotes/1.6.1.2.txt
+/usr/share/doc/git/RelNotes/1.6.1.3.txt
+/usr/share/doc/git/RelNotes/1.6.1.4.txt
+/usr/share/doc/git/RelNotes/1.6.1.txt
+/usr/share/doc/git/RelNotes/1.6.2.1.txt
+/usr/share/doc/git/RelNotes/1.6.2.2.txt
+/usr/share/doc/git/RelNotes/1.6.2.3.txt
+/usr/share/doc/git/RelNotes/1.6.2.4.txt
+/usr/share/doc/git/RelNotes/1.6.2.5.txt
+/usr/share/doc/git/RelNotes/1.6.2.txt
+/usr/share/doc/git/RelNotes/1.6.3.1.txt
+/usr/share/doc/git/RelNotes/1.6.3.2.txt
+/usr/share/doc/git/RelNotes/1.6.3.3.txt
+/usr/share/doc/git/RelNotes/1.6.3.4.txt
+/usr/share/doc/git/RelNotes/1.6.3.txt
+/usr/share/doc/git/RelNotes/1.6.4.1.txt
+/usr/share/doc/git/RelNotes/1.6.4.2.txt
+/usr/share/doc/git/RelNotes/1.6.4.3.txt
+/usr/share/doc/git/RelNotes/1.6.4.4.txt
+/usr/share/doc/git/RelNotes/1.6.4.5.txt
+/usr/share/doc/git/RelNotes/1.6.4.txt
+/usr/share/doc/git/RelNotes/1.6.5.1.txt
+/usr/share/doc/git/RelNotes/1.6.5.2.txt
+/usr/share/doc/git/RelNotes/1.6.5.3.txt
+/usr/share/doc/git/RelNotes/1.6.5.4.txt
+/usr/share/doc/git/RelNotes/1.6.5.5.txt
+/usr/share/doc/git/RelNotes/1.6.5.6.txt
+/usr/share/doc/git/RelNotes/1.6.5.7.txt
+/usr/share/doc/git/RelNotes/1.6.5.8.txt
+/usr/share/doc/git/RelNotes/1.6.5.9.txt
+/usr/share/doc/git/RelNotes/1.6.5.txt
+/usr/share/doc/git/RelNotes/1.6.6.1.txt
+/usr/share/doc/git/RelNotes/1.6.6.2.txt
+/usr/share/doc/git/RelNotes/1.6.6.3.txt
+/usr/share/doc/git/RelNotes/1.6.6.txt
+/usr/share/doc/git/RelNotes/1.7.0.1.txt
+/usr/share/doc/git/RelNotes/1.7.0.2.txt
+/usr/share/doc/git/RelNotes/1.7.0.3.txt
+/usr/share/doc/git/RelNotes/1.7.0.4.txt
+/usr/share/doc/git/RelNotes/1.7.0.5.txt
+/usr/share/doc/git/RelNotes/1.7.0.6.txt
+/usr/share/doc/git/RelNotes/1.7.0.7.txt
+/usr/share/doc/git/RelNotes/1.7.0.8.txt
+/usr/share/doc/git/RelNotes/1.7.0.9.txt
+/usr/share/doc/git/RelNotes/1.7.0.txt
+/usr/share/doc/git/RelNotes/1.7.1.1.txt
+/usr/share/doc/git/RelNotes/1.7.1.2.txt
+/usr/share/doc/git/RelNotes/1.7.1.3.txt
+/usr/share/doc/git/RelNotes/1.7.1.4.txt
+/usr/share/doc/git/RelNotes/1.7.1.txt
+/usr/share/doc/git/RelNotes/1.7.10.1.txt
+/usr/share/doc/git/RelNotes/1.7.10.2.txt
+/usr/share/doc/git/RelNotes/1.7.10.3.txt
+/usr/share/doc/git/RelNotes/1.7.10.4.txt
+/usr/share/doc/git/RelNotes/1.7.10.5.txt
+/usr/share/doc/git/RelNotes/1.7.10.txt
+/usr/share/doc/git/RelNotes/1.7.11.1.txt
+/usr/share/doc/git/RelNotes/1.7.11.2.txt
+/usr/share/doc/git/RelNotes/1.7.11.3.txt
+/usr/share/doc/git/RelNotes/1.7.11.4.txt
+/usr/share/doc/git/RelNotes/1.7.11.5.txt
+/usr/share/doc/git/RelNotes/1.7.11.6.txt
+/usr/share/doc/git/RelNotes/1.7.11.7.txt
+/usr/share/doc/git/RelNotes/1.7.11.txt
+/usr/share/doc/git/RelNotes/1.7.12.1.txt
+/usr/share/doc/git/RelNotes/1.7.12.2.txt
+/usr/share/doc/git/RelNotes/1.7.12.3.txt
+/usr/share/doc/git/RelNotes/1.7.12.4.txt
+/usr/share/doc/git/RelNotes/1.7.12.txt
+/usr/share/doc/git/RelNotes/1.7.2.1.txt
+/usr/share/doc/git/RelNotes/1.7.2.2.txt
+/usr/share/doc/git/RelNotes/1.7.2.3.txt
+/usr/share/doc/git/RelNotes/1.7.2.4.txt
+/usr/share/doc/git/RelNotes/1.7.2.5.txt
+/usr/share/doc/git/RelNotes/1.7.2.txt
+/usr/share/doc/git/RelNotes/1.7.3.1.txt
+/usr/share/doc/git/RelNotes/1.7.3.2.txt
+/usr/share/doc/git/RelNotes/1.7.3.3.txt
+/usr/share/doc/git/RelNotes/1.7.3.4.txt
+/usr/share/doc/git/RelNotes/1.7.3.5.txt
+/usr/share/doc/git/RelNotes/1.7.3.txt
+/usr/share/doc/git/RelNotes/1.7.4.1.txt
+/usr/share/doc/git/RelNotes/1.7.4.2.txt
+/usr/share/doc/git/RelNotes/1.7.4.3.txt
+/usr/share/doc/git/RelNotes/1.7.4.4.txt
+/usr/share/doc/git/RelNotes/1.7.4.5.txt
+/usr/share/doc/git/RelNotes/1.7.4.txt
+/usr/share/doc/git/RelNotes/1.7.5.1.txt
+/usr/share/doc/git/RelNotes/1.7.5.2.txt
+/usr/share/doc/git/RelNotes/1.7.5.3.txt
+/usr/share/doc/git/RelNotes/1.7.5.4.txt
+/usr/share/doc/git/RelNotes/1.7.5.txt
+/usr/share/doc/git/RelNotes/1.7.6.1.txt
+/usr/share/doc/git/RelNotes/1.7.6.2.txt
+/usr/share/doc/git/RelNotes/1.7.6.3.txt
+/usr/share/doc/git/RelNotes/1.7.6.4.txt
+/usr/share/doc/git/RelNotes/1.7.6.5.txt
+/usr/share/doc/git/RelNotes/1.7.6.6.txt
+/usr/share/doc/git/RelNotes/1.7.6.txt
+/usr/share/doc/git/RelNotes/1.7.7.1.txt
+/usr/share/doc/git/RelNotes/1.7.7.2.txt
+/usr/share/doc/git/RelNotes/1.7.7.3.txt
+/usr/share/doc/git/RelNotes/1.7.7.4.txt
+/usr/share/doc/git/RelNotes/1.7.7.5.txt
+/usr/share/doc/git/RelNotes/1.7.7.6.txt
+/usr/share/doc/git/RelNotes/1.7.7.7.txt
+/usr/share/doc/git/RelNotes/1.7.7.txt
+/usr/share/doc/git/RelNotes/1.7.8.1.txt
+/usr/share/doc/git/RelNotes/1.7.8.2.txt
+/usr/share/doc/git/RelNotes/1.7.8.3.txt
+/usr/share/doc/git/RelNotes/1.7.8.4.txt
+/usr/share/doc/git/RelNotes/1.7.8.5.txt
+/usr/share/doc/git/RelNotes/1.7.8.6.txt
+/usr/share/doc/git/RelNotes/1.7.8.txt
+/usr/share/doc/git/RelNotes/1.7.9.1.txt
+/usr/share/doc/git/RelNotes/1.7.9.2.txt
+/usr/share/doc/git/RelNotes/1.7.9.3.txt
+/usr/share/doc/git/RelNotes/1.7.9.4.txt
+/usr/share/doc/git/RelNotes/1.7.9.5.txt
+/usr/share/doc/git/RelNotes/1.7.9.6.txt
+/usr/share/doc/git/RelNotes/1.7.9.7.txt
+/usr/share/doc/git/RelNotes/1.7.9.txt
+/usr/share/doc/git/RelNotes/1.8.0.1.txt
+/usr/share/doc/git/RelNotes/1.8.0.2.txt
+/usr/share/doc/git/RelNotes/1.8.0.3.txt
+/usr/share/doc/git/RelNotes/1.8.0.txt
+/usr/share/doc/git/RelNotes/1.8.1.1.txt
+/usr/share/doc/git/RelNotes/1.8.1.2.txt
+/usr/share/doc/git/RelNotes/1.8.1.3.txt
+/usr/share/doc/git/RelNotes/1.8.1.4.txt
+/usr/share/doc/git/RelNotes/1.8.1.5.txt
+/usr/share/doc/git/RelNotes/1.8.1.6.txt
+/usr/share/doc/git/RelNotes/1.8.1.txt
+/usr/share/doc/git/RelNotes/1.8.2.1.txt
+/usr/share/doc/git/RelNotes/1.8.2.2.txt
+/usr/share/doc/git/RelNotes/1.8.2.3.txt
+/usr/share/doc/git/RelNotes/1.8.2.txt
+/usr/share/doc/git/RelNotes/1.8.3.1.txt
+/usr/share/doc/git/RelNotes/1.8.3.2.txt
+/usr/share/doc/git/RelNotes/1.8.3.3.txt
+/usr/share/doc/git/RelNotes/1.8.3.4.txt
+/usr/share/doc/git/RelNotes/1.8.3.txt
+/usr/share/doc/git/RelNotes/1.8.4.1.txt
+/usr/share/doc/git/RelNotes/1.8.4.2.txt
+/usr/share/doc/git/RelNotes/1.8.4.3.txt
+/usr/share/doc/git/RelNotes/1.8.4.4.txt
+/usr/share/doc/git/RelNotes/1.8.4.5.txt
+/usr/share/doc/git/RelNotes/1.8.4.txt
+/usr/share/doc/git/RelNotes/1.8.5.1.txt
+/usr/share/doc/git/RelNotes/1.8.5.2.txt
+/usr/share/doc/git/RelNotes/1.8.5.3.txt
+/usr/share/doc/git/RelNotes/1.8.5.4.txt
+/usr/share/doc/git/RelNotes/1.8.5.5.txt
+/usr/share/doc/git/RelNotes/1.8.5.6.txt
+/usr/share/doc/git/RelNotes/1.8.5.txt
+/usr/share/doc/git/RelNotes/1.9.0.txt
+/usr/share/doc/git/RelNotes/1.9.1.txt
+/usr/share/doc/git/RelNotes/1.9.2.txt
+/usr/share/doc/git/RelNotes/1.9.3.txt
+/usr/share/doc/git/RelNotes/1.9.4.txt
+/usr/share/doc/git/RelNotes/1.9.5.txt
+/usr/share/doc/git/RelNotes/2.0.0.txt
+/usr/share/doc/git/RelNotes/2.0.1.txt
+/usr/share/doc/git/RelNotes/2.0.2.txt
+/usr/share/doc/git/RelNotes/2.0.3.txt
+/usr/share/doc/git/RelNotes/2.0.4.txt
+/usr/share/doc/git/RelNotes/2.0.5.txt
+/usr/share/doc/git/RelNotes/2.1.0.txt
+/usr/share/doc/git/RelNotes/2.1.1.txt
+/usr/share/doc/git/RelNotes/2.1.2.txt
+/usr/share/doc/git/RelNotes/2.1.3.txt
+/usr/share/doc/git/RelNotes/2.1.4.txt
+/usr/share/doc/git/RelNotes/2.10.0.txt
+/usr/share/doc/git/RelNotes/2.10.1.txt
+/usr/share/doc/git/RelNotes/2.10.2.txt
+/usr/share/doc/git/RelNotes/2.10.3.txt
+/usr/share/doc/git/RelNotes/2.10.4.txt
+/usr/share/doc/git/RelNotes/2.10.5.txt
+/usr/share/doc/git/RelNotes/2.11.0.txt
+/usr/share/doc/git/RelNotes/2.11.1.txt
+/usr/share/doc/git/RelNotes/2.11.2.txt
+/usr/share/doc/git/RelNotes/2.11.3.txt
+/usr/share/doc/git/RelNotes/2.11.4.txt
+/usr/share/doc/git/RelNotes/2.12.0.txt
+/usr/share/doc/git/RelNotes/2.12.1.txt
+/usr/share/doc/git/RelNotes/2.12.2.txt
+/usr/share/doc/git/RelNotes/2.12.3.txt
+/usr/share/doc/git/RelNotes/2.12.4.txt
+/usr/share/doc/git/RelNotes/2.12.5.txt
+/usr/share/doc/git/RelNotes/2.13.0.txt
+/usr/share/doc/git/RelNotes/2.13.1.txt
+/usr/share/doc/git/RelNotes/2.13.2.txt
+/usr/share/doc/git/RelNotes/2.13.3.txt
+/usr/share/doc/git/RelNotes/2.13.4.txt
+/usr/share/doc/git/RelNotes/2.13.5.txt
+/usr/share/doc/git/RelNotes/2.13.6.txt
+/usr/share/doc/git/RelNotes/2.13.7.txt
+/usr/share/doc/git/RelNotes/2.14.0.txt
+/usr/share/doc/git/RelNotes/2.14.1.txt
+/usr/share/doc/git/RelNotes/2.14.2.txt
+/usr/share/doc/git/RelNotes/2.14.3.txt
+/usr/share/doc/git/RelNotes/2.14.4.txt
+/usr/share/doc/git/RelNotes/2.15.0.txt
+/usr/share/doc/git/RelNotes/2.15.1.txt
+/usr/share/doc/git/RelNotes/2.15.2.txt
+/usr/share/doc/git/RelNotes/2.16.0.txt
+/usr/share/doc/git/RelNotes/2.16.1.txt
+/usr/share/doc/git/RelNotes/2.16.2.txt
+/usr/share/doc/git/RelNotes/2.16.3.txt
+/usr/share/doc/git/RelNotes/2.16.4.txt
+/usr/share/doc/git/RelNotes/2.17.0.txt
+/usr/share/doc/git/RelNotes/2.17.1.txt
+/usr/share/doc/git/RelNotes/2.2.0.txt
+/usr/share/doc/git/RelNotes/2.2.1.txt
+/usr/share/doc/git/RelNotes/2.2.2.txt
+/usr/share/doc/git/RelNotes/2.2.3.txt
+/usr/share/doc/git/RelNotes/2.3.0.txt
+/usr/share/doc/git/RelNotes/2.3.1.txt
+/usr/share/doc/git/RelNotes/2.3.10.txt
+/usr/share/doc/git/RelNotes/2.3.2.txt
+/usr/share/doc/git/RelNotes/2.3.3.txt
+/usr/share/doc/git/RelNotes/2.3.4.txt
+/usr/share/doc/git/RelNotes/2.3.5.txt
+/usr/share/doc/git/RelNotes/2.3.6.txt
+/usr/share/doc/git/RelNotes/2.3.7.txt
+/usr/share/doc/git/RelNotes/2.3.8.txt
+/usr/share/doc/git/RelNotes/2.3.9.txt
+/usr/share/doc/git/RelNotes/2.4.0.txt
+/usr/share/doc/git/RelNotes/2.4.1.txt
+/usr/share/doc/git/RelNotes/2.4.10.txt
+/usr/share/doc/git/RelNotes/2.4.11.txt
+/usr/share/doc/git/RelNotes/2.4.12.txt
+/usr/share/doc/git/RelNotes/2.4.2.txt
+/usr/share/doc/git/RelNotes/2.4.3.txt
+/usr/share/doc/git/RelNotes/2.4.4.txt
+/usr/share/doc/git/RelNotes/2.4.5.txt
+/usr/share/doc/git/RelNotes/2.4.6.txt
+/usr/share/doc/git/RelNotes/2.4.7.txt
+/usr/share/doc/git/RelNotes/2.4.8.txt
+/usr/share/doc/git/RelNotes/2.4.9.txt
+/usr/share/doc/git/RelNotes/2.5.0.txt
+/usr/share/doc/git/RelNotes/2.5.1.txt
+/usr/share/doc/git/RelNotes/2.5.2.txt
+/usr/share/doc/git/RelNotes/2.5.3.txt
+/usr/share/doc/git/RelNotes/2.5.4.txt
+/usr/share/doc/git/RelNotes/2.5.5.txt
+/usr/share/doc/git/RelNotes/2.5.6.txt
+/usr/share/doc/git/RelNotes/2.6.0.txt
+/usr/share/doc/git/RelNotes/2.6.1.txt
+/usr/share/doc/git/RelNotes/2.6.2.txt
+/usr/share/doc/git/RelNotes/2.6.3.txt
+/usr/share/doc/git/RelNotes/2.6.4.txt
+/usr/share/doc/git/RelNotes/2.6.5.txt
+/usr/share/doc/git/RelNotes/2.6.6.txt
+/usr/share/doc/git/RelNotes/2.6.7.txt
+/usr/share/doc/git/RelNotes/2.7.0.txt
+/usr/share/doc/git/RelNotes/2.7.1.txt
+/usr/share/doc/git/RelNotes/2.7.2.txt
+/usr/share/doc/git/RelNotes/2.7.3.txt
+/usr/share/doc/git/RelNotes/2.7.4.txt
+/usr/share/doc/git/RelNotes/2.7.5.txt
+/usr/share/doc/git/RelNotes/2.7.6.txt
+/usr/share/doc/git/RelNotes/2.8.0.txt
+/usr/share/doc/git/RelNotes/2.8.1.txt
+/usr/share/doc/git/RelNotes/2.8.2.txt
+/usr/share/doc/git/RelNotes/2.8.3.txt
+/usr/share/doc/git/RelNotes/2.8.4.txt
+/usr/share/doc/git/RelNotes/2.8.5.txt
+/usr/share/doc/git/RelNotes/2.8.6.txt
+/usr/share/doc/git/RelNotes/2.9.0.txt
+/usr/share/doc/git/RelNotes/2.9.1.txt
+/usr/share/doc/git/RelNotes/2.9.2.txt
+/usr/share/doc/git/RelNotes/2.9.3.txt
+/usr/share/doc/git/RelNotes/2.9.4.txt
+/usr/share/doc/git/RelNotes/2.9.5.txt
+/usr/share/doc/git/changelog.Debian.gz
+/usr/share/doc/git/contrib
+/usr/share/doc/git/contrib/README
+/usr/share/doc/git/contrib/buildsystems
+/usr/share/doc/git/contrib/buildsystems/Generators
+/usr/share/doc/git/contrib/buildsystems/Generators/QMake.pm
+/usr/share/doc/git/contrib/buildsystems/Generators/Vcproj.pm
+/usr/share/doc/git/contrib/buildsystems/Generators.pm
+/usr/share/doc/git/contrib/buildsystems/engine.pl
+/usr/share/doc/git/contrib/buildsystems/generate
+/usr/share/doc/git/contrib/buildsystems/parse.pl
+/usr/share/doc/git/contrib/coccinelle
+/usr/share/doc/git/contrib/coccinelle/README
+/usr/share/doc/git/contrib/coccinelle/array.cocci
+/usr/share/doc/git/contrib/coccinelle/free.cocci
+/usr/share/doc/git/contrib/coccinelle/object_id.cocci
+/usr/share/doc/git/contrib/coccinelle/qsort.cocci
+/usr/share/doc/git/contrib/coccinelle/strbuf.cocci
+/usr/share/doc/git/contrib/coccinelle/swap.cocci
+/usr/share/doc/git/contrib/coccinelle/xstrdup_or_null.cocci
+/usr/share/doc/git/contrib/contacts
+/usr/share/doc/git/contrib/contacts/Makefile
+/usr/share/doc/git/contrib/contacts/git-contacts
+/usr/share/doc/git/contrib/contacts/git-contacts.txt
+/usr/share/doc/git/contrib/convert-grafts-to-replace-refs.sh
+/usr/share/doc/git/contrib/credential
+/usr/share/doc/git/contrib/credential/gnome-keyring
+/usr/share/doc/git/contrib/credential/gnome-keyring/Makefile
+/usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring.c
+/usr/share/doc/git/contrib/credential/libsecret
+/usr/share/doc/git/contrib/credential/libsecret/Makefile
+/usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret.c
+/usr/share/doc/git/contrib/credential/netrc
+/usr/share/doc/git/contrib/credential/netrc/Makefile
+/usr/share/doc/git/contrib/credential/netrc/git-credential-netrc
+/usr/share/doc/git/contrib/credential/netrc/test.netrc
+/usr/share/doc/git/contrib/credential/netrc/test.pl
+/usr/share/doc/git/contrib/credential/osxkeychain
+/usr/share/doc/git/contrib/credential/osxkeychain/Makefile
+/usr/share/doc/git/contrib/credential/osxkeychain/git-credential-osxkeychain.c
+/usr/share/doc/git/contrib/credential/wincred
+/usr/share/doc/git/contrib/credential/wincred/Makefile
+/usr/share/doc/git/contrib/credential/wincred/git-credential-wincred.c
+/usr/share/doc/git/contrib/diff-highlight
+/usr/share/doc/git/contrib/diff-highlight/DiffHighlight.pm
+/usr/share/doc/git/contrib/diff-highlight/Makefile
+/usr/share/doc/git/contrib/diff-highlight/README
+/usr/share/doc/git/contrib/diff-highlight/diff-highlight
+/usr/share/doc/git/contrib/diff-highlight/diff-highlight.perl
+/usr/share/doc/git/contrib/diff-highlight/shebang.perl
+/usr/share/doc/git/contrib/diff-highlight/t
+/usr/share/doc/git/contrib/diff-highlight/t/Makefile
+/usr/share/doc/git/contrib/diff-highlight/t/t9400-diff-highlight.sh
+/usr/share/doc/git/contrib/examples
+/usr/share/doc/git/contrib/examples/README
+/usr/share/doc/git/contrib/examples/builtin-fetch--tool.c
+/usr/share/doc/git/contrib/examples/git-am.sh
+/usr/share/doc/git/contrib/examples/git-checkout.sh
+/usr/share/doc/git/contrib/examples/git-clean.sh
+/usr/share/doc/git/contrib/examples/git-clone.sh
+/usr/share/doc/git/contrib/examples/git-commit.sh
+/usr/share/doc/git/contrib/examples/git-difftool.perl
+/usr/share/doc/git/contrib/examples/git-fetch.sh
+/usr/share/doc/git/contrib/examples/git-gc.sh
+/usr/share/doc/git/contrib/examples/git-log.sh
+/usr/share/doc/git/contrib/examples/git-ls-remote.sh
+/usr/share/doc/git/contrib/examples/git-merge-ours.sh
+/usr/share/doc/git/contrib/examples/git-merge.sh
+/usr/share/doc/git/contrib/examples/git-notes.sh
+/usr/share/doc/git/contrib/examples/git-pull.sh
+/usr/share/doc/git/contrib/examples/git-remote.perl
+/usr/share/doc/git/contrib/examples/git-repack.sh
+/usr/share/doc/git/contrib/examples/git-rerere.perl
+/usr/share/doc/git/contrib/examples/git-reset.sh
+/usr/share/doc/git/contrib/examples/git-resolve.sh
+/usr/share/doc/git/contrib/examples/git-revert.sh
+/usr/share/doc/git/contrib/examples/git-svnimport.perl
+/usr/share/doc/git/contrib/examples/git-svnimport.txt
+/usr/share/doc/git/contrib/examples/git-tag.sh
+/usr/share/doc/git/contrib/examples/git-verify-tag.sh
+/usr/share/doc/git/contrib/examples/git-whatchanged.sh
+/usr/share/doc/git/contrib/fast-import
+/usr/share/doc/git/contrib/fast-import/git-import.perl
+/usr/share/doc/git/contrib/fast-import/git-import.sh
+/usr/share/doc/git/contrib/fast-import/git-p4.README
+/usr/share/doc/git/contrib/fast-import/import-directories.perl
+/usr/share/doc/git/contrib/fast-import/import-tars.perl
+/usr/share/doc/git/contrib/fast-import/import-zips.py
+/usr/share/doc/git/contrib/git-jump
+/usr/share/doc/git/contrib/git-jump/README
+/usr/share/doc/git/contrib/git-jump/git-jump
+/usr/share/doc/git/contrib/git-resurrect.sh
+/usr/share/doc/git/contrib/git-shell-commands
+/usr/share/doc/git/contrib/git-shell-commands/README
+/usr/share/doc/git/contrib/git-shell-commands/help
+/usr/share/doc/git/contrib/git-shell-commands/list
+/usr/share/doc/git/contrib/hg-to-git
+/usr/share/doc/git/contrib/hg-to-git/hg-to-git.py
+/usr/share/doc/git/contrib/hg-to-git/hg-to-git.txt
+/usr/share/doc/git/contrib/long-running-filter
+/usr/share/doc/git/contrib/long-running-filter/example.pl
+/usr/share/doc/git/contrib/persistent-https
+/usr/share/doc/git/contrib/persistent-https/Makefile
+/usr/share/doc/git/contrib/persistent-https/README
+/usr/share/doc/git/contrib/persistent-https/client.go
+/usr/share/doc/git/contrib/persistent-https/main.go
+/usr/share/doc/git/contrib/persistent-https/proxy.go
+/usr/share/doc/git/contrib/persistent-https/socket.go
+/usr/share/doc/git/contrib/remote-helpers
+/usr/share/doc/git/contrib/remote-helpers/README
+/usr/share/doc/git/contrib/remote-helpers/git-remote-bzr
+/usr/share/doc/git/contrib/remote-helpers/git-remote-hg
+/usr/share/doc/git/contrib/remotes2config.sh
+/usr/share/doc/git/contrib/rerere-train.sh
+/usr/share/doc/git/contrib/stats
+/usr/share/doc/git/contrib/stats/git-common-hash
+/usr/share/doc/git/contrib/stats/mailmap.pl
+/usr/share/doc/git/contrib/stats/packinfo.pl
+/usr/share/doc/git/contrib/subtree
+/usr/share/doc/git/contrib/subtree/INSTALL
+/usr/share/doc/git/contrib/subtree/Makefile
+/usr/share/doc/git/contrib/subtree/README
+/usr/share/doc/git/contrib/subtree/git-subtree
+/usr/share/doc/git/contrib/subtree/git-subtree.sh
+/usr/share/doc/git/contrib/subtree/git-subtree.txt
+/usr/share/doc/git/contrib/subtree/t
+/usr/share/doc/git/contrib/subtree/t/Makefile
+/usr/share/doc/git/contrib/subtree/t/t7900-subtree.sh
+/usr/share/doc/git/contrib/subtree/todo
+/usr/share/doc/git/contrib/svn-fe
+/usr/share/doc/git/contrib/svn-fe/Makefile
+/usr/share/doc/git/contrib/svn-fe/svn-fe.c
+/usr/share/doc/git/contrib/svn-fe/svn-fe.txt
+/usr/share/doc/git/contrib/svn-fe/svnrdump_sim.py
+/usr/share/doc/git/contrib/thunderbird-patch-inline
+/usr/share/doc/git/contrib/thunderbird-patch-inline/README
+/usr/share/doc/git/contrib/thunderbird-patch-inline/appp.sh
+/usr/share/doc/git/contrib/update-unicode
+/usr/share/doc/git/contrib/update-unicode/README
+/usr/share/doc/git/contrib/update-unicode/update_unicode.sh
+/usr/share/doc/git/contrib/workdir
+/usr/share/doc/git/contrib/workdir/git-new-workdir
+/usr/share/doc/git/copyright
+/usr/share/git-core
+/usr/share/git-core/contrib
+/usr/share/git-core/contrib/hooks
+/usr/share/git-core/contrib/hooks/post-receive-email
+/usr/share/git-core/contrib/hooks/pre-auto-gc-battery
+/usr/share/git-core/contrib/hooks/setgitperms.perl
+/usr/share/git-core/contrib/hooks/update-paranoid
+/usr/share/git-core/templates
+/usr/share/git-core/templates/branches
+/usr/share/git-core/templates/description
+/usr/share/git-core/templates/hooks
+/usr/share/git-core/templates/hooks/applypatch-msg.sample
+/usr/share/git-core/templates/hooks/commit-msg.sample
+/usr/share/git-core/templates/hooks/fsmonitor-watchman.sample
+/usr/share/git-core/templates/hooks/post-update.sample
+/usr/share/git-core/templates/hooks/pre-applypatch.sample
+/usr/share/git-core/templates/hooks/pre-commit.sample
+/usr/share/git-core/templates/hooks/pre-push.sample
+/usr/share/git-core/templates/hooks/pre-rebase.sample
+/usr/share/git-core/templates/hooks/pre-receive.sample
+/usr/share/git-core/templates/hooks/prepare-commit-msg.sample
+/usr/share/git-core/templates/hooks/update.sample
+/usr/share/git-core/templates/info
+/usr/share/git-core/templates/info/exclude
+/usr/share/gitweb
+/usr/share/gitweb/gitweb.cgi
+/usr/share/gitweb/static
+/usr/share/gitweb/static/git-favicon.png
+/usr/share/gitweb/static/git-logo.png
+/usr/share/gitweb/static/gitweb.css
+/usr/share/gitweb/static/gitweb.js
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/git
+/usr/share/perl5
+/usr/share/perl5/Git
+/usr/share/perl5/Git/I18N.pm
+/usr/share/perl5/Git/IndexInfo.pm
+/usr/share/perl5/Git/LoadCPAN
+/usr/share/perl5/Git/LoadCPAN/Error.pm
+/usr/share/perl5/Git/LoadCPAN/Mail
+/usr/share/perl5/Git/LoadCPAN/Mail/Address.pm
+/usr/share/perl5/Git/LoadCPAN.pm
+/usr/share/perl5/Git/Packet.pm
+/usr/share/perl5/Git.pm
+/var
+/var/lib
+/var/lib/git
+/usr/bin/git-receive-pack
+/usr/bin/git-upload-archive
+/usr/lib/git-core/git-add
+/usr/lib/git-core/git-am
+/usr/lib/git-core/git-annotate
+/usr/lib/git-core/git-apply
+/usr/lib/git-core/git-archive
+/usr/lib/git-core/git-bisect--helper
+/usr/lib/git-core/git-blame
+/usr/lib/git-core/git-branch
+/usr/lib/git-core/git-bundle
+/usr/lib/git-core/git-cat-file
+/usr/lib/git-core/git-check-attr
+/usr/lib/git-core/git-check-ignore
+/usr/lib/git-core/git-check-mailmap
+/usr/lib/git-core/git-check-ref-format
+/usr/lib/git-core/git-checkout
+/usr/lib/git-core/git-checkout-index
+/usr/lib/git-core/git-cherry
+/usr/lib/git-core/git-cherry-pick
+/usr/lib/git-core/git-clean
+/usr/lib/git-core/git-clone
+/usr/lib/git-core/git-column
+/usr/lib/git-core/git-commit
+/usr/lib/git-core/git-commit-tree
+/usr/lib/git-core/git-config
+/usr/lib/git-core/git-count-objects
+/usr/lib/git-core/git-credential
+/usr/lib/git-core/git-describe
+/usr/lib/git-core/git-diff
+/usr/lib/git-core/git-diff-files
+/usr/lib/git-core/git-diff-index
+/usr/lib/git-core/git-diff-tree
+/usr/lib/git-core/git-difftool
+/usr/lib/git-core/git-fast-export
+/usr/lib/git-core/git-fetch
+/usr/lib/git-core/git-fetch-pack
+/usr/lib/git-core/git-fmt-merge-msg
+/usr/lib/git-core/git-for-each-ref
+/usr/lib/git-core/git-format-patch
+/usr/lib/git-core/git-fsck
+/usr/lib/git-core/git-fsck-objects
+/usr/lib/git-core/git-gc
+/usr/lib/git-core/git-get-tar-commit-id
+/usr/lib/git-core/git-grep
+/usr/lib/git-core/git-hash-object
+/usr/lib/git-core/git-help
+/usr/lib/git-core/git-index-pack
+/usr/lib/git-core/git-init
+/usr/lib/git-core/git-init-db
+/usr/lib/git-core/git-interpret-trailers
+/usr/lib/git-core/git-log
+/usr/lib/git-core/git-ls-files
+/usr/lib/git-core/git-ls-remote
+/usr/lib/git-core/git-ls-tree
+/usr/lib/git-core/git-mailinfo
+/usr/lib/git-core/git-mailsplit
+/usr/lib/git-core/git-merge
+/usr/lib/git-core/git-merge-base
+/usr/lib/git-core/git-merge-file
+/usr/lib/git-core/git-merge-index
+/usr/lib/git-core/git-merge-ours
+/usr/lib/git-core/git-merge-recursive
+/usr/lib/git-core/git-merge-subtree
+/usr/lib/git-core/git-merge-tree
+/usr/lib/git-core/git-mktag
+/usr/lib/git-core/git-mktree
+/usr/lib/git-core/git-mv
+/usr/lib/git-core/git-name-rev
+/usr/lib/git-core/git-notes
+/usr/lib/git-core/git-pack-objects
+/usr/lib/git-core/git-pack-redundant
+/usr/lib/git-core/git-pack-refs
+/usr/lib/git-core/git-patch-id
+/usr/lib/git-core/git-prune
+/usr/lib/git-core/git-prune-packed
+/usr/lib/git-core/git-pull
+/usr/lib/git-core/git-push
+/usr/lib/git-core/git-read-tree
+/usr/lib/git-core/git-rebase--helper
+/usr/lib/git-core/git-receive-pack
+/usr/lib/git-core/git-reflog
+/usr/lib/git-core/git-remote
+/usr/lib/git-core/git-remote-ext
+/usr/lib/git-core/git-remote-fd
+/usr/lib/git-core/git-remote-ftp
+/usr/lib/git-core/git-remote-ftps
+/usr/lib/git-core/git-remote-https
+/usr/lib/git-core/git-repack
+/usr/lib/git-core/git-replace
+/usr/lib/git-core/git-rerere
+/usr/lib/git-core/git-reset
+/usr/lib/git-core/git-rev-list
+/usr/lib/git-core/git-rev-parse
+/usr/lib/git-core/git-revert
+/usr/lib/git-core/git-rm
+/usr/lib/git-core/git-send-pack
+/usr/lib/git-core/git-shortlog
+/usr/lib/git-core/git-show
+/usr/lib/git-core/git-show-branch
+/usr/lib/git-core/git-show-ref
+/usr/lib/git-core/git-stage
+/usr/lib/git-core/git-status
+/usr/lib/git-core/git-stripspace
+/usr/lib/git-core/git-submodule--helper
+/usr/lib/git-core/git-symbolic-ref
+/usr/lib/git-core/git-tag
+/usr/lib/git-core/git-unpack-file
+/usr/lib/git-core/git-unpack-objects
+/usr/lib/git-core/git-update-index
+/usr/lib/git-core/git-update-ref
+/usr/lib/git-core/git-update-server-info
+/usr/lib/git-core/git-upload-archive
+/usr/lib/git-core/git-var
+/usr/lib/git-core/git-verify-commit
+/usr/lib/git-core/git-verify-pack
+/usr/lib/git-core/git-verify-tag
+/usr/lib/git-core/git-whatchanged
+/usr/lib/git-core/git-worktree
+/usr/lib/git-core/git-write-tree
+/usr/share/bash-completion/completions/gitk
+/usr/share/doc/git/contrib/hooks
+/usr/share/doc/git/contrib/persistent-https/LICENSE
+/usr/share/doc/git/contrib/subtree/COPYING
+/usr/share/gitweb/index.cgi
+/.
+/etc
+/etc/wgetrc
+/usr
+/usr/bin
+/usr/bin/wget
+/usr/share
+/usr/share/doc
+/usr/share/doc/wget
+/usr/share/doc/wget/AUTHORS
+/usr/share/doc/wget/MAILING-LIST
+/usr/share/doc/wget/NEWS.gz
+/usr/share/doc/wget/README
+/usr/share/doc/wget/changelog.Debian.gz
+/usr/share/doc/wget/copyright
+/usr/share/info
+/usr/share/info/wget.info.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/wget.1.gz
+/.
+/usr
+/usr/bin
+/usr/bin/curl
+/usr/share
+/usr/share/doc
+/usr/share/doc/curl
+/usr/share/doc/curl/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/curl.1.gz
+/usr/share/zsh
+/usr/share/zsh/vendor-completions
+/usr/share/zsh/vendor-completions/_curl
+/usr/share/doc/curl/NEWS.Debian.gz
+/usr/share/doc/curl/changelog.Debian.gz
+/.
+/bin
+/bin/tar
+/etc
+/etc/rmt
+/usr
+/usr/lib
+/usr/lib/mime
+/usr/lib/mime/packages
+/usr/lib/mime/packages/tar
+/usr/lib/tar
+/usr/sbin
+/usr/sbin/rmt-tar
+/usr/sbin/tarcat
+/usr/share
+/usr/share/doc
+/usr/share/doc/tar
+/usr/share/doc/tar/AUTHORS
+/usr/share/doc/tar/NEWS.Debian.gz
+/usr/share/doc/tar/NEWS.gz
+/usr/share/doc/tar/README.Debian
+/usr/share/doc/tar/THANKS.gz
+/usr/share/doc/tar/changelog.Debian.gz
+/usr/share/doc/tar/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/tar.1.gz
+/usr/share/man/man1/tarcat.1.gz
+/usr/share/man/man8
+/usr/share/man/man8/rmt-tar.8.gz
+/.
+/etc
+/etc/apparmor.d
+/etc/apparmor.d/usr.lib.snapd.snap-confine.real
+/etc/apt
+/etc/apt/apt.conf.d
+/etc/apt/apt.conf.d/20snapd.conf
+/etc/profile.d
+/etc/profile.d/apps-bin-path.sh
+/etc/xdg
+/etc/xdg/autostart
+/etc/xdg/autostart/snap-userd-autostart.desktop
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/snapd.apparmor.service
+/lib/systemd/system/snapd.autoimport.service
+/lib/systemd/system/snapd.core-fixup.service
+/lib/systemd/system/snapd.failure.service
+/lib/systemd/system/snapd.recovery-chooser-trigger.service
+/lib/systemd/system/snapd.seeded.service
+/lib/systemd/system/snapd.service
+/lib/systemd/system/snapd.snap-repair.service
+/lib/systemd/system/snapd.snap-repair.timer
+/lib/systemd/system/snapd.socket
+/lib/systemd/system/snapd.system-shutdown.service
+/lib/systemd/system-generators
+/lib/systemd/system-generators/snapd-generator
+/lib/udev
+/lib/udev/rules.d
+/lib/udev/rules.d/66-snapd-autoimport.rules
+/snap
+/usr
+/usr/bin
+/usr/bin/snap
+/usr/bin/snapfuse
+/usr/lib
+/usr/lib/environment.d
+/usr/lib/environment.d/990-snapd.conf
+/usr/lib/snapd
+/usr/lib/snapd/complete.sh
+/usr/lib/snapd/etelpmoc.sh
+/usr/lib/snapd/info
+/usr/lib/snapd/snap-bootstrap
+/usr/lib/snapd/snap-confine
+/usr/lib/snapd/snap-device-helper
+/usr/lib/snapd/snap-discard-ns
+/usr/lib/snapd/snap-exec
+/usr/lib/snapd/snap-failure
+/usr/lib/snapd/snap-gdb-shim
+/usr/lib/snapd/snap-gdbserver-shim
+/usr/lib/snapd/snap-mgmt
+/usr/lib/snapd/snap-preseed
+/usr/lib/snapd/snap-recovery-chooser
+/usr/lib/snapd/snap-repair
+/usr/lib/snapd/snap-seccomp
+/usr/lib/snapd/snap-update-ns
+/usr/lib/snapd/snapctl
+/usr/lib/snapd/snapd
+/usr/lib/snapd/snapd-apparmor
+/usr/lib/snapd/snapd.core-fixup.sh
+/usr/lib/snapd/snapd.run-from-snap
+/usr/lib/snapd/system-shutdown
+/usr/lib/systemd
+/usr/lib/systemd/system-environment-generators
+/usr/lib/systemd/system-environment-generators/snapd-env-generator
+/usr/lib/systemd/user
+/usr/lib/systemd/user/snapd.session-agent.service
+/usr/lib/systemd/user/snapd.session-agent.socket
+/usr/lib/systemd/user/sockets.target.wants
+/usr/share
+/usr/share/applications
+/usr/share/applications/io.snapcraft.SessionAgent.desktop
+/usr/share/applications/snap-handle-link.desktop
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/snap
+/usr/share/dbus-1
+/usr/share/dbus-1/services
+/usr/share/dbus-1/services/io.snapcraft.Launcher.service
+/usr/share/dbus-1/services/io.snapcraft.SessionAgent.service
+/usr/share/dbus-1/services/io.snapcraft.Settings.service
+/usr/share/dbus-1/session.d
+/usr/share/dbus-1/session.d/snapd.session-services.conf
+/usr/share/dbus-1/system.d
+/usr/share/dbus-1/system.d/snapd.system-services.conf
+/usr/share/doc
+/usr/share/doc/snapd
+/usr/share/doc/snapd/changelog.gz
+/usr/share/doc/snapd/copyright
+/usr/share/fish
+/usr/share/fish/vendor_conf.d
+/usr/share/fish/vendor_conf.d/snapd.fish
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/snap-confine.8.gz
+/usr/share/man/man8/snap-discard-ns.8.gz
+/usr/share/man/man8/snap.8.gz
+/usr/share/man/man8/snapd-env-generator.8.gz
+/usr/share/polkit-1
+/usr/share/polkit-1/actions
+/usr/share/polkit-1/actions/io.snapcraft.snapd.policy
+/usr/share/zsh
+/usr/share/zsh/vendor-completions
+/usr/share/zsh/vendor-completions/_snap
+/var
+/var/cache
+/var/cache/snapd
+/var/lib
+/var/lib/snapd
+/var/lib/snapd/apparmor
+/var/lib/snapd/apparmor/snap-confine
+/var/lib/snapd/auto-import
+/var/lib/snapd/dbus-1
+/var/lib/snapd/dbus-1/services
+/var/lib/snapd/dbus-1/system-services
+/var/lib/snapd/desktop
+/var/lib/snapd/desktop/applications
+/var/lib/snapd/environment
+/var/lib/snapd/firstboot
+/var/lib/snapd/inhibit
+/var/lib/snapd/lib
+/var/lib/snapd/lib/gl
+/var/lib/snapd/lib/gl32
+/var/lib/snapd/lib/glvnd
+/var/lib/snapd/lib/vulkan
+/var/lib/snapd/snaps
+/var/lib/snapd/snaps/partial
+/var/lib/snapd/ssl
+/var/lib/snapd/ssl/store-certs
+/var/lib/snapd/void
+/var/snap
+/lib/udev/snappy-app-dev
+/usr/bin/snapctl
+/usr/bin/ubuntu-core-launcher
+/usr/lib/systemd/user/sockets.target.wants/snapd.session-agent.socket
+Required packages are present: git wget curl tar snapd
+2022-06-29T14:39:47+02:00 INFO Waiting for automatic snapd restart...
+jq 1.5+dfsg-1 from Michael Vogt (mvo) installed
+Track start release: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506392&event=start&operation=release&value=ReleaseELEVEN&comment=&tags=
+Track start docker_tag: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506392&event=start&operation=docker_tag&value=11&comment=&tags=
+Track start installation_type: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506392&event=start&operation=installation_type&value=Default&comment=&tags=
+Track checks checkingroot_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506392&event=checks&operation=checkingroot_ok&value=&comment=&tags=
+Track checks noroot_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506393&event=checks&operation=noroot_ok&value=&comment=&tags=
+The installation will do the following
+    1. Install and configure LXD
+    2. Install juju
+    3. Install docker CE
+    4. Disable swap space
+    5. Install and initialize Kubernetes
+    as pre-requirements.
+    Do you want to proceed (Y/n)? Y
+Track checks proceed_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506436&event=checks&operation=proceed_ok&value=&comment=&tags=
+Installing OSM
+Determining IP address of the interface with the default route
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+kernel.printk = 4 4 1 7
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+kernel.kptr_restrict = 1
+* Applying /etc/sysctl.d/10-link-restrictions.conf ...
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/10-lxd-inotify.conf ...
+fs.inotify.max_user_instances = 1024
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+kernel.sysrq = 176
+* Applying /etc/sysctl.d/10-network-security.conf ...
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.tcp_syncookies = 1
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+kernel.yama.ptrace_scope = 1
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+vm.mmap_min_addr = 65536
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+net.ipv4.conf.all.promote_secondaries = 1
+net.core.default_qdisc = fq_codel
+* Applying /etc/sysctl.d/60-lxd-production.conf ...
+fs.inotify.max_queued_events = 1048576
+fs.inotify.max_user_instances = 1048576
+fs.inotify.max_user_watches = 1048576
+vm.max_map_count = 262144
+kernel.dmesg_restrict = 1
+net.ipv4.neigh.default.gc_thresh3 = 8192
+net.ipv6.neigh.default.gc_thresh3 = 8192
+sysctl: setting key "net.core.bpf_jit_limit": Invalid argument
+net.core.bpf_jit_limit = 3000000000
+kernel.keys.maxkeys = 2000
+kernel.keys.maxbytes = 2000000
+* Applying /etc/sysctl.d/99-cloudimg-ipv6.conf ...
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.use_tempaddr = 0
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.conf ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base ebtables libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  liblxc-common* liblxc1* lxcfs* lxd* lxd-client*
+0 upgraded, 0 newly installed, 5 to remove and 15 not upgraded.
+After this operation, 34.2 MB disk space will be freed.
+(Reading database ... 61647 files and directories currently installed.)
+Removing lxd (3.0.3-0ubuntu1~18.04.2) ...
+Removing lxd dnsmasq configuration
+Removing lxcfs (3.0.3-0ubuntu1~18.04.2) ...
+Removing lxd-client (3.0.3-0ubuntu1~18.04.2) ...
+Removing liblxc-common (3.0.3-0ubuntu1~18.04.1) ...
+Removing liblxc1 (3.0.3-0ubuntu1~18.04.1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+(Reading database ... 61401 files and directories currently installed.)
+Purging configuration files for liblxc-common (3.0.3-0ubuntu1~18.04.1) ...
+Purging configuration files for lxd (3.0.3-0ubuntu1~18.04.2) ...
+Purging configuration files for lxcfs (3.0.3-0ubuntu1~18.04.2) ...
+Processing triggers for systemd (237-3ubuntu10.53) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+lxd (4.0/stable) 4.0.9-8e2046b from Canonical** installed
+To start your first container, try: lxc launch ubuntu:20.04
+Or for a virtual machine: lxc launch ubuntu:20.04 --vm
+
+Track prereq prereqok_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506480&event=prereq&operation=prereqok_ok&value=&comment=&tags=
+DEBUG_INSTALL=
+DOCKER_PROXY_URL=
+USER=ubuntu
+Installing Docker CE ...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20211016~18.04.1).
+ca-certificates set to manually installed.
+software-properties-common is already the newest version (0.96.24.32.18).
+software-properties-common set to manually installed.
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base ebtables libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  apt-transport-https
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+Need to get 4348 B of archives.
+After this operation, 154 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 apt-transport-https all 1.6.14 [4348 B]
+Fetched 4348 B in 0s (78.7 kB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... 61384 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_1.6.14_all.deb ...
+Unpacking apt-transport-https (1.6.14) ...
+Setting up apt-transport-https (1.6.14) ...
+OK
+Hit:1 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Get:3 https://download.docker.com/linux/ubuntu bionic InRelease [64.4 kB]
+Hit:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Get:7 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages [26.4 kB]
+Fetched 90.9 kB in 1s (86.0 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base ebtables libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  containerd.io docker-ce-cli docker-ce-rootless-extras docker-scan-plugin
+  libltdl7 pigz
+Suggested packages:
+  aufs-tools cgroupfs-mount | cgroup-lite
+Recommended packages:
+  slirp4netns
+The following NEW packages will be installed:
+  containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras
+  docker-scan-plugin libltdl7 pigz
+0 upgraded, 7 newly installed, 0 to remove and 15 not upgraded.
+Need to get 101 MB of archives.
+After this operation, 422 MB of additional disk space will be used.
+Get:1 https://download.docker.com/linux/ubuntu bionic/stable amd64 containerd.io amd64 1.6.6-1 [28.1 MB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/universe amd64 pigz amd64 2.4-1 [57.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic/main amd64 libltdl7 amd64 2.4.6-2 [38.8 kB]
+Get:4 https://download.docker.com/linux/ubuntu bionic/stable amd64 docker-ce-cli amd64 5:20.10.17~3-0~ubuntu-bionic [40.6 MB]
+Get:5 https://download.docker.com/linux/ubuntu bionic/stable amd64 docker-ce amd64 5:20.10.17~3-0~ubuntu-bionic [21.0 MB]
+Get:6 https://download.docker.com/linux/ubuntu bionic/stable amd64 docker-ce-rootless-extras amd64 5:20.10.17~3-0~ubuntu-bionic [8163 kB]
+Get:7 https://download.docker.com/linux/ubuntu bionic/stable amd64 docker-scan-plugin amd64 0.17.0~ubuntu-bionic [3521 kB]
+Fetched 101 MB in 3s (32.1 MB/s)
+Selecting previously unselected package pigz.
+(Reading database ... 61388 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.4-1_amd64.deb ...
+Unpacking pigz (2.4-1) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../1-containerd.io_1.6.6-1_amd64.deb ...
+Unpacking containerd.io (1.6.6-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../2-docker-ce-cli_5%3a20.10.17~3-0~ubuntu-bionic_amd64.deb ...
+Unpacking docker-ce-cli (5:20.10.17~3-0~ubuntu-bionic) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../3-docker-ce_5%3a20.10.17~3-0~ubuntu-bionic_amd64.deb ...
+Unpacking docker-ce (5:20.10.17~3-0~ubuntu-bionic) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../4-docker-ce-rootless-extras_5%3a20.10.17~3-0~ubuntu-bionic_amd64.deb ...
+Unpacking docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-bionic) ...
+Selecting previously unselected package docker-scan-plugin.
+Preparing to unpack .../5-docker-scan-plugin_0.17.0~ubuntu-bionic_amd64.deb ...
+Unpacking docker-scan-plugin (0.17.0~ubuntu-bionic) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../6-libltdl7_2.4.6-2_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.6-2) ...
+Setting up containerd.io (1.6.6-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-bionic) ...
+Setting up docker-scan-plugin (0.17.0~ubuntu-bionic) ...
+Setting up libltdl7:amd64 (2.4.6-2) ...
+Setting up docker-ce-cli (5:20.10.17~3-0~ubuntu-bionic) ...
+Setting up pigz (2.4-1) ...
+Setting up docker-ce (5:20.10.17~3-0~ubuntu-bionic) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+Processing triggers for systemd (237-3ubuntu10.53) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Adding user to group 'docker'
+... restarted Docker service
+Client: Docker Engine - Community
+ Version:           20.10.17
+ API version:       1.41
+ Go version:        go1.17.11
+ Git commit:        100c701
+ Built:             Mon Jun  6 23:02:56 2022
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.17
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.17.11
+  Git commit:       a89b842
+  Built:            Mon Jun  6 23:01:02 2022
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.6
+  GitCommit:        10c12954828e7c7c9b6e0ea9b0c02b01407d3ae1
+ runc:
+  Version:          1.1.2
+  GitCommit:        v1.1.2-0-ga916309
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+... Docker CE installation done
+Track docker_ce docker_ce_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506540&event=docker_ce&operation=docker_ce_ok&value=&comment=&tags=
+Creating folders for installation
+DEBUG_INSTALL=
+DEFAULT_IP=192.168.64.23
+OSM_DEVOPS=/usr/share/osm-devops
+OSM_DOCKER_WORK_DIR=/etc/osm/docker
+INSTALL_K8S_MONITOR=
+HOME=/home/ubuntu
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (1.6.14).
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base ebtables libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:3 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (1.6.14).
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base ebtables libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:3 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Get:5 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9383 B]
+Get:8 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 Packages [57.2 kB]
+Fetched 66.6 kB in 1s (49.6 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Installing Kubernetes Packages ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  dns-root-data dnsmasq-base libuv1 uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  conntrack cri-tools kubernetes-cni socat
+The following NEW packages will be installed:
+  conntrack cri-tools kubeadm kubectl kubelet kubernetes-cni socat
+0 upgraded, 7 newly installed, 0 to remove and 15 not upgraded.
+Need to get 74.6 MB of archives.
+After this operation, 323 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 conntrack amd64 1:1.4.4+snapshot20161117-6ubuntu2 [30.6 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 socat amd64 1.7.3.2-2ubuntu2 [342 kB]
+Get:3 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 cri-tools amd64 1.24.2-00 [12.3 MB]
+Get:4 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubernetes-cni amd64 0.8.7-00 [25.0 MB]
+Get:5 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubelet amd64 1.23.3-00 [19.5 MB]
+Get:6 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubectl amd64 1.23.3-00 [8929 kB]
+Get:7 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubeadm amd64 1.23.3-00 [8580 kB]
+Fetched 74.6 MB in 4s (16.7 MB/s)
+Selecting previously unselected package conntrack.
+(Reading database ... 61640 files and directories currently installed.)
+Preparing to unpack .../0-conntrack_1%3a1.4.4+snapshot20161117-6ubuntu2_amd64.deb ...
+Unpacking conntrack (1:1.4.4+snapshot20161117-6ubuntu2) ...
+Selecting previously unselected package cri-tools.
+Preparing to unpack .../1-cri-tools_1.24.2-00_amd64.deb ...
+Unpacking cri-tools (1.24.2-00) ...
+Selecting previously unselected package kubernetes-cni.
+Preparing to unpack .../2-kubernetes-cni_0.8.7-00_amd64.deb ...
+Unpacking kubernetes-cni (0.8.7-00) ...
+Selecting previously unselected package socat.
+Preparing to unpack .../3-socat_1.7.3.2-2ubuntu2_amd64.deb ...
+Unpacking socat (1.7.3.2-2ubuntu2) ...
+Selecting previously unselected package kubelet.
+Preparing to unpack .../4-kubelet_1.23.3-00_amd64.deb ...
+Unpacking kubelet (1.23.3-00) ...
+Selecting previously unselected package kubectl.
+Preparing to unpack .../5-kubectl_1.23.3-00_amd64.deb ...
+Unpacking kubectl (1.23.3-00) ...
+Selecting previously unselected package kubeadm.
+Preparing to unpack .../6-kubeadm_1.23.3-00_amd64.deb ...
+Unpacking kubeadm (1.23.3-00) ...
+Setting up conntrack (1:1.4.4+snapshot20161117-6ubuntu2) ...
+Setting up kubernetes-cni (0.8.7-00) ...
+Setting up cri-tools (1.24.2-00) ...
+Setting up socat (1.7.3.2-2ubuntu2) ...
+Setting up kubelet (1.23.3-00) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/kubelet.service → /lib/systemd/system/kubelet.service.
+Setting up kubectl (1.23.3-00) ...
+Setting up kubeadm (1.23.3-00) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+    KUBELET_EXTRA_ARGS="--cgroup-driver=cgroupfs"
+kubelet set on hold.
+kubeadm set on hold.
+kubectl set on hold.
+Track k8scluster install_k8s_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506591&event=k8scluster&operation=install_k8s_ok&value=&comment=&tags=
+I0629 14:43:12.608722   11354 version.go:255] remote version is much newer: v1.24.2; falling back to: stable-1.23
+[init] Using Kubernetes version: v1.23.8
+[preflight] Running pre-flight checks
+[preflight] Pulling images required for setting up a Kubernetes cluster
+[preflight] This might take a minute or two, depending on the speed of your internet connection
+[preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
+[certs] Using certificateDir folder "/etc/kubernetes/pki"
+[certs] Generating "ca" certificate and key
+[certs] Generating "apiserver" certificate and key
+[certs] apiserver serving cert is signed for DNS names [kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local osm11] and IPs [10.96.0.1 192.168.64.23]
+[certs] Generating "apiserver-kubelet-client" certificate and key
+[certs] Generating "front-proxy-ca" certificate and key
+[certs] Generating "front-proxy-client" certificate and key
+[certs] Generating "etcd/ca" certificate and key
+[certs] Generating "etcd/server" certificate and key
+[certs] etcd/server serving cert is signed for DNS names [localhost osm11] and IPs [192.168.64.23 127.0.0.1 ::1]
+[certs] Generating "etcd/peer" certificate and key
+[certs] etcd/peer serving cert is signed for DNS names [localhost osm11] and IPs [192.168.64.23 127.0.0.1 ::1]
+[certs] Generating "etcd/healthcheck-client" certificate and key
+[certs] Generating "apiserver-etcd-client" certificate and key
+[certs] Generating "sa" key and public key
+[kubeconfig] Using kubeconfig folder "/etc/kubernetes"
+[kubeconfig] Writing "admin.conf" kubeconfig file
+[kubeconfig] Writing "kubelet.conf" kubeconfig file
+[kubeconfig] Writing "controller-manager.conf" kubeconfig file
+[kubeconfig] Writing "scheduler.conf" kubeconfig file
+[kubelet-start] Writing kubelet environment file with flags to file "/var/lib/kubelet/kubeadm-flags.env"
+[kubelet-start] Writing kubelet configuration to file "/var/lib/kubelet/config.yaml"
+[kubelet-start] Starting the kubelet
+[control-plane] Using manifest folder "/etc/kubernetes/manifests"
+[control-plane] Creating static Pod manifest for "kube-apiserver"
+[control-plane] Creating static Pod manifest for "kube-controller-manager"
+[control-plane] Creating static Pod manifest for "kube-scheduler"
+[etcd] Creating static Pod manifest for local etcd in "/etc/kubernetes/manifests"
+[wait-control-plane] Waiting for the kubelet to boot up the control plane as static Pods from directory "/etc/kubernetes/manifests". This can take up to 4m0s
+[apiclient] All control plane components are healthy after 17.506099 seconds
+[upload-config] Storing the configuration used in ConfigMap "kubeadm-config" in the "kube-system" Namespace
+[kubelet] Creating a ConfigMap "kubelet-config-1.23" in namespace kube-system with the configuration for the kubelets in the cluster
+NOTE: The "kubelet-config-1.23" naming of the kubelet ConfigMap is deprecated. Once the UnversionedKubeletConfigMap feature gate graduates to Beta the default name will become just "kubelet-config". Kubeadm upgrade will handle this transition transparently.
+[upload-certs] Skipping phase. Please see --upload-certs
+[mark-control-plane] Marking the node osm11 as control-plane by adding the labels: [node-role.kubernetes.io/master(deprecated) node-role.kubernetes.io/control-plane node.kubernetes.io/exclude-from-external-load-balancers]
+[mark-control-plane] Marking the node osm11 as control-plane by adding the taints [node-role.kubernetes.io/master:NoSchedule]
+[bootstrap-token] Using token: mihz47.8il5yr3lovnr8rl3
+[bootstrap-token] Configuring bootstrap tokens, cluster-info ConfigMap, RBAC Roles
+[bootstrap-token] configured RBAC rules to allow Node Bootstrap tokens to get nodes
+[bootstrap-token] configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials
+[bootstrap-token] configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token
+[bootstrap-token] configured RBAC rules to allow certificate rotation for all node client certificates in the cluster
+[bootstrap-token] Creating the "cluster-info" ConfigMap in the "kube-public" namespace
+[kubelet-finalize] Updating "/etc/kubernetes/kubelet.conf" to point to a rotatable kubelet client certificate and key
+[addons] Applied essential addon: CoreDNS
+[addons] Applied essential addon: kube-proxy
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 192.168.64.23:6443 --token mihz47.8il5yr3lovnr8rl3 \
+	--discovery-token-ca-cert-hash sha256:bba24d67d8ad9e2fcc690812be495a1623c782b3ebfb1327f20dc30835b92e51
+Track k8scluster init_k8s_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506668&event=k8scluster&operation=init_k8s_ok&value=&comment=&tags=
+Error from server (NotFound): namespaces "osm" not found
+wget: unrecognized option '--retry-on-host-error'
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+
+### Wed Jun 29 14:44:29 CEST 2022 deploy_cni_provider: FATAL error: Cannot Install Flannel because /tmp/flannel.yq7bEX/kube-flannel.yml was not found. Maybe the file https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml is temporarily not accessible
+BACKTRACE:
+### FATAL /usr/share/osm-devops/common/logging 46
+### deploy_cni_provider /usr/share/osm-devops/installers/install_kubeadm_cluster.sh 65
+### main /usr/share/osm-devops/installers/install_kubeadm_cluster.sh 298
+### MAIN non_file_source 0
+-------
+
+### Wed Jun 29 14:44:29 CEST 2022 install_osm: FATAL error: k8scluster install_kubeadm_cluster.sh failed
+Track end fatal: https://osm.etsi.org/InstallLog.php?&installation_id=1656506392-cy5tVzv9sM0qcg7Y&local_ts=1656506669&event=end&operation=fatal&value=k8scluster&comment='install_kubeadm_cluster.sh_failed'&tags=
+BACKTRACE:
+### FATAL_TRACK /usr/share/osm-devops/common/logging 40
+### install_osm /usr/share/osm-devops/installers/full_install_osm.sh 678
+### main /usr/share/osm-devops/installers/full_install_osm.sh 1194
+### MAIN non_file_source 0
+### MAIN non_file_source
+### MAIN non_file_source
+### MAIN non_file_source
+### MAIN non_file_source
+### MAIN non_file_source
+### MAIN non_file_source
+-------

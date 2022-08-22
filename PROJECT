@@ -1,0 +1,3 @@
+domain: fluxcd.io
+repo: github.com/fluxcd/source-watcher
+version: "2"

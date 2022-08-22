@@ -1,0 +1,5 @@
+# specified target dir isn't there.
+targetDir: deploy.me
+fileExtensions:
+  - .ops.yaml
+connectionFile: deploy.me/secret.yaml

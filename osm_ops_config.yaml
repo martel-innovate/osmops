@@ -1,0 +1,4 @@
+targetDir: _deployment_
+fileExtensions:
+  - .ops.yaml
+connectionFile: /etc/osmops/nbi-connection.yaml

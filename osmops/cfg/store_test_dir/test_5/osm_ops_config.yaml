@@ -1,0 +1,3 @@
+# valid config but no file extensions.
+targetDir: .
+connectionFile: secret.yaml

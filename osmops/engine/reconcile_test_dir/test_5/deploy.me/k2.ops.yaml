@@ -1,0 +1,7 @@
+kind: NsInstance
+name: t2
+nsdName: d2
+vnfName: f2
+vimAccountName: v2
+kdu:
+  name: k2

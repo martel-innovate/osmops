@@ -1,0 +1,8 @@
+kind: invalid
+name: t1
+description: look ma!
+nsdName: d1
+vnfName: f1
+vimAccountName: v1
+kdu:
+  name: k1

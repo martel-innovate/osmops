@@ -1,0 +1,10 @@
+kind: NsInstance
+name: ldap
+description: Demo LDAP NS instance
+nsdName: openldap_ns
+vnfName: openldap
+vimAccountName: mylocation1
+kdu:
+  name: ldap
+  params:
+    replicaCount: "1"

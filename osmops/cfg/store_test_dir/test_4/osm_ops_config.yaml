@@ -1,0 +1,7 @@
+# specified connection file isn't there.
+# notice the config is otherwise valid since the targetDir points to the
+# dir enclosing this file which obviously exists.
+targetDir: .
+fileExtensions:
+  - .ops.yaml
+connectionFile: /no/way/jose/secret.yaml

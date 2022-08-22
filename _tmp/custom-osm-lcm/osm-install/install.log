@@ -1,0 +1,4051 @@
+Checking required packages to add ETSI OSM debian repo: software-properties-common apt-transport-https
+OK
+Get:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease [4086 B]
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:5 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/devops amd64 Packages [483 B]
+Get:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1583 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [268 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [10.6 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1042 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [148 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [572 B]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [708 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [127 kB]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [14.6 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [22.2 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [5376 B]
+Get:19 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [512 B]
+Get:20 http://archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1935 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [350 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [15.6 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1119 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [159 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [592 B]
+Get:31 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [924 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [208 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [20.9 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [24.4 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [7336 B]
+Get:36 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [596 B]
+Get:37 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [44.8 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal-backports/main Translation-en [11.3 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [976 B]
+Get:40 http://archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:41 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [23.7 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [15.9 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [860 B]
+Get:44 http://archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 23.4 MB in 5s (4412 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  osm-devops
+0 upgraded, 1 newly installed, 0 to remove and 18 not upgraded.
+Need to get 731 kB of archives.
+After this operation, 5661 kB of additional disk space will be used.
+Get:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/devops amd64 osm-devops all 11.0.3-1 [731 kB]
+Fetched 731 kB in 0s (2321 kB/s)
+Selecting previously unselected package osm-devops.
+(Reading database ... 63796 files and directories currently installed.)
+Preparing to unpack .../osm-devops_11.0.3-1_all.deb ...
+Unpacking osm-devops (11.0.3-1) ...
+Setting up osm-devops (11.0.3-1) ...
+##  Wed Jun 29 16:48:06 CEST 2022 source: INFO: logging sourced
+##  Wed Jun 29 16:48:06 CEST 2022 source: INFO: config sourced
+##  Wed Jun 29 16:48:06 CEST 2022 source: INFO: container sourced
+##  Wed Jun 29 16:48:06 CEST 2022 source: INFO: git_functions sourced
+##  Wed Jun 29 16:48:06 CEST 2022 source: INFO: track sourced
+Checking required packages: git wget curl tar snapd
+/.
+/etc
+/etc/bash_completion.d
+/etc/bash_completion.d/git-prompt
+/usr
+/usr/bin
+/usr/bin/git
+/usr/bin/git-shell
+/usr/lib
+/usr/lib/git-core
+/usr/lib/git-core/git
+/usr/lib/git-core/git-add--interactive
+/usr/lib/git-core/git-bisect
+/usr/lib/git-core/git-credential-cache
+/usr/lib/git-core/git-credential-cache--daemon
+/usr/lib/git-core/git-credential-store
+/usr/lib/git-core/git-daemon
+/usr/lib/git-core/git-difftool--helper
+/usr/lib/git-core/git-fast-import
+/usr/lib/git-core/git-filter-branch
+/usr/lib/git-core/git-http-backend
+/usr/lib/git-core/git-http-fetch
+/usr/lib/git-core/git-http-push
+/usr/lib/git-core/git-imap-send
+/usr/lib/git-core/git-instaweb
+/usr/lib/git-core/git-legacy-stash
+/usr/lib/git-core/git-merge-octopus
+/usr/lib/git-core/git-merge-one-file
+/usr/lib/git-core/git-merge-resolve
+/usr/lib/git-core/git-mergetool
+/usr/lib/git-core/git-mergetool--lib
+/usr/lib/git-core/git-parse-remote
+/usr/lib/git-core/git-quiltimport
+/usr/lib/git-core/git-rebase--preserve-merges
+/usr/lib/git-core/git-remote-http
+/usr/lib/git-core/git-remote-testsvn
+/usr/lib/git-core/git-request-pull
+/usr/lib/git-core/git-sh-i18n
+/usr/lib/git-core/git-sh-i18n--envsubst
+/usr/lib/git-core/git-sh-prompt
+/usr/lib/git-core/git-sh-setup
+/usr/lib/git-core/git-shell
+/usr/lib/git-core/git-submodule
+/usr/lib/git-core/git-subtree
+/usr/lib/git-core/git-web--browse
+/usr/lib/git-core/mergetools
+/usr/lib/git-core/mergetools/araxis
+/usr/lib/git-core/mergetools/bc
+/usr/lib/git-core/mergetools/bc3
+/usr/lib/git-core/mergetools/codecompare
+/usr/lib/git-core/mergetools/deltawalker
+/usr/lib/git-core/mergetools/diffmerge
+/usr/lib/git-core/mergetools/diffuse
+/usr/lib/git-core/mergetools/ecmerge
+/usr/lib/git-core/mergetools/emerge
+/usr/lib/git-core/mergetools/examdiff
+/usr/lib/git-core/mergetools/guiffy
+/usr/lib/git-core/mergetools/gvimdiff
+/usr/lib/git-core/mergetools/gvimdiff2
+/usr/lib/git-core/mergetools/gvimdiff3
+/usr/lib/git-core/mergetools/kdiff3
+/usr/lib/git-core/mergetools/kompare
+/usr/lib/git-core/mergetools/meld
+/usr/lib/git-core/mergetools/opendiff
+/usr/lib/git-core/mergetools/p4merge
+/usr/lib/git-core/mergetools/smerge
+/usr/lib/git-core/mergetools/tkdiff
+/usr/lib/git-core/mergetools/tortoisemerge
+/usr/lib/git-core/mergetools/vimdiff
+/usr/lib/git-core/mergetools/vimdiff2
+/usr/lib/git-core/mergetools/vimdiff3
+/usr/lib/git-core/mergetools/winmerge
+/usr/lib/git-core/mergetools/xxdiff
+/usr/share
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/git
+/usr/share/doc
+/usr/share/doc/git
+/usr/share/doc/git/NEWS.Debian.gz
+/usr/share/doc/git/README.Debian
+/usr/share/doc/git/README.emacs
+/usr/share/doc/git/README.md
+/usr/share/doc/git/README.source
+/usr/share/doc/git/RelNotes
+/usr/share/doc/git/RelNotes/1.5.0.1.txt
+/usr/share/doc/git/RelNotes/1.5.0.2.txt
+/usr/share/doc/git/RelNotes/1.5.0.3.txt
+/usr/share/doc/git/RelNotes/1.5.0.4.txt
+/usr/share/doc/git/RelNotes/1.5.0.5.txt
+/usr/share/doc/git/RelNotes/1.5.0.6.txt
+/usr/share/doc/git/RelNotes/1.5.0.7.txt
+/usr/share/doc/git/RelNotes/1.5.0.txt
+/usr/share/doc/git/RelNotes/1.5.1.1.txt
+/usr/share/doc/git/RelNotes/1.5.1.2.txt
+/usr/share/doc/git/RelNotes/1.5.1.3.txt
+/usr/share/doc/git/RelNotes/1.5.1.4.txt
+/usr/share/doc/git/RelNotes/1.5.1.5.txt
+/usr/share/doc/git/RelNotes/1.5.1.6.txt
+/usr/share/doc/git/RelNotes/1.5.1.txt
+/usr/share/doc/git/RelNotes/1.5.2.1.txt
+/usr/share/doc/git/RelNotes/1.5.2.2.txt
+/usr/share/doc/git/RelNotes/1.5.2.3.txt
+/usr/share/doc/git/RelNotes/1.5.2.4.txt
+/usr/share/doc/git/RelNotes/1.5.2.5.txt
+/usr/share/doc/git/RelNotes/1.5.2.txt
+/usr/share/doc/git/RelNotes/1.5.3.1.txt
+/usr/share/doc/git/RelNotes/1.5.3.2.txt
+/usr/share/doc/git/RelNotes/1.5.3.3.txt
+/usr/share/doc/git/RelNotes/1.5.3.4.txt
+/usr/share/doc/git/RelNotes/1.5.3.5.txt
+/usr/share/doc/git/RelNotes/1.5.3.6.txt
+/usr/share/doc/git/RelNotes/1.5.3.7.txt
+/usr/share/doc/git/RelNotes/1.5.3.8.txt
+/usr/share/doc/git/RelNotes/1.5.3.txt
+/usr/share/doc/git/RelNotes/1.5.4.1.txt
+/usr/share/doc/git/RelNotes/1.5.4.2.txt
+/usr/share/doc/git/RelNotes/1.5.4.3.txt
+/usr/share/doc/git/RelNotes/1.5.4.4.txt
+/usr/share/doc/git/RelNotes/1.5.4.5.txt
+/usr/share/doc/git/RelNotes/1.5.4.6.txt
+/usr/share/doc/git/RelNotes/1.5.4.7.txt
+/usr/share/doc/git/RelNotes/1.5.4.txt
+/usr/share/doc/git/RelNotes/1.5.5.1.txt
+/usr/share/doc/git/RelNotes/1.5.5.2.txt
+/usr/share/doc/git/RelNotes/1.5.5.3.txt
+/usr/share/doc/git/RelNotes/1.5.5.4.txt
+/usr/share/doc/git/RelNotes/1.5.5.5.txt
+/usr/share/doc/git/RelNotes/1.5.5.6.txt
+/usr/share/doc/git/RelNotes/1.5.5.txt
+/usr/share/doc/git/RelNotes/1.5.6.1.txt
+/usr/share/doc/git/RelNotes/1.5.6.2.txt
+/usr/share/doc/git/RelNotes/1.5.6.3.txt
+/usr/share/doc/git/RelNotes/1.5.6.4.txt
+/usr/share/doc/git/RelNotes/1.5.6.5.txt
+/usr/share/doc/git/RelNotes/1.5.6.6.txt
+/usr/share/doc/git/RelNotes/1.5.6.txt
+/usr/share/doc/git/RelNotes/1.6.0.1.txt
+/usr/share/doc/git/RelNotes/1.6.0.2.txt
+/usr/share/doc/git/RelNotes/1.6.0.3.txt
+/usr/share/doc/git/RelNotes/1.6.0.4.txt
+/usr/share/doc/git/RelNotes/1.6.0.5.txt
+/usr/share/doc/git/RelNotes/1.6.0.6.txt
+/usr/share/doc/git/RelNotes/1.6.0.txt
+/usr/share/doc/git/RelNotes/1.6.1.1.txt
+/usr/share/doc/git/RelNotes/1.6.1.2.txt
+/usr/share/doc/git/RelNotes/1.6.1.3.txt
+/usr/share/doc/git/RelNotes/1.6.1.4.txt
+/usr/share/doc/git/RelNotes/1.6.1.txt
+/usr/share/doc/git/RelNotes/1.6.2.1.txt
+/usr/share/doc/git/RelNotes/1.6.2.2.txt
+/usr/share/doc/git/RelNotes/1.6.2.3.txt
+/usr/share/doc/git/RelNotes/1.6.2.4.txt
+/usr/share/doc/git/RelNotes/1.6.2.5.txt
+/usr/share/doc/git/RelNotes/1.6.2.txt
+/usr/share/doc/git/RelNotes/1.6.3.1.txt
+/usr/share/doc/git/RelNotes/1.6.3.2.txt
+/usr/share/doc/git/RelNotes/1.6.3.3.txt
+/usr/share/doc/git/RelNotes/1.6.3.4.txt
+/usr/share/doc/git/RelNotes/1.6.3.txt
+/usr/share/doc/git/RelNotes/1.6.4.1.txt
+/usr/share/doc/git/RelNotes/1.6.4.2.txt
+/usr/share/doc/git/RelNotes/1.6.4.3.txt
+/usr/share/doc/git/RelNotes/1.6.4.4.txt
+/usr/share/doc/git/RelNotes/1.6.4.5.txt
+/usr/share/doc/git/RelNotes/1.6.4.txt
+/usr/share/doc/git/RelNotes/1.6.5.1.txt
+/usr/share/doc/git/RelNotes/1.6.5.2.txt
+/usr/share/doc/git/RelNotes/1.6.5.3.txt
+/usr/share/doc/git/RelNotes/1.6.5.4.txt
+/usr/share/doc/git/RelNotes/1.6.5.5.txt
+/usr/share/doc/git/RelNotes/1.6.5.6.txt
+/usr/share/doc/git/RelNotes/1.6.5.7.txt
+/usr/share/doc/git/RelNotes/1.6.5.8.txt
+/usr/share/doc/git/RelNotes/1.6.5.9.txt
+/usr/share/doc/git/RelNotes/1.6.5.txt
+/usr/share/doc/git/RelNotes/1.6.6.1.txt
+/usr/share/doc/git/RelNotes/1.6.6.2.txt
+/usr/share/doc/git/RelNotes/1.6.6.3.txt
+/usr/share/doc/git/RelNotes/1.6.6.txt
+/usr/share/doc/git/RelNotes/1.7.0.1.txt
+/usr/share/doc/git/RelNotes/1.7.0.2.txt
+/usr/share/doc/git/RelNotes/1.7.0.3.txt
+/usr/share/doc/git/RelNotes/1.7.0.4.txt
+/usr/share/doc/git/RelNotes/1.7.0.5.txt
+/usr/share/doc/git/RelNotes/1.7.0.6.txt
+/usr/share/doc/git/RelNotes/1.7.0.7.txt
+/usr/share/doc/git/RelNotes/1.7.0.8.txt
+/usr/share/doc/git/RelNotes/1.7.0.9.txt
+/usr/share/doc/git/RelNotes/1.7.0.txt
+/usr/share/doc/git/RelNotes/1.7.1.1.txt
+/usr/share/doc/git/RelNotes/1.7.1.2.txt
+/usr/share/doc/git/RelNotes/1.7.1.3.txt
+/usr/share/doc/git/RelNotes/1.7.1.4.txt
+/usr/share/doc/git/RelNotes/1.7.1.txt
+/usr/share/doc/git/RelNotes/1.7.10.1.txt
+/usr/share/doc/git/RelNotes/1.7.10.2.txt
+/usr/share/doc/git/RelNotes/1.7.10.3.txt
+/usr/share/doc/git/RelNotes/1.7.10.4.txt
+/usr/share/doc/git/RelNotes/1.7.10.5.txt
+/usr/share/doc/git/RelNotes/1.7.10.txt
+/usr/share/doc/git/RelNotes/1.7.11.1.txt
+/usr/share/doc/git/RelNotes/1.7.11.2.txt
+/usr/share/doc/git/RelNotes/1.7.11.3.txt
+/usr/share/doc/git/RelNotes/1.7.11.4.txt
+/usr/share/doc/git/RelNotes/1.7.11.5.txt
+/usr/share/doc/git/RelNotes/1.7.11.6.txt
+/usr/share/doc/git/RelNotes/1.7.11.7.txt
+/usr/share/doc/git/RelNotes/1.7.11.txt
+/usr/share/doc/git/RelNotes/1.7.12.1.txt
+/usr/share/doc/git/RelNotes/1.7.12.2.txt
+/usr/share/doc/git/RelNotes/1.7.12.3.txt
+/usr/share/doc/git/RelNotes/1.7.12.4.txt
+/usr/share/doc/git/RelNotes/1.7.12.txt
+/usr/share/doc/git/RelNotes/1.7.2.1.txt
+/usr/share/doc/git/RelNotes/1.7.2.2.txt
+/usr/share/doc/git/RelNotes/1.7.2.3.txt
+/usr/share/doc/git/RelNotes/1.7.2.4.txt
+/usr/share/doc/git/RelNotes/1.7.2.5.txt
+/usr/share/doc/git/RelNotes/1.7.2.txt
+/usr/share/doc/git/RelNotes/1.7.3.1.txt
+/usr/share/doc/git/RelNotes/1.7.3.2.txt
+/usr/share/doc/git/RelNotes/1.7.3.3.txt
+/usr/share/doc/git/RelNotes/1.7.3.4.txt
+/usr/share/doc/git/RelNotes/1.7.3.5.txt
+/usr/share/doc/git/RelNotes/1.7.3.txt
+/usr/share/doc/git/RelNotes/1.7.4.1.txt
+/usr/share/doc/git/RelNotes/1.7.4.2.txt
+/usr/share/doc/git/RelNotes/1.7.4.3.txt
+/usr/share/doc/git/RelNotes/1.7.4.4.txt
+/usr/share/doc/git/RelNotes/1.7.4.5.txt
+/usr/share/doc/git/RelNotes/1.7.4.txt
+/usr/share/doc/git/RelNotes/1.7.5.1.txt
+/usr/share/doc/git/RelNotes/1.7.5.2.txt
+/usr/share/doc/git/RelNotes/1.7.5.3.txt
+/usr/share/doc/git/RelNotes/1.7.5.4.txt
+/usr/share/doc/git/RelNotes/1.7.5.txt
+/usr/share/doc/git/RelNotes/1.7.6.1.txt
+/usr/share/doc/git/RelNotes/1.7.6.2.txt
+/usr/share/doc/git/RelNotes/1.7.6.3.txt
+/usr/share/doc/git/RelNotes/1.7.6.4.txt
+/usr/share/doc/git/RelNotes/1.7.6.5.txt
+/usr/share/doc/git/RelNotes/1.7.6.6.txt
+/usr/share/doc/git/RelNotes/1.7.6.txt
+/usr/share/doc/git/RelNotes/1.7.7.1.txt
+/usr/share/doc/git/RelNotes/1.7.7.2.txt
+/usr/share/doc/git/RelNotes/1.7.7.3.txt
+/usr/share/doc/git/RelNotes/1.7.7.4.txt
+/usr/share/doc/git/RelNotes/1.7.7.5.txt
+/usr/share/doc/git/RelNotes/1.7.7.6.txt
+/usr/share/doc/git/RelNotes/1.7.7.7.txt
+/usr/share/doc/git/RelNotes/1.7.7.txt
+/usr/share/doc/git/RelNotes/1.7.8.1.txt
+/usr/share/doc/git/RelNotes/1.7.8.2.txt
+/usr/share/doc/git/RelNotes/1.7.8.3.txt
+/usr/share/doc/git/RelNotes/1.7.8.4.txt
+/usr/share/doc/git/RelNotes/1.7.8.5.txt
+/usr/share/doc/git/RelNotes/1.7.8.6.txt
+/usr/share/doc/git/RelNotes/1.7.8.txt
+/usr/share/doc/git/RelNotes/1.7.9.1.txt
+/usr/share/doc/git/RelNotes/1.7.9.2.txt
+/usr/share/doc/git/RelNotes/1.7.9.3.txt
+/usr/share/doc/git/RelNotes/1.7.9.4.txt
+/usr/share/doc/git/RelNotes/1.7.9.5.txt
+/usr/share/doc/git/RelNotes/1.7.9.6.txt
+/usr/share/doc/git/RelNotes/1.7.9.7.txt
+/usr/share/doc/git/RelNotes/1.7.9.txt
+/usr/share/doc/git/RelNotes/1.8.0.1.txt
+/usr/share/doc/git/RelNotes/1.8.0.2.txt
+/usr/share/doc/git/RelNotes/1.8.0.3.txt
+/usr/share/doc/git/RelNotes/1.8.0.txt
+/usr/share/doc/git/RelNotes/1.8.1.1.txt
+/usr/share/doc/git/RelNotes/1.8.1.2.txt
+/usr/share/doc/git/RelNotes/1.8.1.3.txt
+/usr/share/doc/git/RelNotes/1.8.1.4.txt
+/usr/share/doc/git/RelNotes/1.8.1.5.txt
+/usr/share/doc/git/RelNotes/1.8.1.6.txt
+/usr/share/doc/git/RelNotes/1.8.1.txt
+/usr/share/doc/git/RelNotes/1.8.2.1.txt
+/usr/share/doc/git/RelNotes/1.8.2.2.txt
+/usr/share/doc/git/RelNotes/1.8.2.3.txt
+/usr/share/doc/git/RelNotes/1.8.2.txt
+/usr/share/doc/git/RelNotes/1.8.3.1.txt
+/usr/share/doc/git/RelNotes/1.8.3.2.txt
+/usr/share/doc/git/RelNotes/1.8.3.3.txt
+/usr/share/doc/git/RelNotes/1.8.3.4.txt
+/usr/share/doc/git/RelNotes/1.8.3.txt
+/usr/share/doc/git/RelNotes/1.8.4.1.txt
+/usr/share/doc/git/RelNotes/1.8.4.2.txt
+/usr/share/doc/git/RelNotes/1.8.4.3.txt
+/usr/share/doc/git/RelNotes/1.8.4.4.txt
+/usr/share/doc/git/RelNotes/1.8.4.5.txt
+/usr/share/doc/git/RelNotes/1.8.4.txt
+/usr/share/doc/git/RelNotes/1.8.5.1.txt
+/usr/share/doc/git/RelNotes/1.8.5.2.txt
+/usr/share/doc/git/RelNotes/1.8.5.3.txt
+/usr/share/doc/git/RelNotes/1.8.5.4.txt
+/usr/share/doc/git/RelNotes/1.8.5.5.txt
+/usr/share/doc/git/RelNotes/1.8.5.6.txt
+/usr/share/doc/git/RelNotes/1.8.5.txt
+/usr/share/doc/git/RelNotes/1.9.0.txt
+/usr/share/doc/git/RelNotes/1.9.1.txt
+/usr/share/doc/git/RelNotes/1.9.2.txt
+/usr/share/doc/git/RelNotes/1.9.3.txt
+/usr/share/doc/git/RelNotes/1.9.4.txt
+/usr/share/doc/git/RelNotes/1.9.5.txt
+/usr/share/doc/git/RelNotes/2.0.0.txt
+/usr/share/doc/git/RelNotes/2.0.1.txt
+/usr/share/doc/git/RelNotes/2.0.2.txt
+/usr/share/doc/git/RelNotes/2.0.3.txt
+/usr/share/doc/git/RelNotes/2.0.4.txt
+/usr/share/doc/git/RelNotes/2.0.5.txt
+/usr/share/doc/git/RelNotes/2.1.0.txt
+/usr/share/doc/git/RelNotes/2.1.1.txt
+/usr/share/doc/git/RelNotes/2.1.2.txt
+/usr/share/doc/git/RelNotes/2.1.3.txt
+/usr/share/doc/git/RelNotes/2.1.4.txt
+/usr/share/doc/git/RelNotes/2.10.0.txt
+/usr/share/doc/git/RelNotes/2.10.1.txt
+/usr/share/doc/git/RelNotes/2.10.2.txt
+/usr/share/doc/git/RelNotes/2.10.3.txt
+/usr/share/doc/git/RelNotes/2.10.4.txt
+/usr/share/doc/git/RelNotes/2.10.5.txt
+/usr/share/doc/git/RelNotes/2.11.0.txt
+/usr/share/doc/git/RelNotes/2.11.1.txt
+/usr/share/doc/git/RelNotes/2.11.2.txt
+/usr/share/doc/git/RelNotes/2.11.3.txt
+/usr/share/doc/git/RelNotes/2.11.4.txt
+/usr/share/doc/git/RelNotes/2.12.0.txt
+/usr/share/doc/git/RelNotes/2.12.1.txt
+/usr/share/doc/git/RelNotes/2.12.2.txt
+/usr/share/doc/git/RelNotes/2.12.3.txt
+/usr/share/doc/git/RelNotes/2.12.4.txt
+/usr/share/doc/git/RelNotes/2.12.5.txt
+/usr/share/doc/git/RelNotes/2.13.0.txt
+/usr/share/doc/git/RelNotes/2.13.1.txt
+/usr/share/doc/git/RelNotes/2.13.2.txt
+/usr/share/doc/git/RelNotes/2.13.3.txt
+/usr/share/doc/git/RelNotes/2.13.4.txt
+/usr/share/doc/git/RelNotes/2.13.5.txt
+/usr/share/doc/git/RelNotes/2.13.6.txt
+/usr/share/doc/git/RelNotes/2.13.7.txt
+/usr/share/doc/git/RelNotes/2.14.0.txt
+/usr/share/doc/git/RelNotes/2.14.1.txt
+/usr/share/doc/git/RelNotes/2.14.2.txt
+/usr/share/doc/git/RelNotes/2.14.3.txt
+/usr/share/doc/git/RelNotes/2.14.4.txt
+/usr/share/doc/git/RelNotes/2.14.5.txt
+/usr/share/doc/git/RelNotes/2.14.6.txt
+/usr/share/doc/git/RelNotes/2.15.0.txt
+/usr/share/doc/git/RelNotes/2.15.1.txt
+/usr/share/doc/git/RelNotes/2.15.2.txt
+/usr/share/doc/git/RelNotes/2.15.3.txt
+/usr/share/doc/git/RelNotes/2.15.4.txt
+/usr/share/doc/git/RelNotes/2.16.0.txt
+/usr/share/doc/git/RelNotes/2.16.1.txt
+/usr/share/doc/git/RelNotes/2.16.2.txt
+/usr/share/doc/git/RelNotes/2.16.3.txt
+/usr/share/doc/git/RelNotes/2.16.4.txt
+/usr/share/doc/git/RelNotes/2.16.5.txt
+/usr/share/doc/git/RelNotes/2.16.6.txt
+/usr/share/doc/git/RelNotes/2.17.0.txt
+/usr/share/doc/git/RelNotes/2.17.1.txt
+/usr/share/doc/git/RelNotes/2.17.2.txt
+/usr/share/doc/git/RelNotes/2.17.3.txt
+/usr/share/doc/git/RelNotes/2.18.0.txt
+/usr/share/doc/git/RelNotes/2.18.1.txt
+/usr/share/doc/git/RelNotes/2.18.2.txt
+/usr/share/doc/git/RelNotes/2.19.0.txt
+/usr/share/doc/git/RelNotes/2.19.1.txt
+/usr/share/doc/git/RelNotes/2.19.2.txt
+/usr/share/doc/git/RelNotes/2.19.3.txt
+/usr/share/doc/git/RelNotes/2.2.0.txt
+/usr/share/doc/git/RelNotes/2.2.1.txt
+/usr/share/doc/git/RelNotes/2.2.2.txt
+/usr/share/doc/git/RelNotes/2.2.3.txt
+/usr/share/doc/git/RelNotes/2.20.0.txt
+/usr/share/doc/git/RelNotes/2.20.1.txt
+/usr/share/doc/git/RelNotes/2.20.2.txt
+/usr/share/doc/git/RelNotes/2.21.0.txt
+/usr/share/doc/git/RelNotes/2.21.1.txt
+/usr/share/doc/git/RelNotes/2.22.0.txt
+/usr/share/doc/git/RelNotes/2.22.1.txt
+/usr/share/doc/git/RelNotes/2.22.2.txt
+/usr/share/doc/git/RelNotes/2.23.0.txt
+/usr/share/doc/git/RelNotes/2.23.1.txt
+/usr/share/doc/git/RelNotes/2.24.0.txt
+/usr/share/doc/git/RelNotes/2.24.1.txt
+/usr/share/doc/git/RelNotes/2.25.0.txt
+/usr/share/doc/git/RelNotes/2.25.1.txt
+/usr/share/doc/git/RelNotes/2.3.0.txt
+/usr/share/doc/git/RelNotes/2.3.1.txt
+/usr/share/doc/git/RelNotes/2.3.10.txt
+/usr/share/doc/git/RelNotes/2.3.2.txt
+/usr/share/doc/git/RelNotes/2.3.3.txt
+/usr/share/doc/git/RelNotes/2.3.4.txt
+/usr/share/doc/git/RelNotes/2.3.5.txt
+/usr/share/doc/git/RelNotes/2.3.6.txt
+/usr/share/doc/git/RelNotes/2.3.7.txt
+/usr/share/doc/git/RelNotes/2.3.8.txt
+/usr/share/doc/git/RelNotes/2.3.9.txt
+/usr/share/doc/git/RelNotes/2.4.0.txt
+/usr/share/doc/git/RelNotes/2.4.1.txt
+/usr/share/doc/git/RelNotes/2.4.10.txt
+/usr/share/doc/git/RelNotes/2.4.11.txt
+/usr/share/doc/git/RelNotes/2.4.12.txt
+/usr/share/doc/git/RelNotes/2.4.2.txt
+/usr/share/doc/git/RelNotes/2.4.3.txt
+/usr/share/doc/git/RelNotes/2.4.4.txt
+/usr/share/doc/git/RelNotes/2.4.5.txt
+/usr/share/doc/git/RelNotes/2.4.6.txt
+/usr/share/doc/git/RelNotes/2.4.7.txt
+/usr/share/doc/git/RelNotes/2.4.8.txt
+/usr/share/doc/git/RelNotes/2.4.9.txt
+/usr/share/doc/git/RelNotes/2.5.0.txt
+/usr/share/doc/git/RelNotes/2.5.1.txt
+/usr/share/doc/git/RelNotes/2.5.2.txt
+/usr/share/doc/git/RelNotes/2.5.3.txt
+/usr/share/doc/git/RelNotes/2.5.4.txt
+/usr/share/doc/git/RelNotes/2.5.5.txt
+/usr/share/doc/git/RelNotes/2.5.6.txt
+/usr/share/doc/git/RelNotes/2.6.0.txt
+/usr/share/doc/git/RelNotes/2.6.1.txt
+/usr/share/doc/git/RelNotes/2.6.2.txt
+/usr/share/doc/git/RelNotes/2.6.3.txt
+/usr/share/doc/git/RelNotes/2.6.4.txt
+/usr/share/doc/git/RelNotes/2.6.5.txt
+/usr/share/doc/git/RelNotes/2.6.6.txt
+/usr/share/doc/git/RelNotes/2.6.7.txt
+/usr/share/doc/git/RelNotes/2.7.0.txt
+/usr/share/doc/git/RelNotes/2.7.1.txt
+/usr/share/doc/git/RelNotes/2.7.2.txt
+/usr/share/doc/git/RelNotes/2.7.3.txt
+/usr/share/doc/git/RelNotes/2.7.4.txt
+/usr/share/doc/git/RelNotes/2.7.5.txt
+/usr/share/doc/git/RelNotes/2.7.6.txt
+/usr/share/doc/git/RelNotes/2.8.0.txt
+/usr/share/doc/git/RelNotes/2.8.1.txt
+/usr/share/doc/git/RelNotes/2.8.2.txt
+/usr/share/doc/git/RelNotes/2.8.3.txt
+/usr/share/doc/git/RelNotes/2.8.4.txt
+/usr/share/doc/git/RelNotes/2.8.5.txt
+/usr/share/doc/git/RelNotes/2.8.6.txt
+/usr/share/doc/git/RelNotes/2.9.0.txt
+/usr/share/doc/git/RelNotes/2.9.1.txt
+/usr/share/doc/git/RelNotes/2.9.2.txt
+/usr/share/doc/git/RelNotes/2.9.3.txt
+/usr/share/doc/git/RelNotes/2.9.4.txt
+/usr/share/doc/git/RelNotes/2.9.5.txt
+/usr/share/doc/git/changelog.Debian.gz
+/usr/share/doc/git/contrib
+/usr/share/doc/git/contrib/README
+/usr/share/doc/git/contrib/buildsystems
+/usr/share/doc/git/contrib/buildsystems/Generators
+/usr/share/doc/git/contrib/buildsystems/Generators/QMake.pm
+/usr/share/doc/git/contrib/buildsystems/Generators/Vcproj.pm
+/usr/share/doc/git/contrib/buildsystems/Generators/Vcxproj.pm
+/usr/share/doc/git/contrib/buildsystems/Generators.pm
+/usr/share/doc/git/contrib/buildsystems/engine.pl
+/usr/share/doc/git/contrib/buildsystems/generate
+/usr/share/doc/git/contrib/buildsystems/parse.pl
+/usr/share/doc/git/contrib/coccinelle
+/usr/share/doc/git/contrib/coccinelle/README
+/usr/share/doc/git/contrib/coccinelle/array.cocci
+/usr/share/doc/git/contrib/coccinelle/commit.cocci
+/usr/share/doc/git/contrib/coccinelle/flex_alloc.cocci
+/usr/share/doc/git/contrib/coccinelle/free.cocci
+/usr/share/doc/git/contrib/coccinelle/hashmap.cocci
+/usr/share/doc/git/contrib/coccinelle/object_id.cocci
+/usr/share/doc/git/contrib/coccinelle/preincr.cocci
+/usr/share/doc/git/contrib/coccinelle/qsort.cocci
+/usr/share/doc/git/contrib/coccinelle/strbuf.cocci
+/usr/share/doc/git/contrib/coccinelle/swap.cocci
+/usr/share/doc/git/contrib/coccinelle/the_repository.pending.cocci
+/usr/share/doc/git/contrib/coccinelle/xstrdup_or_null.cocci
+/usr/share/doc/git/contrib/contacts
+/usr/share/doc/git/contrib/contacts/Makefile
+/usr/share/doc/git/contrib/contacts/git-contacts
+/usr/share/doc/git/contrib/contacts/git-contacts.txt
+/usr/share/doc/git/contrib/coverage-diff.sh
+/usr/share/doc/git/contrib/credential
+/usr/share/doc/git/contrib/credential/gnome-keyring
+/usr/share/doc/git/contrib/credential/gnome-keyring/Makefile
+/usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring.c
+/usr/share/doc/git/contrib/credential/libsecret
+/usr/share/doc/git/contrib/credential/libsecret/Makefile
+/usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret.c
+/usr/share/doc/git/contrib/credential/netrc
+/usr/share/doc/git/contrib/credential/netrc/Makefile
+/usr/share/doc/git/contrib/credential/netrc/git-credential-netrc
+/usr/share/doc/git/contrib/credential/netrc/t-git-credential-netrc.sh
+/usr/share/doc/git/contrib/credential/netrc/test.command-option-gpg
+/usr/share/doc/git/contrib/credential/netrc/test.git-config-gpg
+/usr/share/doc/git/contrib/credential/netrc/test.netrc
+/usr/share/doc/git/contrib/credential/netrc/test.pl
+/usr/share/doc/git/contrib/credential/osxkeychain
+/usr/share/doc/git/contrib/credential/osxkeychain/Makefile
+/usr/share/doc/git/contrib/credential/osxkeychain/git-credential-osxkeychain.c
+/usr/share/doc/git/contrib/credential/wincred
+/usr/share/doc/git/contrib/credential/wincred/Makefile
+/usr/share/doc/git/contrib/credential/wincred/git-credential-wincred.c
+/usr/share/doc/git/contrib/diff-highlight
+/usr/share/doc/git/contrib/diff-highlight/DiffHighlight.pm
+/usr/share/doc/git/contrib/diff-highlight/Makefile
+/usr/share/doc/git/contrib/diff-highlight/README
+/usr/share/doc/git/contrib/diff-highlight/diff-highlight
+/usr/share/doc/git/contrib/diff-highlight/diff-highlight.perl
+/usr/share/doc/git/contrib/diff-highlight/shebang.perl
+/usr/share/doc/git/contrib/diff-highlight/t
+/usr/share/doc/git/contrib/diff-highlight/t/Makefile
+/usr/share/doc/git/contrib/diff-highlight/t/t9400-diff-highlight.sh
+/usr/share/doc/git/contrib/examples
+/usr/share/doc/git/contrib/examples/README
+/usr/share/doc/git/contrib/fast-import
+/usr/share/doc/git/contrib/fast-import/git-import.perl
+/usr/share/doc/git/contrib/fast-import/git-import.sh
+/usr/share/doc/git/contrib/fast-import/git-p4.README
+/usr/share/doc/git/contrib/fast-import/import-directories.perl
+/usr/share/doc/git/contrib/fast-import/import-tars.perl
+/usr/share/doc/git/contrib/fast-import/import-zips.py
+/usr/share/doc/git/contrib/git-jump
+/usr/share/doc/git/contrib/git-jump/README
+/usr/share/doc/git/contrib/git-jump/git-jump
+/usr/share/doc/git/contrib/git-resurrect.sh
+/usr/share/doc/git/contrib/git-shell-commands
+/usr/share/doc/git/contrib/git-shell-commands/README
+/usr/share/doc/git/contrib/git-shell-commands/help
+/usr/share/doc/git/contrib/git-shell-commands/list
+/usr/share/doc/git/contrib/hg-to-git
+/usr/share/doc/git/contrib/hg-to-git/hg-to-git.py
+/usr/share/doc/git/contrib/hg-to-git/hg-to-git.txt
+/usr/share/doc/git/contrib/long-running-filter
+/usr/share/doc/git/contrib/long-running-filter/example.pl
+/usr/share/doc/git/contrib/persistent-https
+/usr/share/doc/git/contrib/persistent-https/Makefile
+/usr/share/doc/git/contrib/persistent-https/README
+/usr/share/doc/git/contrib/persistent-https/client.go
+/usr/share/doc/git/contrib/persistent-https/main.go
+/usr/share/doc/git/contrib/persistent-https/proxy.go
+/usr/share/doc/git/contrib/persistent-https/socket.go
+/usr/share/doc/git/contrib/remote-helpers
+/usr/share/doc/git/contrib/remote-helpers/README
+/usr/share/doc/git/contrib/remote-helpers/git-remote-bzr
+/usr/share/doc/git/contrib/remote-helpers/git-remote-hg
+/usr/share/doc/git/contrib/remotes2config.sh
+/usr/share/doc/git/contrib/rerere-train.sh
+/usr/share/doc/git/contrib/stats
+/usr/share/doc/git/contrib/stats/git-common-hash
+/usr/share/doc/git/contrib/stats/mailmap.pl
+/usr/share/doc/git/contrib/stats/packinfo.pl
+/usr/share/doc/git/contrib/subtree
+/usr/share/doc/git/contrib/subtree/INSTALL
+/usr/share/doc/git/contrib/subtree/Makefile
+/usr/share/doc/git/contrib/subtree/README
+/usr/share/doc/git/contrib/subtree/git-subtree
+/usr/share/doc/git/contrib/subtree/git-subtree.sh
+/usr/share/doc/git/contrib/subtree/git-subtree.txt
+/usr/share/doc/git/contrib/subtree/t
+/usr/share/doc/git/contrib/subtree/t/Makefile
+/usr/share/doc/git/contrib/subtree/t/t7900-subtree.sh
+/usr/share/doc/git/contrib/subtree/todo
+/usr/share/doc/git/contrib/svn-fe
+/usr/share/doc/git/contrib/svn-fe/Makefile
+/usr/share/doc/git/contrib/svn-fe/svn-fe.c
+/usr/share/doc/git/contrib/svn-fe/svn-fe.txt
+/usr/share/doc/git/contrib/svn-fe/svnrdump_sim.py
+/usr/share/doc/git/contrib/thunderbird-patch-inline
+/usr/share/doc/git/contrib/thunderbird-patch-inline/README
+/usr/share/doc/git/contrib/thunderbird-patch-inline/appp.sh
+/usr/share/doc/git/contrib/update-unicode
+/usr/share/doc/git/contrib/update-unicode/README
+/usr/share/doc/git/contrib/update-unicode/update_unicode.sh
+/usr/share/doc/git/contrib/vscode
+/usr/share/doc/git/contrib/vscode/README.md
+/usr/share/doc/git/contrib/vscode/init.sh
+/usr/share/doc/git/contrib/workdir
+/usr/share/doc/git/contrib/workdir/git-new-workdir
+/usr/share/doc/git/copyright
+/usr/share/git-core
+/usr/share/git-core/contrib
+/usr/share/git-core/contrib/hooks
+/usr/share/git-core/contrib/hooks/post-receive-email
+/usr/share/git-core/contrib/hooks/pre-auto-gc-battery
+/usr/share/git-core/contrib/hooks/setgitperms.perl
+/usr/share/git-core/contrib/hooks/update-paranoid
+/usr/share/git-core/templates
+/usr/share/git-core/templates/branches
+/usr/share/git-core/templates/description
+/usr/share/git-core/templates/hooks
+/usr/share/git-core/templates/hooks/applypatch-msg.sample
+/usr/share/git-core/templates/hooks/commit-msg.sample
+/usr/share/git-core/templates/hooks/fsmonitor-watchman.sample
+/usr/share/git-core/templates/hooks/post-update.sample
+/usr/share/git-core/templates/hooks/pre-applypatch.sample
+/usr/share/git-core/templates/hooks/pre-commit.sample
+/usr/share/git-core/templates/hooks/pre-merge-commit.sample
+/usr/share/git-core/templates/hooks/pre-push.sample
+/usr/share/git-core/templates/hooks/pre-rebase.sample
+/usr/share/git-core/templates/hooks/pre-receive.sample
+/usr/share/git-core/templates/hooks/prepare-commit-msg.sample
+/usr/share/git-core/templates/hooks/update.sample
+/usr/share/git-core/templates/info
+/usr/share/git-core/templates/info/exclude
+/usr/share/gitweb
+/usr/share/gitweb/gitweb.cgi
+/usr/share/gitweb/static
+/usr/share/gitweb/static/git-favicon.png
+/usr/share/gitweb/static/git-logo.png
+/usr/share/gitweb/static/gitweb.css
+/usr/share/gitweb/static/gitweb.js
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/git
+/usr/share/perl5
+/usr/share/perl5/Git
+/usr/share/perl5/Git/I18N.pm
+/usr/share/perl5/Git/IndexInfo.pm
+/usr/share/perl5/Git/LoadCPAN
+/usr/share/perl5/Git/LoadCPAN/Error.pm
+/usr/share/perl5/Git/LoadCPAN/Mail
+/usr/share/perl5/Git/LoadCPAN/Mail/Address.pm
+/usr/share/perl5/Git/LoadCPAN.pm
+/usr/share/perl5/Git/Packet.pm
+/usr/share/perl5/Git.pm
+/var
+/var/lib
+/var/lib/git
+/usr/bin/git-receive-pack
+/usr/bin/git-upload-archive
+/usr/bin/git-upload-pack
+/usr/lib/git-core/git-add
+/usr/lib/git-core/git-am
+/usr/lib/git-core/git-annotate
+/usr/lib/git-core/git-apply
+/usr/lib/git-core/git-archive
+/usr/lib/git-core/git-bisect--helper
+/usr/lib/git-core/git-blame
+/usr/lib/git-core/git-branch
+/usr/lib/git-core/git-bundle
+/usr/lib/git-core/git-cat-file
+/usr/lib/git-core/git-check-attr
+/usr/lib/git-core/git-check-ignore
+/usr/lib/git-core/git-check-mailmap
+/usr/lib/git-core/git-check-ref-format
+/usr/lib/git-core/git-checkout
+/usr/lib/git-core/git-checkout-index
+/usr/lib/git-core/git-cherry
+/usr/lib/git-core/git-cherry-pick
+/usr/lib/git-core/git-clean
+/usr/lib/git-core/git-clone
+/usr/lib/git-core/git-column
+/usr/lib/git-core/git-commit
+/usr/lib/git-core/git-commit-graph
+/usr/lib/git-core/git-commit-tree
+/usr/lib/git-core/git-config
+/usr/lib/git-core/git-count-objects
+/usr/lib/git-core/git-credential
+/usr/lib/git-core/git-describe
+/usr/lib/git-core/git-diff
+/usr/lib/git-core/git-diff-files
+/usr/lib/git-core/git-diff-index
+/usr/lib/git-core/git-diff-tree
+/usr/lib/git-core/git-difftool
+/usr/lib/git-core/git-env--helper
+/usr/lib/git-core/git-fast-export
+/usr/lib/git-core/git-fetch
+/usr/lib/git-core/git-fetch-pack
+/usr/lib/git-core/git-fmt-merge-msg
+/usr/lib/git-core/git-for-each-ref
+/usr/lib/git-core/git-format-patch
+/usr/lib/git-core/git-fsck
+/usr/lib/git-core/git-fsck-objects
+/usr/lib/git-core/git-gc
+/usr/lib/git-core/git-get-tar-commit-id
+/usr/lib/git-core/git-grep
+/usr/lib/git-core/git-hash-object
+/usr/lib/git-core/git-help
+/usr/lib/git-core/git-index-pack
+/usr/lib/git-core/git-init
+/usr/lib/git-core/git-init-db
+/usr/lib/git-core/git-interpret-trailers
+/usr/lib/git-core/git-log
+/usr/lib/git-core/git-ls-files
+/usr/lib/git-core/git-ls-remote
+/usr/lib/git-core/git-ls-tree
+/usr/lib/git-core/git-mailinfo
+/usr/lib/git-core/git-mailsplit
+/usr/lib/git-core/git-merge
+/usr/lib/git-core/git-merge-base
+/usr/lib/git-core/git-merge-file
+/usr/lib/git-core/git-merge-index
+/usr/lib/git-core/git-merge-ours
+/usr/lib/git-core/git-merge-recursive
+/usr/lib/git-core/git-merge-subtree
+/usr/lib/git-core/git-merge-tree
+/usr/lib/git-core/git-mktag
+/usr/lib/git-core/git-mktree
+/usr/lib/git-core/git-multi-pack-index
+/usr/lib/git-core/git-mv
+/usr/lib/git-core/git-name-rev
+/usr/lib/git-core/git-notes
+/usr/lib/git-core/git-pack-objects
+/usr/lib/git-core/git-pack-redundant
+/usr/lib/git-core/git-pack-refs
+/usr/lib/git-core/git-patch-id
+/usr/lib/git-core/git-prune
+/usr/lib/git-core/git-prune-packed
+/usr/lib/git-core/git-pull
+/usr/lib/git-core/git-push
+/usr/lib/git-core/git-range-diff
+/usr/lib/git-core/git-read-tree
+/usr/lib/git-core/git-rebase
+/usr/lib/git-core/git-receive-pack
+/usr/lib/git-core/git-reflog
+/usr/lib/git-core/git-remote
+/usr/lib/git-core/git-remote-ext
+/usr/lib/git-core/git-remote-fd
+/usr/lib/git-core/git-remote-ftp
+/usr/lib/git-core/git-remote-ftps
+/usr/lib/git-core/git-remote-https
+/usr/lib/git-core/git-repack
+/usr/lib/git-core/git-replace
+/usr/lib/git-core/git-rerere
+/usr/lib/git-core/git-reset
+/usr/lib/git-core/git-restore
+/usr/lib/git-core/git-rev-list
+/usr/lib/git-core/git-rev-parse
+/usr/lib/git-core/git-revert
+/usr/lib/git-core/git-rm
+/usr/lib/git-core/git-send-pack
+/usr/lib/git-core/git-shortlog
+/usr/lib/git-core/git-show
+/usr/lib/git-core/git-show-branch
+/usr/lib/git-core/git-show-index
+/usr/lib/git-core/git-show-ref
+/usr/lib/git-core/git-sparse-checkout
+/usr/lib/git-core/git-stage
+/usr/lib/git-core/git-stash
+/usr/lib/git-core/git-status
+/usr/lib/git-core/git-stripspace
+/usr/lib/git-core/git-submodule--helper
+/usr/lib/git-core/git-switch
+/usr/lib/git-core/git-symbolic-ref
+/usr/lib/git-core/git-tag
+/usr/lib/git-core/git-unpack-file
+/usr/lib/git-core/git-unpack-objects
+/usr/lib/git-core/git-update-index
+/usr/lib/git-core/git-update-ref
+/usr/lib/git-core/git-update-server-info
+/usr/lib/git-core/git-upload-archive
+/usr/lib/git-core/git-upload-pack
+/usr/lib/git-core/git-var
+/usr/lib/git-core/git-verify-commit
+/usr/lib/git-core/git-verify-pack
+/usr/lib/git-core/git-verify-tag
+/usr/lib/git-core/git-whatchanged
+/usr/lib/git-core/git-worktree
+/usr/lib/git-core/git-write-tree
+/usr/share/bash-completion/completions/gitk
+/usr/share/doc/git/contrib/hooks
+/usr/share/doc/git/contrib/persistent-https/LICENSE
+/usr/share/doc/git/contrib/subtree/COPYING
+/usr/share/gitweb/index.cgi
+/.
+/etc
+/etc/wgetrc
+/usr
+/usr/bin
+/usr/bin/wget
+/usr/share
+/usr/share/doc
+/usr/share/doc/wget
+/usr/share/doc/wget/AUTHORS
+/usr/share/doc/wget/MAILING-LIST
+/usr/share/doc/wget/NEWS.gz
+/usr/share/doc/wget/README
+/usr/share/doc/wget/changelog.Debian.gz
+/usr/share/doc/wget/copyright
+/usr/share/info
+/usr/share/info/wget.info.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/wget.1.gz
+/.
+/usr
+/usr/bin
+/usr/bin/curl
+/usr/share
+/usr/share/doc
+/usr/share/doc/curl
+/usr/share/doc/curl/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/curl.1.gz
+/usr/share/zsh
+/usr/share/zsh/vendor-completions
+/usr/share/zsh/vendor-completions/_curl
+/usr/share/doc/curl/NEWS.Debian.gz
+/usr/share/doc/curl/changelog.Debian.gz
+/.
+/bin
+/bin/tar
+/etc
+/usr
+/usr/lib
+/usr/lib/mime
+/usr/lib/mime/packages
+/usr/lib/mime/packages/tar
+/usr/sbin
+/usr/sbin/rmt-tar
+/usr/sbin/tarcat
+/usr/share
+/usr/share/doc
+/usr/share/doc/tar
+/usr/share/doc/tar/AUTHORS
+/usr/share/doc/tar/NEWS.gz
+/usr/share/doc/tar/README.Debian
+/usr/share/doc/tar/THANKS.gz
+/usr/share/doc/tar/changelog.Debian.gz
+/usr/share/doc/tar/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/tar.1.gz
+/usr/share/man/man1/tarcat.1.gz
+/usr/share/man/man8
+/usr/share/man/man8/rmt-tar.8.gz
+/etc/rmt
+/.
+/etc
+/etc/apparmor.d
+/etc/apparmor.d/usr.lib.snapd.snap-confine.real
+/etc/apt
+/etc/apt/apt.conf.d
+/etc/apt/apt.conf.d/20snapd.conf
+/etc/profile.d
+/etc/profile.d/apps-bin-path.sh
+/etc/xdg
+/etc/xdg/autostart
+/etc/xdg/autostart/snap-userd-autostart.desktop
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/snapd.apparmor.service
+/lib/systemd/system/snapd.autoimport.service
+/lib/systemd/system/snapd.core-fixup.service
+/lib/systemd/system/snapd.failure.service
+/lib/systemd/system/snapd.recovery-chooser-trigger.service
+/lib/systemd/system/snapd.seeded.service
+/lib/systemd/system/snapd.service
+/lib/systemd/system/snapd.snap-repair.service
+/lib/systemd/system/snapd.snap-repair.timer
+/lib/systemd/system/snapd.socket
+/lib/systemd/system/snapd.system-shutdown.service
+/lib/systemd/system-generators
+/lib/systemd/system-generators/snapd-generator
+/lib/udev
+/lib/udev/rules.d
+/lib/udev/rules.d/66-snapd-autoimport.rules
+/snap
+/usr
+/usr/bin
+/usr/bin/snap
+/usr/bin/snapfuse
+/usr/lib
+/usr/lib/environment.d
+/usr/lib/environment.d/990-snapd.conf
+/usr/lib/snapd
+/usr/lib/snapd/complete.sh
+/usr/lib/snapd/etelpmoc.sh
+/usr/lib/snapd/info
+/usr/lib/snapd/snap-bootstrap
+/usr/lib/snapd/snap-confine
+/usr/lib/snapd/snap-device-helper
+/usr/lib/snapd/snap-discard-ns
+/usr/lib/snapd/snap-exec
+/usr/lib/snapd/snap-failure
+/usr/lib/snapd/snap-gdb-shim
+/usr/lib/snapd/snap-gdbserver-shim
+/usr/lib/snapd/snap-mgmt
+/usr/lib/snapd/snap-preseed
+/usr/lib/snapd/snap-recovery-chooser
+/usr/lib/snapd/snap-repair
+/usr/lib/snapd/snap-seccomp
+/usr/lib/snapd/snap-update-ns
+/usr/lib/snapd/snapctl
+/usr/lib/snapd/snapd
+/usr/lib/snapd/snapd-apparmor
+/usr/lib/snapd/snapd.core-fixup.sh
+/usr/lib/snapd/snapd.run-from-snap
+/usr/lib/snapd/system-shutdown
+/usr/lib/systemd
+/usr/lib/systemd/system-environment-generators
+/usr/lib/systemd/system-environment-generators/snapd-env-generator
+/usr/lib/systemd/user
+/usr/lib/systemd/user/snapd.session-agent.service
+/usr/lib/systemd/user/snapd.session-agent.socket
+/usr/lib/systemd/user/sockets.target.wants
+/usr/share
+/usr/share/applications
+/usr/share/applications/io.snapcraft.SessionAgent.desktop
+/usr/share/applications/snap-handle-link.desktop
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/snap
+/usr/share/dbus-1
+/usr/share/dbus-1/services
+/usr/share/dbus-1/services/io.snapcraft.Launcher.service
+/usr/share/dbus-1/services/io.snapcraft.SessionAgent.service
+/usr/share/dbus-1/services/io.snapcraft.Settings.service
+/usr/share/dbus-1/session.d
+/usr/share/dbus-1/session.d/snapd.session-services.conf
+/usr/share/dbus-1/system.d
+/usr/share/dbus-1/system.d/snapd.system-services.conf
+/usr/share/doc
+/usr/share/doc/snapd
+/usr/share/doc/snapd/changelog.gz
+/usr/share/doc/snapd/copyright
+/usr/share/fish
+/usr/share/fish/vendor_conf.d
+/usr/share/fish/vendor_conf.d/snapd.fish
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/snap-confine.8.gz
+/usr/share/man/man8/snap-discard-ns.8.gz
+/usr/share/man/man8/snap.8.gz
+/usr/share/man/man8/snapd-env-generator.8.gz
+/usr/share/polkit-1
+/usr/share/polkit-1/actions
+/usr/share/polkit-1/actions/io.snapcraft.snapd.policy
+/usr/share/zsh
+/usr/share/zsh/vendor-completions
+/usr/share/zsh/vendor-completions/_snap
+/var
+/var/cache
+/var/cache/snapd
+/var/lib
+/var/lib/snapd
+/var/lib/snapd/apparmor
+/var/lib/snapd/apparmor/snap-confine
+/var/lib/snapd/auto-import
+/var/lib/snapd/dbus-1
+/var/lib/snapd/dbus-1/services
+/var/lib/snapd/dbus-1/system-services
+/var/lib/snapd/desktop
+/var/lib/snapd/desktop/applications
+/var/lib/snapd/environment
+/var/lib/snapd/firstboot
+/var/lib/snapd/inhibit
+/var/lib/snapd/lib
+/var/lib/snapd/lib/gl
+/var/lib/snapd/lib/gl32
+/var/lib/snapd/lib/glvnd
+/var/lib/snapd/lib/vulkan
+/var/lib/snapd/snaps
+/var/lib/snapd/snaps/partial
+/var/lib/snapd/ssl
+/var/lib/snapd/ssl/store-certs
+/var/lib/snapd/void
+/var/snap
+/lib/udev/snappy-app-dev
+/usr/bin/snapctl
+/usr/bin/ubuntu-core-launcher
+/usr/lib/systemd/user/sockets.target.wants/snapd.session-agent.socket
+Required packages are present: git wget curl tar snapd
+jq 1.5+dfsg-1 from Michael Vogt (mvo*) installed
+Track start release: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514104&event=start&operation=release&value=ReleaseELEVEN&comment=&tags=
+Track start docker_tag: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514104&event=start&operation=docker_tag&value=11&comment=&tags=
+Track start installation_type: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514104&event=start&operation=installation_type&value=Default&comment=&tags=
+Track checks checkingroot_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514104&event=checks&operation=checkingroot_ok&value=&comment=&tags=
+Track checks noroot_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514104&event=checks&operation=noroot_ok&value=&comment=&tags=
+The installation will do the following
+    1. Install and configure LXD
+    2. Install juju
+    3. Install docker CE
+    4. Disable swap space
+    5. Install and initialize Kubernetes
+    as pre-requirements.
+    Do you want to proceed (Y/n)? Y
+Track checks proceed_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514168&event=checks&operation=proceed_ok&value=&comment=&tags=
+Installing OSM
+Determining IP address of the interface with the default route
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+kernel.printk = 4 4 1 7
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+kernel.kptr_restrict = 1
+* Applying /etc/sysctl.d/10-link-restrictions.conf ...
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+kernel.sysrq = 176
+* Applying /etc/sysctl.d/10-network-security.conf ...
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.all.rp_filter = 2
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+kernel.yama.ptrace_scope = 1
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+vm.mmap_min_addr = 65536
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+net.ipv4.conf.default.promote_secondaries = 1
+sysctl: setting key "net.ipv4.conf.all.promote_secondaries": Invalid argument
+net.ipv4.ping_group_range = 0 2147483647
+net.core.default_qdisc = fq_codel
+fs.protected_regular = 1
+fs.protected_fifos = 1
+* Applying /usr/lib/sysctl.d/50-pid-max.conf ...
+kernel.pid_max = 4194304
+* Applying /etc/sysctl.d/60-lxd-production.conf ...
+fs.inotify.max_queued_events = 1048576
+fs.inotify.max_user_instances = 1048576
+fs.inotify.max_user_watches = 1048576
+vm.max_map_count = 262144
+kernel.dmesg_restrict = 1
+net.ipv4.neigh.default.gc_thresh3 = 8192
+net.ipv6.neigh.default.gc_thresh3 = 8192
+sysctl: setting key "net.core.bpf_jit_limit": Invalid argument
+kernel.keys.maxkeys = 2000
+kernel.keys.maxbytes = 2000000
+* Applying /etc/sysctl.d/99-cloudimg-ipv6.conf ...
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.use_tempaddr = 0
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /usr/lib/sysctl.d/protect-links.conf ...
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 2
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.conf ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'lxcfs' is not installed, so not removed
+Package 'liblxc1' is not installed, so not removed
+Package 'lxd' is not installed, so not removed
+Package 'lxd-client' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+snap "lxd" is already installed, see 'snap help refresh'
+To start your first container, try: lxc launch ubuntu:20.04
+Or for a virtual machine: lxc launch ubuntu:20.04 --vm
+
+Track prereq prereqok_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514180&event=prereq&operation=prereqok_ok&value=&comment=&tags=
+DEBUG_INSTALL=
+DOCKER_PROXY_URL=
+USER=ubuntu
+Installing Docker CE ...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20211016~20.04.1).
+ca-certificates set to manually installed.
+software-properties-common is already the newest version (0.99.9.8).
+software-properties-common set to manually installed.
+The following NEW packages will be installed:
+  apt-transport-https
+0 upgraded, 1 newly installed, 0 to remove and 18 not upgraded.
+Need to get 1704 B of archives.
+After this operation, 162 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.9 [1704 B]
+Fetched 1704 B in 0s (27.7 kB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... 64950 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.0.9_all.deb ...
+Unpacking apt-transport-https (2.0.9) ...
+Setting up apt-transport-https (2.0.9) ...
+OK
+Get:1 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Get:7 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages [17.6 kB]
+Fetched 75.2 kB in 1s (103 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  containerd.io docker-ce-cli docker-ce-rootless-extras docker-scan-plugin
+  pigz slirp4netns
+Suggested packages:
+  aufs-tools cgroupfs-mount | cgroup-lite
+The following NEW packages will be installed:
+  containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras
+  docker-scan-plugin pigz slirp4netns
+0 upgraded, 7 newly installed, 0 to remove and 18 not upgraded.
+Need to get 102 MB of archives.
+After this operation, 422 MB of additional disk space will be used.
+Get:1 https://download.docker.com/linux/ubuntu focal/stable amd64 containerd.io amd64 1.6.6-1 [28.1 MB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 [57.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/universe amd64 slirp4netns amd64 0.4.3-1 [74.3 kB]
+Get:4 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-cli amd64 5:20.10.17~3-0~ubuntu-focal [40.6 MB]
+Get:5 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce amd64 5:20.10.17~3-0~ubuntu-focal [21.0 MB]
+Get:6 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-rootless-extras amd64 5:20.10.17~3-0~ubuntu-focal [8171 kB]
+Get:7 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-scan-plugin amd64 0.17.0~ubuntu-focal [3521 kB]
+Fetched 102 MB in 2s (43.3 MB/s)
+Selecting previously unselected package pigz.
+(Reading database ... 64954 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.4-1_amd64.deb ...
+Unpacking pigz (2.4-1) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../1-containerd.io_1.6.6-1_amd64.deb ...
+Unpacking containerd.io (1.6.6-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../2-docker-ce-cli_5%3a20.10.17~3-0~ubuntu-focal_amd64.deb ...
+Unpacking docker-ce-cli (5:20.10.17~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../3-docker-ce_5%3a20.10.17~3-0~ubuntu-focal_amd64.deb ...
+Unpacking docker-ce (5:20.10.17~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../4-docker-ce-rootless-extras_5%3a20.10.17~3-0~ubuntu-focal_amd64.deb ...
+Unpacking docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-scan-plugin.
+Preparing to unpack .../5-docker-scan-plugin_0.17.0~ubuntu-focal_amd64.deb ...
+Unpacking docker-scan-plugin (0.17.0~ubuntu-focal) ...
+Selecting previously unselected package slirp4netns.
+Preparing to unpack .../6-slirp4netns_0.4.3-1_amd64.deb ...
+Unpacking slirp4netns (0.4.3-1) ...
+Setting up slirp4netns (0.4.3-1) ...
+Setting up docker-scan-plugin (0.17.0~ubuntu-focal) ...
+Setting up containerd.io (1.6.6-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:20.10.17~3-0~ubuntu-focal) ...
+Setting up pigz (2.4-1) ...
+Setting up docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-focal) ...
+Setting up docker-ce (5:20.10.17~3-0~ubuntu-focal) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for systemd (245.4-4ubuntu3.17) ...
+Adding user to group 'docker'
+... restarted Docker service
+Client: Docker Engine - Community
+ Version:           20.10.17
+ API version:       1.41
+ Go version:        go1.17.11
+ Git commit:        100c701
+ Built:             Mon Jun  6 23:02:57 2022
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.17
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.17.11
+  Git commit:       a89b842
+  Built:            Mon Jun  6 23:01:03 2022
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.6
+  GitCommit:        10c12954828e7c7c9b6e0ea9b0c02b01407d3ae1
+ runc:
+  Version:          1.1.2
+  GitCommit:        v1.1.2-0-ga916309
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+... Docker CE installation done
+Track docker_ce docker_ce_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514228&event=docker_ce&operation=docker_ce_ok&value=&comment=&tags=
+Creating folders for installation
+DEBUG_INSTALL=
+DEFAULT_IP=192.168.64.23
+OSM_DEVOPS=/usr/share/osm-devops
+OSM_DOCKER_WORK_DIR=/etc/osm/docker
+INSTALL_K8S_MONITOR=
+HOME=/home/ubuntu
+Hit:1 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:2 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (2.0.9).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (2.0.9).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Get:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9383 B]
+Get:8 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 Packages [57.2 kB]
+Fetched 66.6 kB in 1s (50.0 kB/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Installing Kubernetes Packages ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  conntrack cri-tools ebtables kubernetes-cni socat
+Suggested packages:
+  nftables
+The following NEW packages will be installed:
+  conntrack cri-tools ebtables kubeadm kubectl kubelet kubernetes-cni socat
+0 upgraded, 8 newly installed, 0 to remove and 18 not upgraded.
+Need to get 74.7 MB of archives.
+After this operation, 324 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 conntrack amd64 1:1.4.5-2 [30.3 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 ebtables amd64 2.0.11-3build1 [80.3 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 socat amd64 1.7.3.3-2 [323 kB]
+Get:3 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 cri-tools amd64 1.24.2-00 [12.3 MB]
+Get:5 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubernetes-cni amd64 0.8.7-00 [25.0 MB]
+Get:6 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubelet amd64 1.23.3-00 [19.5 MB]
+Get:7 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubectl amd64 1.23.3-00 [8929 kB]
+Get:8 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubeadm amd64 1.23.3-00 [8580 kB]
+Fetched 74.7 MB in 3s (25.2 MB/s)
+Selecting previously unselected package conntrack.
+(Reading database ... 65205 files and directories currently installed.)
+Preparing to unpack .../0-conntrack_1%3a1.4.5-2_amd64.deb ...
+Unpacking conntrack (1:1.4.5-2) ...
+Selecting previously unselected package cri-tools.
+Preparing to unpack .../1-cri-tools_1.24.2-00_amd64.deb ...
+Unpacking cri-tools (1.24.2-00) ...
+Selecting previously unselected package ebtables.
+Preparing to unpack .../2-ebtables_2.0.11-3build1_amd64.deb ...
+Unpacking ebtables (2.0.11-3build1) ...
+Selecting previously unselected package kubernetes-cni.
+Preparing to unpack .../3-kubernetes-cni_0.8.7-00_amd64.deb ...
+Unpacking kubernetes-cni (0.8.7-00) ...
+Selecting previously unselected package socat.
+Preparing to unpack .../4-socat_1.7.3.3-2_amd64.deb ...
+Unpacking socat (1.7.3.3-2) ...
+Selecting previously unselected package kubelet.
+Preparing to unpack .../5-kubelet_1.23.3-00_amd64.deb ...
+Unpacking kubelet (1.23.3-00) ...
+Selecting previously unselected package kubectl.
+Preparing to unpack .../6-kubectl_1.23.3-00_amd64.deb ...
+Unpacking kubectl (1.23.3-00) ...
+Selecting previously unselected package kubeadm.
+Preparing to unpack .../7-kubeadm_1.23.3-00_amd64.deb ...
+Unpacking kubeadm (1.23.3-00) ...
+Setting up conntrack (1:1.4.5-2) ...
+Setting up kubectl (1.23.3-00) ...
+Setting up ebtables (2.0.11-3build1) ...
+Setting up socat (1.7.3.3-2) ...
+Setting up cri-tools (1.24.2-00) ...
+Setting up kubernetes-cni (0.8.7-00) ...
+Setting up kubelet (1.23.3-00) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/kubelet.service → /lib/systemd/system/kubelet.service.
+Setting up kubeadm (1.23.3-00) ...
+Processing triggers for man-db (2.9.1-1) ...
+    KUBELET_EXTRA_ARGS="--cgroup-driver=cgroupfs"
+kubelet set on hold.
+kubeadm set on hold.
+kubectl set on hold.
+Track k8scluster install_k8s_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514269&event=k8scluster&operation=install_k8s_ok&value=&comment=&tags=
+I0629 16:51:09.776257   10096 version.go:255] remote version is much newer: v1.24.2; falling back to: stable-1.23
+[init] Using Kubernetes version: v1.23.8
+[preflight] Running pre-flight checks
+[preflight] Pulling images required for setting up a Kubernetes cluster
+[preflight] This might take a minute or two, depending on the speed of your internet connection
+[preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
+[certs] Using certificateDir folder "/etc/kubernetes/pki"
+[certs] Generating "ca" certificate and key
+[certs] Generating "apiserver" certificate and key
+[certs] apiserver serving cert is signed for DNS names [kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local osm11] and IPs [10.96.0.1 192.168.64.23]
+[certs] Generating "apiserver-kubelet-client" certificate and key
+[certs] Generating "front-proxy-ca" certificate and key
+[certs] Generating "front-proxy-client" certificate and key
+[certs] Generating "etcd/ca" certificate and key
+[certs] Generating "etcd/server" certificate and key
+[certs] etcd/server serving cert is signed for DNS names [localhost osm11] and IPs [192.168.64.23 127.0.0.1 ::1]
+[certs] Generating "etcd/peer" certificate and key
+[certs] etcd/peer serving cert is signed for DNS names [localhost osm11] and IPs [192.168.64.23 127.0.0.1 ::1]
+[certs] Generating "etcd/healthcheck-client" certificate and key
+[certs] Generating "apiserver-etcd-client" certificate and key
+[certs] Generating "sa" key and public key
+[kubeconfig] Using kubeconfig folder "/etc/kubernetes"
+[kubeconfig] Writing "admin.conf" kubeconfig file
+[kubeconfig] Writing "kubelet.conf" kubeconfig file
+[kubeconfig] Writing "controller-manager.conf" kubeconfig file
+[kubeconfig] Writing "scheduler.conf" kubeconfig file
+[kubelet-start] Writing kubelet environment file with flags to file "/var/lib/kubelet/kubeadm-flags.env"
+[kubelet-start] Writing kubelet configuration to file "/var/lib/kubelet/config.yaml"
+[kubelet-start] Starting the kubelet
+[control-plane] Using manifest folder "/etc/kubernetes/manifests"
+[control-plane] Creating static Pod manifest for "kube-apiserver"
+[control-plane] Creating static Pod manifest for "kube-controller-manager"
+[control-plane] Creating static Pod manifest for "kube-scheduler"
+[etcd] Creating static Pod manifest for local etcd in "/etc/kubernetes/manifests"
+[wait-control-plane] Waiting for the kubelet to boot up the control plane as static Pods from directory "/etc/kubernetes/manifests". This can take up to 4m0s
+[apiclient] All control plane components are healthy after 18.551122 seconds
+[upload-config] Storing the configuration used in ConfigMap "kubeadm-config" in the "kube-system" Namespace
+[kubelet] Creating a ConfigMap "kubelet-config-1.23" in namespace kube-system with the configuration for the kubelets in the cluster
+NOTE: The "kubelet-config-1.23" naming of the kubelet ConfigMap is deprecated. Once the UnversionedKubeletConfigMap feature gate graduates to Beta the default name will become just "kubelet-config". Kubeadm upgrade will handle this transition transparently.
+[upload-certs] Skipping phase. Please see --upload-certs
+[mark-control-plane] Marking the node osm11 as control-plane by adding the labels: [node-role.kubernetes.io/master(deprecated) node-role.kubernetes.io/control-plane node.kubernetes.io/exclude-from-external-load-balancers]
+[mark-control-plane] Marking the node osm11 as control-plane by adding the taints [node-role.kubernetes.io/master:NoSchedule]
+[bootstrap-token] Using token: d2rz8j.istr2iz8tw0cgsnl
+[bootstrap-token] Configuring bootstrap tokens, cluster-info ConfigMap, RBAC Roles
+[bootstrap-token] configured RBAC rules to allow Node Bootstrap tokens to get nodes
+[bootstrap-token] configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials
+[bootstrap-token] configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token
+[bootstrap-token] configured RBAC rules to allow certificate rotation for all node client certificates in the cluster
+[bootstrap-token] Creating the "cluster-info" ConfigMap in the "kube-public" namespace
+[kubelet-finalize] Updating "/etc/kubernetes/kubelet.conf" to point to a rotatable kubelet client certificate and key
+[addons] Applied essential addon: CoreDNS
+[addons] Applied essential addon: kube-proxy
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 192.168.64.23:6443 --token d2rz8j.istr2iz8tw0cgsnl \
+	--discovery-token-ca-cert-hash sha256:49c0f16049c97cc76debdf07bfd3226fec7dae52f45a3a37a2dad24f2b07fca9
+Track k8scluster init_k8s_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514349&event=k8scluster&operation=init_k8s_ok&value=&comment=&tags=
+Error from server (NotFound): namespaces "osm" not found
+--2022-06-29 16:52:29--  https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5750 (5.6K) [text/plain]
+Saving to: ‘/tmp/flannel.56U8m6/kube-flannel.yml’
+
+     0K .....                                                 100% 30.6M=0s
+
+2022-06-29 16:52:42 (30.6 MB/s) - ‘/tmp/flannel.56U8m6/kube-flannel.yml’ saved [5750/5750]
+
+Warning: policy/v1beta1 PodSecurityPolicy is deprecated in v1.21+, unavailable in v1.25+
+podsecuritypolicy.policy/psp.flannel.unprivileged created
+clusterrole.rbac.authorization.k8s.io/flannel created
+clusterrolebinding.rbac.authorization.k8s.io/flannel created
+serviceaccount/flannel created
+configmap/kube-flannel-cfg created
+daemonset.apps/kube-flannel-ds created
+node/osm11 untainted
+Helm3 is not installed, installing ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13.2M  100 13.2M    0     0  31.1M      0 --:--:-- --:--:-- --:--:-- 31.1M
+linux-amd64/
+linux-amd64/helm
+linux-amd64/LICENSE
+linux-amd64/README.md
+"stable" has been added to your repositories
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "stable" chart repository
+Update Complete. ⎈Happy Helming!⎈
+Track k8scluster install_helm_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514382&event=k8scluster&operation=install_helm_ok&value=&comment=&tags=
+Installing open-iscsi
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:7 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+open-iscsi is already the newest version (2.0.874-7.1ubuntu6.2).
+open-iscsi set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+Synchronizing state of iscsid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable iscsid
+Created symlink /etc/systemd/system/sysinit.target.wants/iscsid.service → /lib/systemd/system/iscsid.service.
+Installing OpenEBS
+"openebs" has been added to your repositories
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "openebs" chart repository
+...Successfully got an update from the "stable" chart repository
+Update Complete. ⎈Happy Helming!⎈
+NAME: openebs
+LAST DEPLOYED: Wed Jun 29 16:53:24 2022
+NAMESPACE: openebs
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+Successfully installed OpenEBS.
+
+Check the status by running: kubectl get pods -n openebs
+
+The default values will install NDM and enable OpenEBS hostpath and device
+storage engines along with their default StorageClasses. Use `kubectl get sc`
+to see the list of installed OpenEBS StorageClasses.
+
+**Note**: If you are upgrading from the older helm chart that was using cStor
+and Jiva (non-csi) volumes, you will have to run the following command to include
+the older provisioners:
+
+helm upgrade openebs openebs/openebs \
+	--namespace openebs \
+	--set legacy.enabled=true \
+	--reuse-values
+
+For other engines, you will need to perform a few more additional steps to
+enable the engine, configure the engines (e.g. creating pools) and create
+StorageClasses.
+
+For example, cStor can be enabled using commands like:
+
+helm upgrade openebs openebs/openebs \
+	--namespace openebs \
+	--set cstor.enabled=true \
+	--reuse-values
+
+For more information,
+- view the online documentation at https://openebs.io/docs or
+- connect with an active community on Kubernetes slack #openebs channel.
+NAME   	NAMESPACE	REVISION	UPDATED                                 	STATUS  	CHART        	APP VERSION
+openebs	openebs  	1       	2022-06-29 16:53:24.471803904 +0200 CEST	deployed	openebs-3.1.0	3.1.0
+Waiting for storageclass
+Storageclass available
+storageclass.storage.k8s.io/openebs-hostpath patched
+Track k8scluster k8s_storageclass_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514408&event=k8scluster&operation=k8s_storageclass_ok&value=&comment=&tags=
+Installing MetalLB
+configInline:
+  address-pools:
+   - name: default
+     protocol: layer2
+     addresses:
+     - 192.168.64.23/32
+"metallb" has been added to your repositories
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "metallb" chart repository
+...Successfully got an update from the "openebs" chart repository
+...Successfully got an update from the "stable" chart repository
+Update Complete. ⎈Happy Helming!⎈
+W0629 16:53:37.852952   13892 warnings.go:70] policy/v1beta1 PodSecurityPolicy is deprecated in v1.21+, unavailable in v1.25+
+W0629 16:53:37.863932   13892 warnings.go:70] policy/v1beta1 PodSecurityPolicy is deprecated in v1.21+, unavailable in v1.25+
+W0629 16:53:38.117988   13892 warnings.go:70] policy/v1beta1 PodSecurityPolicy is deprecated in v1.21+, unavailable in v1.25+
+W0629 16:53:38.120086   13892 warnings.go:70] policy/v1beta1 PodSecurityPolicy is deprecated in v1.21+, unavailable in v1.25+
+NAME: metallb
+LAST DEPLOYED: Wed Jun 29 16:53:35 2022
+NAMESPACE: metallb-system
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+MetalLB is now running in the cluster.
+LoadBalancer Services in your cluster are now available on the IPs you
+defined in MetalLB's configuration:
+
+config:
+  address-pools:
+  - addresses:
+    - 192.168.64.23/32
+    name: default
+    protocol: layer2
+
+To see IP assignments, try `kubectl get services`.
+Track k8scluster k8s_metallb_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514418&event=k8scluster&operation=k8s_metallb_ok&value=&comment=&tags=
+
+Bootstraping... 1 checks of 100
+OpenEBS: Waiting for 3 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-7dzc5	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 2 checks of 100
+OpenEBS: Waiting for 3 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-7dzc5	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 3 checks of 100
+OpenEBS: Waiting for 3 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-7dzc5	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 4 checks of 100
+OpenEBS: Waiting for 3 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-7dzc5	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 5 checks of 100
+OpenEBS: Waiting for 2 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 6 checks of 100
+OpenEBS: Waiting for 2 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 7 checks of 100
+OpenEBS: Waiting for 2 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 8 checks of 100
+OpenEBS: Waiting for 2 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+openebs-ndm-operator-687cf9466c-ffqb7	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 9 checks of 100
+OpenEBS: Waiting for 1 of 3 pods to be ready:
+openebs-localpv-provisioner-7965f77fb6-4xjpm	0/1
+
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 10 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 11 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 12 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 13 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 14 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 15 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 16 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 17 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 18 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 19 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 20 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+
+Bootstraping... 21 checks of 100
+MetalLB: Waiting for 2 of 2 pods to be ready:
+metallb-controller-c55c89d-mrpht	0/1
+metallb-speaker-czbtn	0/1
+
+===> Successful checks: 10/10
+K8S CLUSTER IS READY
+Track k8scluster k8s_ready_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514493&event=k8scluster&operation=k8s_ready_ok&value=&comment=&tags=
+Track k8scluster k8scluster_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514494&event=k8scluster&operation=k8scluster_ok&value=&comment=&tags=
+DEBUG_INSTALL=
+DEFAULT_IP=192.168.64.23
+OSM_DEVOPS=/usr/share/osm-devops
+HOME=/home/ubuntu
+Installing juju
+juju (2.9/stable) 2.9.32 from Canonical** installed
+Finished installation of juju
+Track juju juju_install_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656514895&event=juju&operation=juju_install_ok&value=&comment=&tags=
+Since Juju 2 is being run for the first time, it has downloaded the latest public cloud information.
+
+k8s substrate added as cloud "k8scloud" with storage provisioned
+by the existing "openebs-hostpath" storage class.
+You can now bootstrap to this cloud by running 'juju bootstrap k8scloud'.
+17:01:40 INFO  juju.cmd supercommand.go:56 running juju [2.9.32 917a8f1033561ce28a73ff81d71da75aec6e0785 gc go1.18.3]
+17:01:40 DEBUG juju.cmd supercommand.go:57   args: []string{"/snap/juju/19681/bin/juju", "bootstrap", "-v", "--debug", "k8scloud", "osm", "--config", "controller-service-type=loadbalancer", "--agent-version=2.9.29"}
+17:01:40 DEBUG juju.cmd.juju.commands bootstrap.go:1307 authenticating with region "" and credential "k8scloud" ()
+17:01:40 DEBUG juju.cmd.juju.commands bootstrap.go:1455 provider attrs: map[operator-storage: workload-storage:]
+17:01:41 INFO  cmd authkeys.go:114 Adding contents of "/home/ubuntu/.local/share/juju/ssh/juju_id_rsa.pub" to authorized-keys
+17:01:41 DEBUG juju.cmd.juju.commands bootstrap.go:1530 preparing controller with config: map[agent-metadata-url: agent-stream:released apt-ftp-proxy: apt-http-proxy: apt-https-proxy: apt-mirror: apt-no-proxy: authorized-keys:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDzgJ4FXAKQAbe2yzd3Tg31wSmxU9RNM75WymY8T89vm01Ms4JtJEEcgJ+aGNisdxPEWK8OFQQ1ovfjGiN8GvZSoHuqR7QvHeKtN4jKhP8yoNEYgDecVXK93HyEky9t0TY+XT42crEHVqCtDWfSKd4ZqwHrVmgnTYJEJ+8tjO9jJGTvbtoD+FxQRg5B3SHm+u0mhtnaLnOrlBIgxCMWBDK7Zsv1ESNKt2WUSAWfDpfbMhYKAUab6HreXvsBq9dNGmXd1nSan+9HW/auziPoL42mT6PTZSAgWQsd2SpowmeLsSDw7mpmgZkLUSBtNB5WEufdfoECTpw3amt1rAHAJKDb juju-client-key
+ automatically-retry-hooks:true backup-dir: charmhub-url:https://api.charmhub.io cloudinit-userdata: container-image-metadata-url: container-image-stream:released container-inherit-properties: container-networking-method: default-series:focal default-space: development:false disable-network-management:false disable-telemetry:false egress-subnets: enable-os-refresh-update:true enable-os-upgrade:true fan-config: firewall-mode:instance ftp-proxy: http-proxy: https-proxy: ignore-machine-addresses:false image-metadata-url: image-stream:released juju-ftp-proxy: juju-http-proxy: juju-https-proxy: juju-no-proxy:127.0.0.1,localhost,::1 logforward-enabled:false logging-config: logging-output: lxd-snap-channel:latest/stable max-action-results-age:336h max-action-results-size:5G max-status-history-age:336h max-status-history-size:5G name:controller net-bond-reconfigure-delay:17 no-proxy:127.0.0.1,localhost,::1 num-container-provision-workers:4 num-provision-workers:16 operator-storage:openebs-hostpath provisioner-harvest-mode:destroyed proxy-ssh:false resource-tags: snap-http-proxy: snap-https-proxy: snap-store-assertions: snap-store-proxy: snap-store-proxy-url: ssl-hostname-verification:true test-mode:false transmit-vendor-metrics:true type:kubernetes update-status-hook-interval:5m uuid:caca7a31-d59f-405c-844f-ef84e708f3b5 workload-storage:openebs-hostpath]
+17:01:41 DEBUG juju.kubernetes.provider provider.go:140 opening model "controller".
+17:01:41 INFO  cmd bootstrap.go:855 Creating Juju controller "osm" on k8scloud
+17:01:41 INFO  juju.cmd.juju.commands bootstrap.go:921 combined bootstrap constraints:
+17:01:41 INFO  cmd bootstrap.go:969 Bootstrap to generic Kubernetes cluster
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:423 searching for signed metadata in datasource "gui simplestreams"
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:458 looking for data index using path streams/v1/index2.sjson
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:470 looking for data index using URL https://streams.canonical.com/juju/gui/streams/v1/index2.sjson
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:473 streams/v1/index2.sjson not accessed, actual error: [{/build/snapcraft-juju-a284566302ade03f36071a6fe755224b/parts/juju/src/environs/simplestreams/datasource.go:192: "https://streams.canonical.com/juju/gui/streams/v1/index2.sjson" not found}]
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:474 streams/v1/index2.sjson not accessed, trying legacy index path: streams/v1/index.sjson
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:493 read metadata index at "https://streams.canonical.com/juju/gui/streams/v1/index.sjson"
+17:01:42 DEBUG juju.environs.simplestreams simplestreams.go:1025 finding products at path "streams/v1/com.canonical.streams-released-dashboard.sjson"
+17:01:42 INFO  cmd bootstrap.go:864 Fetching Juju Dashboard 0.8.1
+17:01:42 DEBUG juju.kubernetes.provider k8s.go:470 controller pod config:
+&{Tags:map[] Bootstrap:0xc000365880 DisableSSLHostnameVerification:false ProxySettings:{Http: Https: Ftp: NoProxy:127.0.0.1,localhost,::1 AutoNoProxy:} Controller:map[agent-logfile-max-backups:2 agent-logfile-max-size:100M api-port:17070 api-port-open-delay:2s audit-log-capture-args:false audit-log-exclude-methods:[ReadOnlyMethods] audit-log-max-backups:10 audit-log-max-size:300M auditing-enabled:true batch-raft-fsm:false ca-cert:-----BEGIN CERTIFICATE-----
+MIIEEzCCAnugAwIBAgIVAKUNNMoHI67FvYlpb18lbyE1BJyDMA0GCSqGSIb3DQEB
+CwUAMCExDTALBgNVBAoTBEp1anUxEDAOBgNVBAMTB2p1anUtY2EwHhcNMjIwNjI5
+MTQ1NjQxWhcNMzIwNjI5MTUwMTQxWjAhMQ0wCwYDVQQKEwRKdWp1MRAwDgYDVQQD
+EwdqdWp1LWNhMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA5A/tDo09
+9QCo/xEo3d41Rq0sHP/7OR8Qaynfo7/95+S/roFiOf99vENd3l/eA82K9glR/Td0
+bFEm2l/SwX63fan/Y7PVxSXr5d/G0nhDORfQSzn61fLJwli1vDHFGordIKBPWBhX
+vTdfETqiTZGT4IaXjT4+aKfAyWPhI8KDAmacuJ80aANO/7jML7wTgdq0aSfQKfmK
+OGJqngi2vxifHrNpCfMBRl9/L5Mbuw9ytXsBhSrPBINrk81hq2bAHVj7NvfPfPue
+a2UBb788kMP+xonGhN+8pUZooA3HFMp3JCVd9jbNDh/M3u2tRZbrFMsER3xV+Aqg
+i6I3y8xLFNSb11hPbme3YpuoSyH/+ZDCojTcXhmU6ufpyAACWeCMgVBsFJK76CC6
+vdNAsL1ueVKB3DWlyh4phoWmMPb0vJUIuG3h1QDM2bmSD6JTPbA0SrApJpiqMbPy
+zA9Fgfla2R1R35+r8EMNVpdVLG3dS29tx5S07E2Xu1ZrHhaNMd76VjBHAgMBAAGj
+QjBAMA4GA1UdDwEB/wQEAwICpDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSY
+5jTQ56RTXNqF89m4Q8R2hSfzUTANBgkqhkiG9w0BAQsFAAOCAYEA3iS5qNRamawK
+p5wLPxJ9wQdkSozjQGqlvzuDrujDgt3RZ1Kiu1neCTLczLwINMbahfZ79NQoamqJ
+3juk+GPorrgDJ3N3xdXhm23O3zPMH6owH2pHc8ev0+RkqLyNgnFav3NKRK53A7Zf
+nGM0g39aTTAv6SBuVGFowXfM7LR/eS8WUyvQFTbqHlmpRVYKCW7Yo2FDxvRa9eC+
+LlRuwt1oTJ1PwjQIhbiE+5tfB944z8sfXjLSWlWuqnTpi9O2nL3ERVblp5kC8uAT
+SSyEygDOxtI4eNChKkwkNsNFRCyOCNVHv/oBW/LpwplbGZbuht8M1ygBR19bGIVK
+XSkZMKTIrrw6V6JJ+RsPOxWM2ehtKGt3pLIH1XjVprxNB1zwGvG0VDLkmAlD63bP
+94mRhrs3vWDimIkIPZPKinvuimPstlujq4soQqkwc+LBiHKC8V0sBde2grdu4aEJ
+dWiB6Qfc6rfRqzWY8EaeWlg/G7D5qscwc/RlEHO/3TS7ob+PEAFh
+-----END CERTIFICATE-----
+ charmstore-url:https://api.jujucharms.com/charmstore controller-name:osm controller-uuid:15f06f99-4843-41ca-8bef-04a4af311293 juju-db-snap-channel:4.4/stable max-agent-state-size:524288 max-charm-state-size:2097152 max-debug-log-duration:24h0m0s max-prune-txn-batch-size:1000000 max-prune-txn-passes:100 max-txn-log-size:10M metering-url:https://api.jujucharms.com/omnibus/v3 migration-agent-wait-time:15m model-logfile-max-backups:2 model-logfile-max-size:10M model-logs-size:20M mongo-memory-profile:default non-synced-writes-to-raft-log:false prune-txn-query-count:1000 prune-txn-sleep-time:10ms set-numa-control-policy:false state-port:37017] APIInfo:0xc000211740 ControllerTag:controller-15f06f99-4843-41ca-8bef-04a4af311293 ControllerName:osm JujuVersion:2.9.29 DataDir:/var/lib/juju LogDir:/var/log/juju MetricsSpoolDir:/var/lib/juju/metricspool ControllerId:0 AgentEnvironment:map[PROVIDER_TYPE:kubernetes]}
+17:01:42 INFO  cmd bootstrap.go:394 Creating k8s resources for controller "controller-osm"
+17:01:42 DEBUG juju.kubernetes.provider bootstrap.go:627 creating controller service:
+&Service{ObjectMeta:{controller-service  controller-osm    0 0001-01-01 00:00:00 +0000 UTC <nil> <nil> map[app.kubernetes.io/managed-by:juju app.kubernetes.io/name:controller] map[controller.juju.is/id:15f06f99-4843-41ca-8bef-04a4af311293] [] []  []},Spec:ServiceSpec{Ports:[]ServicePort{ServicePort{Name:api-server,Protocol:,Port:17070,TargetPort:{0 17070 },NodePort:0,AppProtocol:nil,},},Selector:map[string]string{app.kubernetes.io/name: controller,},ClusterIP:,Type:LoadBalancer,ExternalIPs:[],SessionAffinity:,LoadBalancerIP:,LoadBalancerSourceRanges:[],ExternalName:,ExternalTrafficPolicy:,HealthCheckNodePort:0,PublishNotReadyAddresses:false,SessionAffinityConfig:nil,IPFamilyPolicy:nil,ClusterIPs:[],IPFamilies:[],AllocateLoadBalancerNodePorts:nil,LoadBalancerClass:nil,InternalTrafficPolicy:nil,},Status:ServiceStatus{LoadBalancer:LoadBalancerStatus{Ingress:[]LoadBalancerIngress{},},Conditions:[]Condition{},},}
+17:01:43 DEBUG juju.kubernetes.provider bootstrap.go:660 polling k8s controller svc DNS, in 1 attempt, controller service address not provisioned
+17:01:46 DEBUG juju.kubernetes.provider configmap.go:84 updating configmap "controller-configmap"
+17:01:47 DEBUG juju.kubernetes.provider configmap.go:84 updating configmap "controller-configmap"
+17:01:47 DEBUG juju.kubernetes.provider bootstrap.go:1207 mongodb container args:
+printf 'args="--dbpath=/var/lib/juju/db --sslPEMKeyFile=/var/lib/juju/server.pem --sslPEMKeyPassword=ignored --sslMode=requireSSL --port=37017 --journal --replSet=juju --quiet --oplogSize=1024 --auth --keyFile=/var/lib/juju/shared-secret --storageEngine=wiredTiger --bind_ip_all"\nipv6Disabled=$(sysctl net.ipv6.conf.all.disable_ipv6 -n)\nif [ $ipv6Disabled -eq 0 ]; then\n  args="${args} --ipv6"\nfi\n$(mongod ${args})\n'>/root/mongo.sh && chmod a+x /root/mongo.sh && /root/mongo.sh
+17:01:47 DEBUG juju.kubernetes.provider k8s.go:2252 selecting units "app.kubernetes.io/name=controller" to watch
+17:01:48 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:01:48 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller
+17:02:00 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller
+17:02:00 DEBUG juju.kubernetes.provider bootstrap.go:957 Successfully assigned controller-osm/controller-0 to osm11
+17:02:00 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:02 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:02 DEBUG juju.kubernetes.provider bootstrap.go:957 Downloading images
+17:02:02 INFO  cmd bootstrap.go:959 Downloading images
+17:02:18 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:19 DEBUG juju.kubernetes.provider bootstrap.go:957 Pulled images
+17:02:20 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:20 DEBUG juju.kubernetes.provider bootstrap.go:957 Created container mongodb
+17:02:20 DEBUG juju.kubernetes.provider bootstrap.go:957 Started mongodb container
+17:02:52 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:55 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller-0
+17:02:55 DEBUG juju.kubernetes.provider bootstrap.go:957 Created container api-server
+17:02:55 DEBUG juju.kubernetes.provider bootstrap.go:957 Started controller container
+17:02:56 DEBUG juju.kubernetes.provider.watcher k8swatcher.go:114 fire notify watcher for controller
+17:02:57 INFO  cmd bootstrap.go:1045 Starting controller pod
+17:02:57 INFO  cmd bootstrap.go:708 Bootstrap agent now started
+17:02:57 INFO  juju.juju api.go:330 API endpoints changed from [] to [192.168.64.23:17070]
+17:02:57 INFO  cmd controller.go:88 Contacting Juju controller at 192.168.64.23 to verify accessibility...
+17:02:57 INFO  juju.juju api.go:78 connecting to API addresses: [192.168.64.23:17070]
+17:03:02 INFO  cmd controller.go:141 Still waiting for API to become available: unable to connect to API: dial tcp 192.168.64.23:17070: connect: connection refused
+17:03:05 INFO  juju.juju api.go:78 connecting to API addresses: [192.168.64.23:17070]
+17:03:10 INFO  cmd controller.go:141 Still waiting for API to become available: unable to connect to API: dial tcp 192.168.64.23:17070: connect: connection refused
+17:03:13 INFO  juju.juju api.go:78 connecting to API addresses: [192.168.64.23:17070]
+17:03:13 DEBUG juju.api apiclient.go:1153 successfully dialed "wss://192.168.64.23:17070/model/caca7a31-d59f-405c-844f-ef84e708f3b5/api"
+17:03:13 INFO  juju.api apiclient.go:688 connection established to "wss://192.168.64.23:17070/model/caca7a31-d59f-405c-844f-ef84e708f3b5/api"
+17:03:13 DEBUG juju.api monitor.go:35 RPC connection died
+17:03:13 INFO  cmd controller.go:108
+Bootstrap complete, controller "osm" is now available in namespace "controller-osm"
+17:03:13 INFO  cmd bootstrap.go:596
+Now you can run
+	juju add-model <model-name>
+to create a new model to deploy k8s workloads.
+17:03:13 INFO  cmd supercommand.go:544 command finished
+Generating a RSA private key
+..........................+++++
+...........................................+++++
+writing new private key to '/tmp/.osm/client.key'
+-----
+Cloud "lxd-cloud" added to controller "osm".
+WARNING loading credentials: credentials for cloud lxd-cloud not found
+To upload a credential to the controller for cloud "lxd-cloud", use
+* 'add-model' with --credential option or
+* 'add-credential -c lxd-cloud'.
+Using cloud "lxd-cloud" from the controller to verify credentials.
+Controller credential "lxd-cloud" for user "admin" for cloud "lxd-cloud" on controller "osm" added.
+For more information, see ‘juju show-credential lxd-cloud lxd-cloud’.
+
+Checking required packages: iptables-persistent
+    Not installed.
+Installing iptables-persistent requires root privileges
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  netfilter-persistent
+The following NEW packages will be installed:
+  iptables-persistent netfilter-persistent
+0 upgraded, 2 newly installed, 0 to remove and 21 not upgraded.
+Need to get 13.8 kB of archives.
+After this operation, 89.1 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 netfilter-persistent all 1.0.14ubuntu1 [7268 B]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 iptables-persistent all 1.0.14ubuntu1 [6552 B]
+Preconfiguring packages ...
+Fetched 13.8 kB in 0s (38.8 kB/s)
+Selecting previously unselected package netfilter-persistent.
+(Reading database ... 65298 files and directories currently installed.)
+Preparing to unpack .../netfilter-persistent_1.0.14ubuntu1_all.deb ...
+Unpacking netfilter-persistent (1.0.14ubuntu1) ...
+Selecting previously unselected package iptables-persistent.
+Preparing to unpack .../iptables-persistent_1.0.14ubuntu1_all.deb ...
+Unpacking iptables-persistent (1.0.14ubuntu1) ...
+Setting up netfilter-persistent (1.0.14ubuntu1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/netfilter-persistent.service → /lib/systemd/system/netfilter-persistent.service.
+Setting up iptables-persistent (1.0.14ubuntu1) ...
+update-alternatives: using /lib/systemd/system/netfilter-persistent.service to provide /lib/systemd/system/iptables.service (iptables.service) in auto mode
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for systemd (245.4-4ubuntu3.17) ...
+iptables v1.8.4 (legacy): option "--to-destination" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+iptables v1.8.4 (legacy): option "--to-destination" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+run-parts: executing /usr/share/netfilter-persistent/plugins.d/15-ip4tables save
+run-parts: executing /usr/share/netfilter-persistent/plugins.d/25-ip6tables save
+Track juju juju_controller_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515019&event=juju&operation=juju_controller_ok&value=&comment=&tags=
+Track juju juju_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515021&event=juju&operation=juju_ok&value=&comment=&tags=
+Pulling and generating docker images
+Pulling docker images
+Using default tag: latest
+latest: Pulling from wurstmeister/zookeeper
+a3ed95caeb02: Pulling fs layer
+ef38b711a50f: Pulling fs layer
+e057c74597c7: Pulling fs layer
+666c214f6385: Pulling fs layer
+c3d6a96f1ffc: Pulling fs layer
+3fe26a83e0ca: Pulling fs layer
+3d3a7dd3a3b1: Pulling fs layer
+f8cc938abe5f: Pulling fs layer
+9978b75f7a58: Pulling fs layer
+4d4dbcc8f8cc: Pulling fs layer
+8b130a9baa49: Pulling fs layer
+6b9611650a73: Pulling fs layer
+5df5aac51927: Pulling fs layer
+76eea4448d9b: Pulling fs layer
+8b66990876c6: Pulling fs layer
+f0dd38204b6f: Pulling fs layer
+666c214f6385: Waiting
+c3d6a96f1ffc: Waiting
+3fe26a83e0ca: Waiting
+3d3a7dd3a3b1: Waiting
+f8cc938abe5f: Waiting
+9978b75f7a58: Waiting
+4d4dbcc8f8cc: Waiting
+8b130a9baa49: Waiting
+6b9611650a73: Waiting
+5df5aac51927: Waiting
+76eea4448d9b: Waiting
+8b66990876c6: Waiting
+f0dd38204b6f: Waiting
+a3ed95caeb02: Download complete
+e057c74597c7: Verifying Checksum
+e057c74597c7: Download complete
+a3ed95caeb02: Pull complete
+666c214f6385: Verifying Checksum
+666c214f6385: Download complete
+c3d6a96f1ffc: Verifying Checksum
+c3d6a96f1ffc: Download complete
+3fe26a83e0ca: Verifying Checksum
+3fe26a83e0ca: Download complete
+f8cc938abe5f: Verifying Checksum
+f8cc938abe5f: Download complete
+9978b75f7a58: Verifying Checksum
+9978b75f7a58: Download complete
+4d4dbcc8f8cc: Verifying Checksum
+4d4dbcc8f8cc: Download complete
+ef38b711a50f: Verifying Checksum
+ef38b711a50f: Download complete
+6b9611650a73: Verifying Checksum
+6b9611650a73: Download complete
+8b130a9baa49: Verifying Checksum
+8b130a9baa49: Download complete
+76eea4448d9b: Verifying Checksum
+76eea4448d9b: Download complete
+5df5aac51927: Verifying Checksum
+5df5aac51927: Download complete
+8b66990876c6: Download complete
+f0dd38204b6f: Verifying Checksum
+f0dd38204b6f: Download complete
+3d3a7dd3a3b1: Verifying Checksum
+3d3a7dd3a3b1: Download complete
+ef38b711a50f: Pull complete
+e057c74597c7: Pull complete
+666c214f6385: Pull complete
+c3d6a96f1ffc: Pull complete
+3fe26a83e0ca: Pull complete
+3d3a7dd3a3b1: Pull complete
+f8cc938abe5f: Pull complete
+9978b75f7a58: Pull complete
+4d4dbcc8f8cc: Pull complete
+8b130a9baa49: Pull complete
+6b9611650a73: Pull complete
+5df5aac51927: Pull complete
+76eea4448d9b: Pull complete
+8b66990876c6: Pull complete
+f0dd38204b6f: Pull complete
+Digest: sha256:7a7fd44a72104bfbd24a77844bad5fabc86485b036f988ea927d1780782a6680
+Status: Downloaded newer image for wurstmeister/zookeeper:latest
+docker.io/wurstmeister/zookeeper:latest
+2.11-1.0.2: Pulling from wurstmeister/kafka
+540db60ca938: Pulling fs layer
+f0698009749d: Pulling fs layer
+6f908e2198d8: Pulling fs layer
+03d1b1f23ba0: Pulling fs layer
+7e646c44bafc: Pulling fs layer
+7e646c44bafc: Waiting
+6f908e2198d8: Verifying Checksum
+6f908e2198d8: Download complete
+540db60ca938: Verifying Checksum
+540db60ca938: Download complete
+7e646c44bafc: Verifying Checksum
+7e646c44bafc: Download complete
+540db60ca938: Pull complete
+f0698009749d: Verifying Checksum
+f0698009749d: Download complete
+03d1b1f23ba0: Verifying Checksum
+03d1b1f23ba0: Download complete
+f0698009749d: Pull complete
+6f908e2198d8: Pull complete
+03d1b1f23ba0: Pull complete
+7e646c44bafc: Pull complete
+Digest: sha256:ec1098369b4ccea77489b233172789c8ac29b545b9243545386549c52d07785b
+Status: Downloaded newer image for wurstmeister/kafka:2.11-1.0.2
+docker.io/wurstmeister/kafka:2.11-1.0.2
+v2.4.3: Pulling from prom/prometheus
+8c5a7da1afbc: Pulling fs layer
+cab0dd93492f: Pulling fs layer
+21399993eeff: Pulling fs layer
+50fe4c0f18ae: Pulling fs layer
+bab8b4ed1fef: Pulling fs layer
+5bd3aaf93e52: Pulling fs layer
+ccb08d41de26: Pulling fs layer
+51047cce385d: Pulling fs layer
+51c32e598e5c: Pulling fs layer
+50fe4c0f18ae: Waiting
+bab8b4ed1fef: Waiting
+5bd3aaf93e52: Waiting
+ccb08d41de26: Waiting
+51047cce385d: Waiting
+51c32e598e5c: Waiting
+8c5a7da1afbc: Verifying Checksum
+8c5a7da1afbc: Download complete
+cab0dd93492f: Verifying Checksum
+cab0dd93492f: Download complete
+8c5a7da1afbc: Pull complete
+bab8b4ed1fef: Verifying Checksum
+bab8b4ed1fef: Download complete
+21399993eeff: Verifying Checksum
+21399993eeff: Download complete
+50fe4c0f18ae: Verifying Checksum
+50fe4c0f18ae: Download complete
+5bd3aaf93e52: Download complete
+ccb08d41de26: Verifying Checksum
+ccb08d41de26: Download complete
+cab0dd93492f: Pull complete
+51047cce385d: Download complete
+51c32e598e5c: Verifying Checksum
+51c32e598e5c: Download complete
+21399993eeff: Pull complete
+50fe4c0f18ae: Pull complete
+bab8b4ed1fef: Pull complete
+5bd3aaf93e52: Pull complete
+ccb08d41de26: Pull complete
+51047cce385d: Pull complete
+51c32e598e5c: Pull complete
+Digest: sha256:2d79525389d68a309db843c1888f364823afbbef32ffea4741024d2ab9994dd6
+Status: Downloaded newer image for prom/prometheus:v2.4.3
+docker.io/prom/prometheus:v2.4.3
+latest: Pulling from google/cadvisor
+ff3a5c916c92: Pulling fs layer
+44a45bb65cdf: Pulling fs layer
+0bbe1a2fe2a6: Pulling fs layer
+ff3a5c916c92: Download complete
+44a45bb65cdf: Verifying Checksum
+44a45bb65cdf: Download complete
+0bbe1a2fe2a6: Verifying Checksum
+0bbe1a2fe2a6: Download complete
+ff3a5c916c92: Pull complete
+44a45bb65cdf: Pull complete
+0bbe1a2fe2a6: Pull complete
+Digest: sha256:815386ebbe9a3490f38785ab11bda34ec8dacf4634af77b8912832d4f85dca04
+Status: Downloaded newer image for google/cadvisor:latest
+docker.io/google/cadvisor:latest
+latest: Pulling from grafana/grafana
+df9b9388f04a: Pulling fs layer
+484d0388b206: Pulling fs layer
+276fa003c54d: Pulling fs layer
+bcdfa28a7179: Pulling fs layer
+1025160bed9b: Pulling fs layer
+c459cd126d0c: Pulling fs layer
+8ff228114e1e: Pulling fs layer
+9c8142accf14: Pulling fs layer
+582e6642725d: Pulling fs layer
+bcdfa28a7179: Waiting
+1025160bed9b: Waiting
+c459cd126d0c: Waiting
+8ff228114e1e: Waiting
+9c8142accf14: Waiting
+582e6642725d: Waiting
+484d0388b206: Verifying Checksum
+484d0388b206: Download complete
+276fa003c54d: Verifying Checksum
+276fa003c54d: Download complete
+df9b9388f04a: Verifying Checksum
+bcdfa28a7179: Verifying Checksum
+bcdfa28a7179: Download complete
+df9b9388f04a: Pull complete
+1025160bed9b: Verifying Checksum
+1025160bed9b: Download complete
+484d0388b206: Pull complete
+8ff228114e1e: Verifying Checksum
+8ff228114e1e: Download complete
+9c8142accf14: Verifying Checksum
+9c8142accf14: Download complete
+582e6642725d: Verifying Checksum
+582e6642725d: Download complete
+276fa003c54d: Pull complete
+bcdfa28a7179: Pull complete
+c459cd126d0c: Verifying Checksum
+c459cd126d0c: Download complete
+1025160bed9b: Pull complete
+c459cd126d0c: Pull complete
+8ff228114e1e: Pull complete
+9c8142accf14: Pull complete
+582e6642725d: Pull complete
+Digest: sha256:49f5db3e80621196cb1d40bca90d51dc8f521734231ad5fa99e8561525df5ea9
+Status: Downloaded newer image for grafana/grafana:latest
+docker.io/grafana/grafana:latest
+10: Pulling from library/mariadb
+405f018f9d1d: Pulling fs layer
+7a85079b8234: Pulling fs layer
+579c7ff691b1: Pulling fs layer
+4976663b5d6d: Pulling fs layer
+169024b1fb13: Pulling fs layer
+c0ffe8ce897f: Pulling fs layer
+b583c09d23c3: Pulling fs layer
+9b9f0c08d08f: Pulling fs layer
+9cd51f984586: Pulling fs layer
+d9f506bb8aca: Pulling fs layer
+24d689f79ba4: Pulling fs layer
+4976663b5d6d: Waiting
+169024b1fb13: Waiting
+c0ffe8ce897f: Waiting
+b583c09d23c3: Waiting
+9b9f0c08d08f: Waiting
+9cd51f984586: Waiting
+d9f506bb8aca: Waiting
+24d689f79ba4: Waiting
+7a85079b8234: Verifying Checksum
+7a85079b8234: Download complete
+579c7ff691b1: Verifying Checksum
+579c7ff691b1: Download complete
+4976663b5d6d: Verifying Checksum
+4976663b5d6d: Download complete
+169024b1fb13: Verifying Checksum
+169024b1fb13: Download complete
+b583c09d23c3: Verifying Checksum
+b583c09d23c3: Download complete
+c0ffe8ce897f: Verifying Checksum
+c0ffe8ce897f: Download complete
+405f018f9d1d: Verifying Checksum
+405f018f9d1d: Download complete
+9b9f0c08d08f: Verifying Checksum
+9b9f0c08d08f: Download complete
+d9f506bb8aca: Verifying Checksum
+d9f506bb8aca: Download complete
+24d689f79ba4: Verifying Checksum
+24d689f79ba4: Download complete
+9cd51f984586: Verifying Checksum
+9cd51f984586: Download complete
+405f018f9d1d: Pull complete
+7a85079b8234: Pull complete
+579c7ff691b1: Pull complete
+4976663b5d6d: Pull complete
+169024b1fb13: Pull complete
+c0ffe8ce897f: Pull complete
+b583c09d23c3: Pull complete
+9b9f0c08d08f: Pull complete
+9cd51f984586: Pull complete
+d9f506bb8aca: Pull complete
+24d689f79ba4: Pull complete
+Digest: sha256:88fcb7d92c7f61cd885c4d309c98461f3607aa6dbd57a2474be86e1956b36d13
+Status: Downloaded newer image for mariadb:10
+docker.io/library/mariadb:10
+5: Pulling from library/mysql
+824b15f81d65: Pulling fs layer
+c559dd1913db: Pulling fs layer
+e201c19614e6: Pulling fs layer
+f4247e8f6125: Pulling fs layer
+dc9fefd8cfb5: Pulling fs layer
+af3787edd16d: Pulling fs layer
+b6bb40f875d3: Pulling fs layer
+09914736f6f7: Pulling fs layer
+32c835958ed8: Pulling fs layer
+faa6834c9208: Pulling fs layer
+ecf3b0798493: Pulling fs layer
+af3787edd16d: Waiting
+b6bb40f875d3: Waiting
+09914736f6f7: Waiting
+32c835958ed8: Waiting
+faa6834c9208: Waiting
+f4247e8f6125: Waiting
+ecf3b0798493: Waiting
+dc9fefd8cfb5: Waiting
+c559dd1913db: Download complete
+e201c19614e6: Verifying Checksum
+e201c19614e6: Download complete
+f4247e8f6125: Verifying Checksum
+f4247e8f6125: Download complete
+dc9fefd8cfb5: Verifying Checksum
+dc9fefd8cfb5: Download complete
+824b15f81d65: Verifying Checksum
+824b15f81d65: Download complete
+b6bb40f875d3: Verifying Checksum
+b6bb40f875d3: Download complete
+09914736f6f7: Verifying Checksum
+09914736f6f7: Download complete
+faa6834c9208: Verifying Checksum
+faa6834c9208: Download complete
+af3787edd16d: Verifying Checksum
+af3787edd16d: Download complete
+ecf3b0798493: Verifying Checksum
+ecf3b0798493: Download complete
+32c835958ed8: Verifying Checksum
+32c835958ed8: Download complete
+824b15f81d65: Pull complete
+c559dd1913db: Pull complete
+e201c19614e6: Pull complete
+f4247e8f6125: Pull complete
+dc9fefd8cfb5: Pull complete
+af3787edd16d: Pull complete
+b6bb40f875d3: Pull complete
+09914736f6f7: Pull complete
+32c835958ed8: Pull complete
+faa6834c9208: Pull complete
+ecf3b0798493: Pull complete
+Digest: sha256:8b4b41d530c40d77a3205c53f7ecf1026d735648d9a09777845f305953e5eff5
+Status: Downloaded newer image for mysql:5
+docker.io/library/mysql:5
+Pulling OSM docker images
+Pulling opensourcemano/mon:11 docker image
+11: Pulling from opensourcemano/mon
+d7bfe07ed847: Pulling fs layer
+628bcfb499cb: Pulling fs layer
+f5d59c25a781: Pulling fs layer
+65c18c0e9bc7: Pulling fs layer
+95d35ecb307c: Pulling fs layer
+1e6d883dc6c0: Pulling fs layer
+31169b28e3a1: Pulling fs layer
+1df42af22e58: Pulling fs layer
+051f40475366: Pulling fs layer
+9fc84f0eb0db: Pulling fs layer
+96b4c0ab0b16: Pulling fs layer
+e0bbc20f517a: Pulling fs layer
+cf3a201b670a: Pulling fs layer
+d4d1d239a147: Pulling fs layer
+65c18c0e9bc7: Waiting
+95d35ecb307c: Waiting
+1e6d883dc6c0: Waiting
+31169b28e3a1: Waiting
+1df42af22e58: Waiting
+051f40475366: Waiting
+9fc84f0eb0db: Waiting
+96b4c0ab0b16: Waiting
+e0bbc20f517a: Waiting
+cf3a201b670a: Waiting
+d4d1d239a147: Waiting
+628bcfb499cb: Verifying Checksum
+628bcfb499cb: Download complete
+65c18c0e9bc7: Verifying Checksum
+65c18c0e9bc7: Download complete
+f5d59c25a781: Verifying Checksum
+f5d59c25a781: Download complete
+d7bfe07ed847: Verifying Checksum
+d7bfe07ed847: Download complete
+95d35ecb307c: Verifying Checksum
+95d35ecb307c: Download complete
+31169b28e3a1: Verifying Checksum
+31169b28e3a1: Download complete
+1df42af22e58: Verifying Checksum
+1df42af22e58: Download complete
+051f40475366: Verifying Checksum
+051f40475366: Download complete
+9fc84f0eb0db: Verifying Checksum
+9fc84f0eb0db: Download complete
+1e6d883dc6c0: Verifying Checksum
+1e6d883dc6c0: Download complete
+cf3a201b670a: Verifying Checksum
+cf3a201b670a: Download complete
+d4d1d239a147: Verifying Checksum
+d4d1d239a147: Download complete
+96b4c0ab0b16: Verifying Checksum
+96b4c0ab0b16: Download complete
+e0bbc20f517a: Verifying Checksum
+e0bbc20f517a: Download complete
+d7bfe07ed847: Pull complete
+628bcfb499cb: Pull complete
+f5d59c25a781: Pull complete
+65c18c0e9bc7: Pull complete
+95d35ecb307c: Pull complete
+1e6d883dc6c0: Pull complete
+31169b28e3a1: Pull complete
+1df42af22e58: Pull complete
+051f40475366: Pull complete
+9fc84f0eb0db: Pull complete
+96b4c0ab0b16: Pull complete
+e0bbc20f517a: Pull complete
+cf3a201b670a: Pull complete
+d4d1d239a147: Pull complete
+Digest: sha256:6b962cb796a6aa354acf41a1c7690cc679116ce81bcaa1c038d18bf3e205d5ab
+Status: Downloaded newer image for opensourcemano/mon:11
+docker.io/opensourcemano/mon:11
+Pulling opensourcemano/pol:11 docker image
+11: Pulling from opensourcemano/pol
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+f5d59c25a781: Already exists
+023bfe08cfe4: Pulling fs layer
+3d92603162cd: Pulling fs layer
+1f7bef05651a: Pulling fs layer
+42f92e41a472: Pulling fs layer
+4f40fec3a1a8: Pulling fs layer
+14ac7edfbdfb: Pulling fs layer
+d32615c73813: Pulling fs layer
+fe785bd21ccf: Pulling fs layer
+9880f1bb2989: Pulling fs layer
+0d1094142c2c: Pulling fs layer
+14ac7edfbdfb: Waiting
+d32615c73813: Waiting
+fe785bd21ccf: Waiting
+9880f1bb2989: Waiting
+0d1094142c2c: Waiting
+42f92e41a472: Waiting
+4f40fec3a1a8: Waiting
+1f7bef05651a: Verifying Checksum
+1f7bef05651a: Download complete
+023bfe08cfe4: Verifying Checksum
+023bfe08cfe4: Download complete
+3d92603162cd: Verifying Checksum
+3d92603162cd: Download complete
+42f92e41a472: Verifying Checksum
+42f92e41a472: Download complete
+14ac7edfbdfb: Verifying Checksum
+14ac7edfbdfb: Download complete
+023bfe08cfe4: Pull complete
+4f40fec3a1a8: Download complete
+d32615c73813: Verifying Checksum
+d32615c73813: Download complete
+fe785bd21ccf: Verifying Checksum
+fe785bd21ccf: Download complete
+9880f1bb2989: Verifying Checksum
+9880f1bb2989: Download complete
+0d1094142c2c: Verifying Checksum
+0d1094142c2c: Download complete
+3d92603162cd: Pull complete
+1f7bef05651a: Pull complete
+42f92e41a472: Pull complete
+4f40fec3a1a8: Pull complete
+14ac7edfbdfb: Pull complete
+d32615c73813: Pull complete
+fe785bd21ccf: Pull complete
+9880f1bb2989: Pull complete
+0d1094142c2c: Pull complete
+Digest: sha256:1829ff2616d76063b7041c83b7f941bb80b2a7f1b441d0dc3d34bb82518214fc
+Status: Downloaded newer image for opensourcemano/pol:11
+docker.io/opensourcemano/pol:11
+Pulling opensourcemano/nbi:11 docker image
+11: Pulling from opensourcemano/nbi
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+f5d59c25a781: Already exists
+7e7ae4d30d66: Pulling fs layer
+32de122b1682: Pulling fs layer
+de22c6c9c40e: Pulling fs layer
+e955c360e79e: Pulling fs layer
+85c8e90871ea: Pulling fs layer
+238bf71d7e56: Pulling fs layer
+e955c360e79e: Waiting
+85c8e90871ea: Waiting
+238bf71d7e56: Waiting
+de22c6c9c40e: Verifying Checksum
+de22c6c9c40e: Download complete
+7e7ae4d30d66: Verifying Checksum
+7e7ae4d30d66: Download complete
+e955c360e79e: Verifying Checksum
+e955c360e79e: Download complete
+32de122b1682: Verifying Checksum
+32de122b1682: Download complete
+85c8e90871ea: Verifying Checksum
+85c8e90871ea: Download complete
+238bf71d7e56: Verifying Checksum
+238bf71d7e56: Download complete
+7e7ae4d30d66: Pull complete
+32de122b1682: Pull complete
+de22c6c9c40e: Pull complete
+e955c360e79e: Pull complete
+85c8e90871ea: Pull complete
+238bf71d7e56: Pull complete
+Digest: sha256:a7634ab1694d16937c4f9e912358f7a89aa25f6ca31eee45358e5b96b26e7e61
+Status: Downloaded newer image for opensourcemano/nbi:11
+docker.io/opensourcemano/nbi:11
+Pulling opensourcemano/keystone:11 docker image
+11: Pulling from opensourcemano/keystone
+d7bfe07ed847: Already exists
+cb4119dd599e: Pulling fs layer
+0dafd027e807: Pulling fs layer
+17fcf4f59750: Pulling fs layer
+b1be52d2d47d: Pulling fs layer
+6792f7885d6f: Pulling fs layer
+b1be52d2d47d: Waiting
+6792f7885d6f: Waiting
+cb4119dd599e: Verifying Checksum
+cb4119dd599e: Download complete
+0dafd027e807: Verifying Checksum
+0dafd027e807: Download complete
+cb4119dd599e: Pull complete
+6792f7885d6f: Verifying Checksum
+6792f7885d6f: Download complete
+0dafd027e807: Pull complete
+b1be52d2d47d: Verifying Checksum
+b1be52d2d47d: Download complete
+17fcf4f59750: Verifying Checksum
+17fcf4f59750: Download complete
+17fcf4f59750: Pull complete
+b1be52d2d47d: Pull complete
+6792f7885d6f: Pull complete
+Digest: sha256:055c5ae8aab60cee82cec6e2bf7c507738d4b3224aba44628bd42bc446af5480
+Status: Downloaded newer image for opensourcemano/keystone:11
+docker.io/opensourcemano/keystone:11
+Pulling opensourcemano/ro:11 docker image
+11: Pulling from opensourcemano/ro
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+f5d59c25a781: Already exists
+d37e2f98afe2: Pulling fs layer
+ffa7f5fe465c: Pulling fs layer
+d973cbca1a37: Pulling fs layer
+a2b7cfaf29d3: Pulling fs layer
+51518ef4214f: Pulling fs layer
+a2b7cfaf29d3: Waiting
+51518ef4214f: Waiting
+d973cbca1a37: Verifying Checksum
+d973cbca1a37: Download complete
+a2b7cfaf29d3: Verifying Checksum
+a2b7cfaf29d3: Download complete
+d37e2f98afe2: Verifying Checksum
+d37e2f98afe2: Download complete
+51518ef4214f: Verifying Checksum
+51518ef4214f: Download complete
+ffa7f5fe465c: Verifying Checksum
+ffa7f5fe465c: Download complete
+d37e2f98afe2: Pull complete
+ffa7f5fe465c: Pull complete
+d973cbca1a37: Pull complete
+a2b7cfaf29d3: Pull complete
+51518ef4214f: Pull complete
+Digest: sha256:18869b2a5a7f274807c6c9a002d33aafad2396345025edd6b89b04ad40b9d586
+Status: Downloaded newer image for opensourcemano/ro:11
+docker.io/opensourcemano/ro:11
+Pulling opensourcemano/lcm:11 docker image
+11: Pulling from opensourcemano/lcm
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+f5d59c25a781: Already exists
+65c18c0e9bc7: Already exists
+4a97f09a569c: Pulling fs layer
+b2c57e7486df: Pulling fs layer
+0a3d4f00fbc7: Pulling fs layer
+8459dbade3e8: Pulling fs layer
+a7f68d549cd5: Pulling fs layer
+1df42af22e58: Pulling fs layer
+051f40475366: Pulling fs layer
+9fc84f0eb0db: Pulling fs layer
+96b4c0ab0b16: Pulling fs layer
+e0bbc20f517a: Pulling fs layer
+31c668e1443a: Pulling fs layer
+b61f559f3157: Pulling fs layer
+8459dbade3e8: Waiting
+a7f68d549cd5: Waiting
+1df42af22e58: Waiting
+051f40475366: Waiting
+9fc84f0eb0db: Waiting
+96b4c0ab0b16: Waiting
+e0bbc20f517a: Waiting
+31c668e1443a: Waiting
+b61f559f3157: Waiting
+4a97f09a569c: Download complete
+0a3d4f00fbc7: Verifying Checksum
+0a3d4f00fbc7: Download complete
+4a97f09a569c: Pull complete
+8459dbade3e8: Verifying Checksum
+8459dbade3e8: Download complete
+b2c57e7486df: Verifying Checksum
+b2c57e7486df: Download complete
+a7f68d549cd5: Verifying Checksum
+a7f68d549cd5: Download complete
+1df42af22e58: Verifying Checksum
+1df42af22e58: Download complete
+051f40475366: Verifying Checksum
+051f40475366: Download complete
+9fc84f0eb0db: Verifying Checksum
+9fc84f0eb0db: Download complete
+31c668e1443a: Verifying Checksum
+31c668e1443a: Download complete
+b61f559f3157: Verifying Checksum
+b61f559f3157: Download complete
+96b4c0ab0b16: Verifying Checksum
+96b4c0ab0b16: Download complete
+e0bbc20f517a: Verifying Checksum
+e0bbc20f517a: Download complete
+b2c57e7486df: Pull complete
+0a3d4f00fbc7: Pull complete
+8459dbade3e8: Pull complete
+a7f68d549cd5: Pull complete
+1df42af22e58: Pull complete
+051f40475366: Pull complete
+9fc84f0eb0db: Pull complete
+96b4c0ab0b16: Pull complete
+e0bbc20f517a: Pull complete
+31c668e1443a: Pull complete
+b61f559f3157: Pull complete
+Digest: sha256:2c56a509c8e461f3714115612a25f0dd90f5d01823815b9bebfc6b8c5b1aefa0
+Status: Downloaded newer image for opensourcemano/lcm:11
+docker.io/opensourcemano/lcm:11
+Pulling opensourcemano/ng-ui:11 docker image
+11: Pulling from opensourcemano/ng-ui
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+04166b4508f4: Pulling fs layer
+e561bebf8747: Pulling fs layer
+c337aceaae52: Pulling fs layer
+96c77785d1c7: Pulling fs layer
+96c77785d1c7: Waiting
+c337aceaae52: Verifying Checksum
+c337aceaae52: Download complete
+e561bebf8747: Download complete
+04166b4508f4: Verifying Checksum
+04166b4508f4: Download complete
+96c77785d1c7: Verifying Checksum
+96c77785d1c7: Download complete
+04166b4508f4: Pull complete
+e561bebf8747: Pull complete
+c337aceaae52: Pull complete
+96c77785d1c7: Pull complete
+Digest: sha256:0ed13935f40bd9c3b79bcb38bbbc6765bd6942bb61cae02565e610783c69ac1e
+Status: Downloaded newer image for opensourcemano/ng-ui:11
+docker.io/opensourcemano/ng-ui:11
+Pulling opensourcemano/osmclient:11 docker image
+11: Pulling from opensourcemano/osmclient
+d7bfe07ed847: Already exists
+628bcfb499cb: Already exists
+f5d59c25a781: Already exists
+5e9bc90fc06f: Pulling fs layer
+fa4ca325e2a3: Pulling fs layer
+5e9bc90fc06f: Verifying Checksum
+5e9bc90fc06f: Download complete
+fa4ca325e2a3: Verifying Checksum
+fa4ca325e2a3: Download complete
+5e9bc90fc06f: Pull complete
+fa4ca325e2a3: Pull complete
+Digest: sha256:1de552a72b3c15d11c3941be95bcd0dc89effb5700ddad73bf64aa7cc96c1416
+Status: Downloaded newer image for opensourcemano/osmclient:11
+docker.io/opensourcemano/osmclient:11
+Finished pulling and generating docker images
+Track docker_images docker_images_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515489&event=docker_images&operation=docker_images_ok&value=&comment=&tags=
+Track osm_files manifest_files_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515489&event=osm_files&operation=manifest_files_ok&value=&comment=&tags=
+Doing a backup of existing env files
+cp: cannot stat '/etc/osm/docker/keystone-db.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/keystone.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/lcm.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/mon.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/nbi.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/pol.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/ro-db.env': No such file or directory
+cp: cannot stat '/etc/osm/docker/ro.env': No such file or directory
+Generating docker env files
+OSMLCM_DATABASE_COMMONKEY=Qk49hPlciWmc020vxXBWn5xiCyOAiDRO
+OSMLCM_VCA_HOST=192.168.64.23
+OSMLCM_VCA_SECRET=9dc5decf47cbf27da5c6059fde0606b1
+OSMLCM_VCA_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDzgJ4FXAKQAbe2yzd3Tg31wSmxU9RNM75WymY8T89vm01Ms4JtJEEcgJ+aGNisdxPEWK8OFQQ1ovfjGiN8GvZSoHuqR7QvHeKtN4jKhP8yoNEYgDecVXK93HyEky9t0TY+XT42crEHVqCtDWfSKd4ZqwHrVmgnTYJEJ+8tjO9jJGTvbtoD+FxQRg5B3SHm+u0mhtnaLnOrlBIgxCMWBDK7Zsv1ESNKt2WUSAWfDpfbMhYKAUab6HreXvsBq9dNGmXd1nSan+9HW/auziPoL42mT6PTZSAgWQsd2SpowmeLsSDw7mpmgZkLUSBtNB5WEufdfoECTpw3amt1rAHAJKDb juju-client-key
+OSMLCM_VCA_CACERT=LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVFekNDQW51Z0F3SUJBZ0lWQUtVTk5Nb0hJNjdGdllscGIxOGxieUUxQkp5RE1BMEdDU3FHU0liM0RRRUIKQ3dVQU1DRXhEVEFMQmdOVkJBb1RCRXAxYW5VeEVEQU9CZ05WQkFNVEIycDFhblV0WTJFd0hoY05Nakl3TmpJNQpNVFExTmpReFdoY05Nekl3TmpJNU1UVXdNVFF4V2pBaE1RMHdDd1lEVlFRS0V3UktkV3AxTVJBd0RnWURWUVFECkV3ZHFkV3AxTFdOaE1JSUJvakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBWThBTUlJQmlnS0NBWUVBNUEvdERvMDkKOVFDby94RW8zZDQxUnEwc0hQLzdPUjhRYXluZm83Lzk1K1Mvcm9GaU9mOTl2RU5kM2wvZUE4Mks5Z2xSL1RkMApiRkVtMmwvU3dYNjNmYW4vWTdQVnhTWHI1ZC9HMG5oRE9SZlFTem42MWZMSndsaTF2REhGR29yZElLQlBXQmhYCnZUZGZFVHFpVFpHVDRJYVhqVDQrYUtmQXlXUGhJOEtEQW1hY3VKODBhQU5PLzdqTUw3d1RnZHEwYVNmUUtmbUsKT0dKcW5naTJ2eGlmSHJOcENmTUJSbDkvTDVNYnV3OXl0WHNCaFNyUEJJTnJrODFocTJiQUhWajdOdmZQZlB1ZQphMlVCYjc4OGtNUCt4b25HaE4rOHBVWm9vQTNIRk1wM0pDVmQ5amJORGgvTTN1MnRSWmJyRk1zRVIzeFYrQXFnCmk2STN5OHhMRk5TYjExaFBibWUzWXB1b1N5SC8rWkRDb2pUY1hobVU2dWZweUFBQ1dlQ01nVkJzRkpLNzZDQzYKdmROQXNMMXVlVktCM0RXbHloNHBob1dtTVBiMHZKVUl1RzNoMVFETTJibVNENkpUUGJBMFNyQXBKcGlxTWJQeQp6QTlGZ2ZsYTJSMVIzNStyOEVNTlZwZFZMRzNkUzI5dHg1UzA3RTJYdTFackhoYU5NZDc2VmpCSEFnTUJBQUdqClFqQkFNQTRHQTFVZER3RUIvd1FFQXdJQ3BEQVBCZ05WSFJNQkFmOEVCVEFEQVFIL01CMEdBMVVkRGdRV0JCU1kKNWpUUTU2UlRYTnFGODltNFE4UjJoU2Z6VVRBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVlFQTNpUzVxTlJhbWF3SwpwNXdMUHhKOXdRZGtTb3pqUUdxbHZ6dURydWpEZ3QzUloxS2l1MW5lQ1RMY3pMd0lOTWJhaGZaNzlOUW9hbXFKCjNqdWsrR1BvcnJnREozTjN4ZFhobTIzTzN6UE1INm93SDJwSGM4ZXYwK1JrcUx5TmduRmF2M05LUks1M0E3WmYKbkdNMGczOWFUVEF2NlNCdVZHRm93WGZNN0xSL2VTOFdVeXZRRlRicUhsbXBSVllLQ1c3WW8yRkR4dlJhOWVDKwpMbFJ1d3Qxb1RKMVB3alFJaGJpRSs1dGZCOTQ0ejhzZlhqTFNXbFd1cW5UcGk5TzJuTDNFUlZibHA1a0M4dUFUClNTeUV5Z0RPeHRJNGVOQ2hLa3drTnNORlJDeU9DTlZIdi9vQlcvTHB3cGxiR1pidWh0OE0xeWdCUjE5YkdJVksKWFNrWk1LVElycnc2VjZKSitSc1BPeFdNMmVodEtHdDNwTElIMVhqVnByeE5CMXp3R3ZHMFZETGttQWxENjNiUAo5NG1SaHJzM3ZXRGltSWtJUFpQS2ludnVpbVBzdGx1anE0c29RcWt3YytMQmlIS0M4VjBzQmRlMmdyZHU0YUVKCmRXaUI2UWZjNnJmUnF6V1k4RWFlV2xnL0c3RDVxc2N3Yy9SbEVITy8zVFM3b2IrUEVBRmgKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQoK
+# OSMLCM_VCA_ENABLEOSUPGRADE=false
+# OSMLCM_VCA_APTMIRROR=http://archive.ubuntu.com/ubuntu/
+OSMLCM_VCA_CLOUD=lxd-cloud
+OSMLCM_VCA_K8S_CLOUD=k8scloud
+MYSQL_ROOT_PASSWORD=BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz
+RO_DB_ROOT_PASSWORD=BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz
+OSMRO_DATABASE_COMMONKEY=Qk49hPlciWmc020vxXBWn5xiCyOAiDRO
+MYSQL_ROOT_PASSWORD=BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz
+ROOT_DB_PASSWORD=BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz
+KEYSTONE_DB_PASSWORD=KwXanzVPNxrQq0cBj3bfACz74KHwoIKJ
+SERVICE_PASSWORD=qEZQSi5c9CWc8WucnpmuQzavHzi1sQnu
+OSMNBI_AUTHENTICATION_SERVICE_PASSWORD=qEZQSi5c9CWc8WucnpmuQzavHzi1sQnu
+OSMNBI_DATABASE_COMMONKEY=Qk49hPlciWmc020vxXBWn5xiCyOAiDRO
+OSMMON_KEYSTONE_SERVICE_PASSWORD=qEZQSi5c9CWc8WucnpmuQzavHzi1sQnu
+OSMMON_DATABASE_COMMONKEY=Qk49hPlciWmc020vxXBWn5xiCyOAiDRO
+OSMMON_SQL_DATABASE_URI=mysql://root:BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz@mysql:3306/mon
+OS_NOTIFIER_URI=http://192.168.64.23:8662
+OSMMON_VCA_HOST=192.168.64.23
+OSMMON_VCA_SECRET=9dc5decf47cbf27da5c6059fde0606b1
+OSMMON_VCA_CACERT=LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVFekNDQW51Z0F3SUJBZ0lWQUtVTk5Nb0hJNjdGdllscGIxOGxieUUxQkp5RE1BMEdDU3FHU0liM0RRRUIKQ3dVQU1DRXhEVEFMQmdOVkJBb1RCRXAxYW5VeEVEQU9CZ05WQkFNVEIycDFhblV0WTJFd0hoY05Nakl3TmpJNQpNVFExTmpReFdoY05Nekl3TmpJNU1UVXdNVFF4V2pBaE1RMHdDd1lEVlFRS0V3UktkV3AxTVJBd0RnWURWUVFECkV3ZHFkV3AxTFdOaE1JSUJvakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBWThBTUlJQmlnS0NBWUVBNUEvdERvMDkKOVFDby94RW8zZDQxUnEwc0hQLzdPUjhRYXluZm83Lzk1K1Mvcm9GaU9mOTl2RU5kM2wvZUE4Mks5Z2xSL1RkMApiRkVtMmwvU3dYNjNmYW4vWTdQVnhTWHI1ZC9HMG5oRE9SZlFTem42MWZMSndsaTF2REhGR29yZElLQlBXQmhYCnZUZGZFVHFpVFpHVDRJYVhqVDQrYUtmQXlXUGhJOEtEQW1hY3VKODBhQU5PLzdqTUw3d1RnZHEwYVNmUUtmbUsKT0dKcW5naTJ2eGlmSHJOcENmTUJSbDkvTDVNYnV3OXl0WHNCaFNyUEJJTnJrODFocTJiQUhWajdOdmZQZlB1ZQphMlVCYjc4OGtNUCt4b25HaE4rOHBVWm9vQTNIRk1wM0pDVmQ5amJORGgvTTN1MnRSWmJyRk1zRVIzeFYrQXFnCmk2STN5OHhMRk5TYjExaFBibWUzWXB1b1N5SC8rWkRDb2pUY1hobVU2dWZweUFBQ1dlQ01nVkJzRkpLNzZDQzYKdmROQXNMMXVlVktCM0RXbHloNHBob1dtTVBiMHZKVUl1RzNoMVFETTJibVNENkpUUGJBMFNyQXBKcGlxTWJQeQp6QTlGZ2ZsYTJSMVIzNStyOEVNTlZwZFZMRzNkUzI5dHg1UzA3RTJYdTFackhoYU5NZDc2VmpCSEFnTUJBQUdqClFqQkFNQTRHQTFVZER3RUIvd1FFQXdJQ3BEQVBCZ05WSFJNQkFmOEVCVEFEQVFIL01CMEdBMVVkRGdRV0JCU1kKNWpUUTU2UlRYTnFGODltNFE4UjJoU2Z6VVRBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVlFQTNpUzVxTlJhbWF3SwpwNXdMUHhKOXdRZGtTb3pqUUdxbHZ6dURydWpEZ3QzUloxS2l1MW5lQ1RMY3pMd0lOTWJhaGZaNzlOUW9hbXFKCjNqdWsrR1BvcnJnREozTjN4ZFhobTIzTzN6UE1INm93SDJwSGM4ZXYwK1JrcUx5TmduRmF2M05LUks1M0E3WmYKbkdNMGczOWFUVEF2NlNCdVZHRm93WGZNN0xSL2VTOFdVeXZRRlRicUhsbXBSVllLQ1c3WW8yRkR4dlJhOWVDKwpMbFJ1d3Qxb1RKMVB3alFJaGJpRSs1dGZCOTQ0ejhzZlhqTFNXbFd1cW5UcGk5TzJuTDNFUlZibHA1a0M4dUFUClNTeUV5Z0RPeHRJNGVOQ2hLa3drTnNORlJDeU9DTlZIdi9vQlcvTHB3cGxiR1pidWh0OE0xeWdCUjE5YkdJVksKWFNrWk1LVElycnc2VjZKSitSc1BPeFdNMmVodEtHdDNwTElIMVhqVnByeE5CMXp3R3ZHMFZETGttQWxENjNiUAo5NG1SaHJzM3ZXRGltSWtJUFpQS2ludnVpbVBzdGx1anE0c29RcWt3YytMQmlIS0M4VjBzQmRlMmdyZHU0YUVKCmRXaUI2UWZjNnJmUnF6V1k4RWFlV2xnL0c3RDVxc2N3Yy9SbEVITy8zVFM3b2IrUEVBRmgKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQoK
+OSMPOL_SQL_DATABASE_URI=mysql://root:BgS1rJ2kIjaKkHQDirhsHUODjNRLqXkz@mysql:3306/pol
+Finished generation of docker env files
+Track osm_files env_files_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515490&event=osm_files&operation=env_files_ok&value=&comment=&tags=
+Added 'osm' model on k8scloud with credential 'k8scloud' for user 'admin'
+Located charm "mongodb-k8s" in charm-hub, revision 1
+Deploying "mongodb-k8s" from charm-hub charm "mongodb-k8s", revision 1 in channel stable on focal
+Track deploy_osm deploy_charmed_services_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515507&event=deploy_osm&operation=deploy_charmed_services_ok&value=&comment=&tags=
+Error from server (AlreadyExists): namespaces "osm" already exists
+secret/lcm-secret created
+secret/mon-secret created
+secret/nbi-secret created
+secret/ro-db-secret created
+secret/ro-secret created
+secret/keystone-secret created
+secret/pol-secret created
+Track deploy_osm kube_secrets_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515509&event=deploy_osm&operation=kube_secrets_ok&value=&comment=&tags=
+Track deploy_osm update_manifest_files_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515509&event=deploy_osm&operation=update_manifest_files_ok&value=&comment=&tags=
+Track deploy_osm namespace_vol_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515511&event=deploy_osm&operation=namespace_vol_ok&value=&comment=&tags=
+clusterrole.rbac.authorization.k8s.io/grafana-clusterrole created
+clusterrolebinding.rbac.authorization.k8s.io/grafana-clusterrolebinding created
+secret/grafana created
+serviceaccount/grafana created
+configmap/grafana-dashboard-provider created
+configmap/grafana-datasource created
+configmap/grafana created
+deployment.apps/grafana created
+service/grafana created
+service/kafka created
+statefulset.apps/kafka created
+service/keystone created
+deployment.apps/keystone created
+deployment.apps/lcm created
+service/mon created
+deployment.apps/mon created
+service/mysql created
+statefulset.apps/mysql created
+service/nbi created
+deployment.apps/nbi created
+service/ng-ui created
+deployment.apps/ng-ui created
+deployment.apps/pol created
+service/prometheus created
+configmap/prom created
+statefulset.apps/prometheus created
+service/ro created
+deployment.apps/ro created
+service/zookeeper created
+statefulset.apps/zookeeper created
+Track deploy_osm deploy_osm_services_k8s_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515518&event=deploy_osm&operation=deploy_osm_services_k8s_ok&value=&comment=&tags=
+sed: can't read /etc/osm/docker/osm_pla/pla.yaml: No such file or directory
+error: the path "/etc/osm/docker/osm_pla" does not exist
+Track deploy_osm deploy_osm_pla_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515520&event=deploy_osm&operation=deploy_osm_pla_ok&value=&comment=&tags=
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3120  100  3120    0     0   9043      0 --:--:-- --:--:-- --:--:--  9043
+OK
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:6 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Get:8 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/osmclient amd64 Packages [474 B]
+Get:9 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/IM amd64 Packages [901 B]
+Fetched 1375 B in 5s (254 B/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Hit:1 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:2 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:5 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9383 B]
+Fetched 9383 B in 4s (2197 B/s)
+Reading package lists...
+W: Conflicting distribution: https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable InRelease (expected stable but got )
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-9
+  dpkg-dev fakeroot g++ g++-9 gcc gcc-9 gcc-9-base libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan5 libatomic1
+  libbinutils libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0
+  libctf0 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl
+  libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0 libmpc3 libpython3-dev
+  libpython3.8-dev libquadmath0 libstdc++-9-dev libtsan0 libubsan1
+  linux-libc-dev make manpages-dev python-pip-whl python3-dev python3-wheel
+  python3.8-dev zlib1g-dev
+Suggested packages:
+  binutils-doc cpp-doc gcc-9-locales debian-keyring g++-multilib
+  g++-9-multilib gcc-9-doc gcc-multilib autoconf automake libtool flex bison
+  gdb gcc-doc gcc-9-multilib glibc-doc bzr libstdc++-9-doc make-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-9
+  dpkg-dev fakeroot g++ g++-9 gcc gcc-9 gcc-9-base libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan5 libatomic1
+  libbinutils libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0
+  libctf0 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl
+  libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0 libmpc3 libpython3-dev
+  libpython3.8-dev libquadmath0 libstdc++-9-dev libtsan0 libubsan1
+  linux-libc-dev make manpages-dev python-pip-whl python3-dev python3-pip
+  python3-wheel python3.8-dev zlib1g-dev
+0 upgraded, 50 newly installed, 0 to remove and 21 not upgraded.
+Need to get 52.2 MB of archives.
+After this operation, 228 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.3 [207 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.3 [474 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.3 [47.4 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.3 [46.6 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.3 [1613 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.3 [3380 B]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.9 [71.8 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-121.137 [1099 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.9 [2519 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9-base amd64 9.4.0-1ubuntu1~20.04.1 [19.4 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.4.0-1ubuntu1~20.04.1 [7500 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2 [27.6 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04 [48.8 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04 [26.2 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04 [9284 B]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.4.0-1ubuntu1~20.04.1 [2751 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04 [835 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04 [2009 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04 [784 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04 [146 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.4.0-1ubuntu1~20.04.1 [2359 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.4.0-1ubuntu1~20.04.1 [8274 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5208 B]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++-9-dev amd64 9.4.0-1ubuntu1~20.04.1 [1722 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 g++-9 amd64 9.4.0-1ubuntu1~20.04.1 [8420 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 g++ amd64 4:9.3.0-1ubuntu2 [1604 B]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 make amd64 4.2.1-1.2 [162 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdpkg-perl all 1.19.7ubuntu3.2 [231 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dpkg-dev all 1.19.7ubuntu3.2 [679 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 build-essential amd64 12.8ubuntu1.1 [4664 B]
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 libfakeroot amd64 1.24-1 [25.7 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal/main amd64 fakeroot amd64 1.24-1 [62.6 kB]
+Get:37 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-perl all 1.19.03-2 [46.6 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6 [11.3 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1-dev amd64 2.2.9-1ubuntu0.4 [117 kB]
+Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 libfile-fcntllock-perl amd64 0.22-3build4 [33.1 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-dev amd64 3.8.10-0ubuntu1~20.04.4 [3952 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal/main amd64 libpython3-dev amd64 3.8.2-0ubuntu2 [7236 B]
+Get:44 http://archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2266 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 python-pip-whl all 20.0.2-5ubuntu1.6 [1805 kB]
+Get:46 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu1.3 [155 kB]
+Get:47 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8-dev amd64 3.8.10-0ubuntu1~20.04.4 [514 kB]
+Get:48 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-dev amd64 3.8.2-0ubuntu2 [1212 B]
+Get:49 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-wheel all 0.34.2-1 [23.8 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 python3-pip all 20.0.2-5ubuntu1.6 [231 kB]
+Fetched 52.2 MB in 4s (13.8 MB/s)
+Selecting previously unselected package binutils-common:amd64.
+(Reading database ... 65318 files and directories currently installed.)
+Preparing to unpack .../00-binutils-common_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../01-libbinutils_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../03-libctf0_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1.3) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../05-binutils_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../06-libc-dev-bin_2.31-0ubuntu9.9_amd64.deb ...
+Unpacking libc-dev-bin (2.31-0ubuntu9.9) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../07-linux-libc-dev_5.4.0-121.137_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.4.0-121.137) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../08-libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../09-libc6-dev_2.31-0ubuntu9.9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-0ubuntu9.9) ...
+Selecting previously unselected package gcc-9-base:amd64.
+Preparing to unpack .../10-gcc-9-base_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking gcc-9-base:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package libisl22:amd64.
+Preparing to unpack .../11-libisl22_0.22.1-1_amd64.deb ...
+Unpacking libisl22:amd64 (0.22.1-1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../12-libmpc3_1.1.0-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.1.0-1) ...
+Selecting previously unselected package cpp-9.
+Preparing to unpack .../13-cpp-9_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking cpp-9 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../14-cpp_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking cpp (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../15-libcc1-0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../16-libgomp1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../17-libitm1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../18-libatomic1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libasan5:amd64.
+Preparing to unpack .../19-libasan5_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking libasan5:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../20-liblsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../21-libtsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../22-libubsan1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../23-libquadmath0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libgcc-9-dev:amd64.
+Preparing to unpack .../24-libgcc-9-dev_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking libgcc-9-dev:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package gcc-9.
+Preparing to unpack .../25-gcc-9_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking gcc-9 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../26-gcc_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking gcc (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libstdc++-9-dev:amd64.
+Preparing to unpack .../27-libstdc++-9-dev_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking libstdc++-9-dev:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package g++-9.
+Preparing to unpack .../28-g++-9_9.4.0-1ubuntu1~20.04.1_amd64.deb ...
+Unpacking g++-9 (9.4.0-1ubuntu1~20.04.1) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../29-g++_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking g++ (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package make.
+Preparing to unpack .../30-make_4.2.1-1.2_amd64.deb ...
+Unpacking make (4.2.1-1.2) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../31-libdpkg-perl_1.19.7ubuntu3.2_all.deb ...
+Unpacking libdpkg-perl (1.19.7ubuntu3.2) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../32-dpkg-dev_1.19.7ubuntu3.2_all.deb ...
+Unpacking dpkg-dev (1.19.7ubuntu3.2) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../33-build-essential_12.8ubuntu1.1_amd64.deb ...
+Unpacking build-essential (12.8ubuntu1.1) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../34-libfakeroot_1.24-1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.24-1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../35-fakeroot_1.24-1_amd64.deb ...
+Unpacking fakeroot (1.24-1) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../36-libalgorithm-diff-perl_1.19.03-2_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.03-2) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../37-libalgorithm-diff-xs-perl_0.04-6_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-6) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../38-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../39-libexpat1-dev_2.2.9-1ubuntu0.4_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.2.9-1ubuntu0.4) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../40-libfile-fcntllock-perl_0.22-3build4_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build4) ...
+Selecting previously unselected package libpython3.8-dev:amd64.
+Preparing to unpack .../41-libpython3.8-dev_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking libpython3.8-dev:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../42-libpython3-dev_3.8.2-0ubuntu2_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.8.2-0ubuntu2) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../43-manpages-dev_5.05-1_all.deb ...
+Unpacking manpages-dev (5.05-1) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../44-python-pip-whl_20.0.2-5ubuntu1.6_all.deb ...
+Unpacking python-pip-whl (20.0.2-5ubuntu1.6) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../45-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu1.3_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu1.3) ...
+Selecting previously unselected package python3.8-dev.
+Preparing to unpack .../46-python3.8-dev_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking python3.8-dev (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../47-python3-dev_3.8.2-0ubuntu2_amd64.deb ...
+Unpacking python3-dev (3.8.2-0ubuntu2) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../48-python3-wheel_0.34.2-1_all.deb ...
+Unpacking python3-wheel (0.34.2-1) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../49-python3-pip_20.0.2-5ubuntu1.6_all.deb ...
+Unpacking python3-pip (20.0.2-5ubuntu1.6) ...
+Setting up manpages-dev (5.05-1) ...
+Setting up libfile-fcntllock-perl (0.22-3build4) ...
+Setting up libalgorithm-diff-perl (1.19.03-2) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1.3) ...
+Setting up linux-libc-dev:amd64 (5.4.0-121.137) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1.3) ...
+Setting up libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up python3-wheel (0.34.2-1) ...
+Setting up libfakeroot:amd64 (1.24-1) ...
+Setting up fakeroot (1.24-1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up make (4.2.1-1.2) ...
+Setting up libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libmpc3:amd64 (1.1.0-1) ...
+Setting up libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libdpkg-perl (1.19.7ubuntu3.2) ...
+Setting up libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libisl22:amd64 (0.22.1-1) ...
+Setting up python-pip-whl (20.0.2-5ubuntu1.6) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1.3) ...
+Setting up libc-dev-bin (2.31-0ubuntu9.9) ...
+Setting up libalgorithm-diff-xs-perl (0.04-6) ...
+Setting up libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up gcc-9-base:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1.3) ...
+Setting up libasan5:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up python3-pip (20.0.2-5ubuntu1.6) ...
+Setting up cpp-9 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up libc6-dev:amd64 (2.31-0ubuntu9.9) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1.3) ...
+Setting up binutils (2.34-6ubuntu1.3) ...
+Setting up dpkg-dev (1.19.7ubuntu3.2) ...
+Setting up libgcc-9-dev:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up libexpat1-dev:amd64 (2.2.9-1ubuntu0.4) ...
+Setting up libpython3.8-dev:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu1.3) ...
+Setting up cpp (4:9.3.0-1ubuntu2) ...
+Setting up gcc-9 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up libpython3-dev:amd64 (3.8.2-0ubuntu2) ...
+Setting up libstdc++-9-dev:amd64 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up gcc (4:9.3.0-1ubuntu2) ...
+Setting up g++-9 (9.4.0-1ubuntu1~20.04.1) ...
+Setting up python3.8-dev (3.8.10-0ubuntu1~20.04.4) ...
+Setting up g++ (4:9.3.0-1ubuntu2) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up build-essential (12.8ubuntu1.1) ...
+Setting up python3-dev (3.8.2-0ubuntu2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Collecting pip
+  Downloading pip-22.1.2-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Not uninstalling pip at /usr/lib/python3/dist-packages, outside environment /usr
+    Can't uninstall 'pip'. No files were found to uninstall.
+Successfully installed pip-22.1.2
+Collecting python-magic
+  Downloading python_magic-0.4.27-py2.py3-none-any.whl (13 kB)
+Collecting pyangbind
+  Downloading pyangbind-0.8.1.tar.gz (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.6/48.6 kB 2.5 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting verboselogs
+  Downloading verboselogs-1.7-py2.py3-none-any.whl (11 kB)
+Collecting bitarray
+  Downloading bitarray-2.5.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (242 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 1.6 MB/s eta 0:00:00
+Collecting enum34
+  Downloading enum34-1.1.10-py3-none-any.whl (11 kB)
+Collecting lxml
+  Downloading lxml-4.9.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 7.8 MB/s eta 0:00:00
+Collecting pyang
+  Downloading pyang-2.5.3-py2.py3-none-any.whl (592 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 592.9/592.9 kB 6.8 MB/s eta 0:00:00
+Collecting regex
+  Downloading regex-2022.6.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (764 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 764.9/764.9 kB 2.2 MB/s eta 0:00:00
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from pyangbind) (1.14.0)
+Building wheels for collected packages: pyangbind
+  Building wheel for pyangbind (setup.py): started
+  Building wheel for pyangbind (setup.py): finished with status 'done'
+  Created wheel for pyangbind: filename=pyangbind-0.8.1-py3-none-any.whl size=47761 sha256=5f0d027b2830fa98c3e5c263a6ebd47e5a84b3ed70a8dab32f0842f3a84f4d97
+  Stored in directory: /root/.cache/pip/wheels/0c/fb/5a/3d09fc1fae9987036f767b8aa0076ac7f91ce4cd952de3f49a
+Successfully built pyangbind
+Installing collected packages: verboselogs, enum34, bitarray, regex, python-magic, lxml, pyang, pyangbind
+Successfully installed bitarray-2.5.1 enum34-1.1.10 lxml-4.9.0 pyang-2.5.3 pyangbind-0.8.1 python-magic-0.4.27 regex-2022.6.2 verboselogs-1.7
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  python3-osm-im python3-osmclient
+0 upgraded, 2 newly installed, 0 to remove and 21 not upgraded.
+Need to get 256 kB of archives.
+After this operation, 8304 kB of additional disk space will be used.
+Get:1 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/IM amd64 python3-osm-im all 11.0.3+g2aa4f3e-1 [188 kB]
+Get:2 https://osm-download.etsi.org/repository/osm/debian/ReleaseELEVEN stable/osmclient amd64 python3-osmclient all 11.0.3+g3152c07-1 [68.6 kB]
+Fetched 256 kB in 0s (684 kB/s)
+Selecting previously unselected package python3-osm-im.
+(Reading database ... 71431 files and directories currently installed.)
+Preparing to unpack .../python3-osm-im_11.0.3+g2aa4f3e-1_all.deb ...
+Unpacking python3-osm-im (11.0.3+g2aa4f3e-1) ...
+Selecting previously unselected package python3-osmclient.
+Preparing to unpack .../python3-osmclient_11.0.3+g3152c07-1_all.deb ...
+Unpacking python3-osmclient (11.0.3+g3152c07-1) ...
+Setting up python3-osmclient (11.0.3+g3152c07-1) ...
+Setting up python3-osm-im (11.0.3+g2aa4f3e-1) ...
+Defaulting to user installation because normal site-packages is not writeable
+Collecting bitarray==2.3.5
+  Downloading bitarray-2.3.5.tar.gz (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.4/88.4 kB 2.4 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: enum34==1.1.10 in /usr/local/lib/python3.8/dist-packages (from -r /usr/lib/python3/dist-packages/osm_im/requirements.txt (line 19)) (1.1.10)
+Collecting lxml==4.7.1
+  Downloading lxml-4.7.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 6.0 MB/s eta 0:00:00
+Collecting pyang==2.5.2
+  Downloading pyang-2.5.2-py2.py3-none-any.whl (595 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 595.5/595.5 kB 5.6 MB/s eta 0:00:00
+Requirement already satisfied: pyangbind==0.8.1 in /usr/local/lib/python3.8/dist-packages (from -r /usr/lib/python3/dist-packages/osm_im/requirements.txt (line 29)) (0.8.1)
+Collecting pyyaml==5.4.1
+  Downloading PyYAML-5.4.1-cp38-cp38-manylinux1_x86_64.whl (662 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 662.4/662.4 kB 5.5 MB/s eta 0:00:00
+Collecting regex==2021.11.10
+  Downloading regex-2021.11.10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (764 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 764.7/764.7 kB 7.1 MB/s eta 0:00:00
+Collecting six==1.16.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: bitarray
+  Building wheel for bitarray (setup.py): started
+  Building wheel for bitarray (setup.py): finished with status 'done'
+  Created wheel for bitarray: filename=bitarray-2.3.5-cp38-cp38-linux_x86_64.whl size=188767 sha256=5fad29de4bee74cfc72ef13d88d800f1746a5520b83443edfafba7b7efcb6879
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/94/69/4b/830f24f80f3064bf446eb37eb441d7c1af74eda281bc2d9d03
+Successfully built bitarray
+Installing collected packages: regex, bitarray, six, pyyaml, lxml, pyang
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+launchpadlib 1.10.13 requires testresources, which is not installed.
+Successfully installed bitarray-2.3.5 lxml-4.7.1 pyang-2.5.2 pyyaml-5.4.1 regex-2021.11.10 six-1.16.0
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  curl libcurl4 libssl1.1
+Suggested packages:
+  libcurl4-doc libidn11-dev libkrb5-dev libldap2-dev librtmp-dev libssh2-1-dev
+  pkg-config libssl-doc
+The following NEW packages will be installed:
+  libcurl4-openssl-dev libssl-dev
+The following packages will be upgraded:
+  curl libcurl4 libssl1.1
+3 upgraded, 2 newly installed, 0 to remove and 18 not upgraded.
+Need to get 3623 kB of archives.
+After this operation, 9552 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.15 [1321 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.68.0-1ubuntu2.12 [161 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4 amd64 7.68.0-1ubuntu2.12 [235 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4-openssl-dev amd64 7.68.0-1ubuntu2.12 [322 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl-dev amd64 1.1.1f-1ubuntu2.15 [1584 kB]
+Preconfiguring packages ...
+Fetched 3623 kB in 1s (3001 kB/s)
+(Reading database ... 71519 files and directories currently installed.)
+Preparing to unpack .../libssl1.1_1.1.1f-1ubuntu2.15_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2.15) over (1.1.1f-1ubuntu2.13) ...
+Preparing to unpack .../curl_7.68.0-1ubuntu2.12_amd64.deb ...
+Unpacking curl (7.68.0-1ubuntu2.12) over (7.68.0-1ubuntu2.11) ...
+Preparing to unpack .../libcurl4_7.68.0-1ubuntu2.12_amd64.deb ...
+Unpacking libcurl4:amd64 (7.68.0-1ubuntu2.12) over (7.68.0-1ubuntu2.11) ...
+Selecting previously unselected package libcurl4-openssl-dev:amd64.
+Preparing to unpack .../libcurl4-openssl-dev_7.68.0-1ubuntu2.12_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (7.68.0-1ubuntu2.12) ...
+Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../libssl-dev_1.1.1f-1ubuntu2.15_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.1.1f-1ubuntu2.15) ...
+Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2.15) ...
+Setting up libssl-dev:amd64 (1.1.1f-1ubuntu2.15) ...
+Setting up libcurl4:amd64 (7.68.0-1ubuntu2.12) ...
+Setting up curl (7.68.0-1ubuntu2.12) ...
+Setting up libcurl4-openssl-dev:amd64 (7.68.0-1ubuntu2.12) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Defaulting to user installation because normal site-packages is not writeable
+Collecting certifi==2021.10.8
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.2/149.2 kB 3.5 MB/s eta 0:00:00
+Collecting charset-normalizer==2.0.10
+  Downloading charset_normalizer-2.0.10-py3-none-any.whl (39 kB)
+Collecting click==8.0.3
+  Downloading click-8.0.3-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.5/97.5 kB 6.8 MB/s eta 0:00:00
+Collecting idna==3.3
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 1.9 MB/s eta 0:00:00
+Collecting jinja2==3.0.3
+  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.6/133.6 kB 12.1 MB/s eta 0:00:00
+Collecting markupsafe==2.0.1
+  Downloading MarkupSafe-2.0.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
+Collecting packaging==21.3
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 kB 1.2 MB/s eta 0:00:00
+Collecting prettytable==3.0.0
+  Downloading prettytable-3.0.0-py3-none-any.whl (24 kB)
+Collecting pycurl==7.44.1
+  Downloading pycurl-7.44.1.tar.gz (227 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.6/227.6 kB 9.9 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pyparsing==3.0.6
+  Downloading pyparsing-3.0.6-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 7.3 MB/s eta 0:00:00
+Collecting python-magic==0.4.24
+  Downloading python_magic-0.4.24-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: pyyaml==5.4.1 in ./.local/lib/python3.8/site-packages (from -r /usr/lib/python3/dist-packages/osmclient/requirements.txt (line 39)) (5.4.1)
+Collecting requests==2.27.1
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.1/63.1 kB 3.1 MB/s eta 0:00:00
+Collecting urllib3==1.26.8
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.7/138.7 kB 5.9 MB/s eta 0:00:00
+Requirement already satisfied: verboselogs==1.7 in /usr/local/lib/python3.8/dist-packages (from -r /usr/lib/python3/dist-packages/osmclient/requirements.txt (line 45)) (1.7)
+Collecting wcwidth==0.2.5
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Building wheels for collected packages: pycurl
+  Building wheel for pycurl (setup.py): started
+  Building wheel for pycurl (setup.py): finished with status 'done'
+  Created wheel for pycurl: filename=pycurl-7.44.1-cp38-cp38-linux_x86_64.whl size=322265 sha256=db30820dccde0dd85bb83a1046618f1bb90d5fd8ef9f6569cf550326a59c0204
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/a1/7e/55/e76d883b865ed83a76f1a0dc53af308f522db374be56d27909
+Successfully built pycurl
+Installing collected packages: wcwidth, certifi, urllib3, python-magic, pyparsing, pycurl, prettytable, markupsafe, idna, click, charset-normalizer, requests, packaging, jinja2
+  WARNING: The script normalizer is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed certifi-2021.10.8 charset-normalizer-2.0.10 click-8.0.3 idna-3.3 jinja2-3.0.3 markupsafe-2.0.1 packaging-21.3 prettytable-3.0.0 pycurl-7.44.1 pyparsing-3.0.6 python-magic-0.4.24 requests-2.27.1 urllib3-1.26.8 wcwidth-0.2.5
+
+OSM client installed
+OSM client assumes that OSM host is running in localhost (127.0.0.1).
+In case you want to interact with a different OSM host, you will have to configure this env variable in your .bashrc file:
+     export OSM_HOSTNAME=<OSM_host>
+Track osmclient osmclient_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656515891&event=osmclient&operation=osmclient_ok&value=&comment=&tags=
+Checking OSM health state...
+
+Bootstraping... 1 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 2 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 3 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 4 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 5 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 6 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 7 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 8 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 9 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 10 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 11 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 12 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 13 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 14 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 15 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+2 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+          prometheus	0/1
+
+
+Bootstraping... 16 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 17 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 18 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 19 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 20 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 21 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 22 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 23 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+1 of 6 statefulsets starting:
+         mongodb-k8s	0/1
+
+
+Bootstraping... 24 attempts of 84
+5 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 25 attempts of 84
+2 of 9 deployments starting:
+                 lcm	0/1	0
+                 mon	0/1	0
+
+
+Bootstraping... 26 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 27 attempts of 84
+2 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+
+
+Bootstraping... 28 attempts of 84
+2 of 9 deployments starting:
+                 lcm	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 29 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 30 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 31 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+
+
+Bootstraping... 32 attempts of 84
+2 of 9 deployments starting:
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 33 attempts of 84
+3 of 9 deployments starting:
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 34 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 35 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 36 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+===> Successful checks: 1/24
+Bootstraping... 1 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 2 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 3 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 4 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 5 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 6 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 7 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 8 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 9 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 10 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 11 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 12 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 13 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 14 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 15 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 16 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 17 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 18 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 19 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 20 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 21 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 22 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 23 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 24 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 25 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 26 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 27 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+
+
+Bootstraping... 28 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 29 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 30 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 31 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 32 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 33 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 34 attempts of 84
+3 of 9 deployments starting:
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 35 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 36 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 37 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 38 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 39 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 40 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 41 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 42 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 43 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 44 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 45 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 46 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 47 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 48 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 49 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 50 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 51 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 52 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 53 attempts of 84
+4 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                 pol	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 54 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 55 attempts of 84
+3 of 9 deployments starting:
+                 lcm	0/1	0
+                 nbi	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 56 attempts of 84
+2 of 9 deployments starting:
+                 lcm	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 57 attempts of 84
+2 of 9 deployments starting:
+                 lcm	0/1	0
+                  ro	0/1	0
+
+
+Bootstraping... 58 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 59 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 60 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 61 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 62 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 63 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 64 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+
+Bootstraping... 65 attempts of 84
+1 of 9 deployments starting:
+                 lcm	0/1	0
+
+===> Successful checks: 24/24
+SYSTEM IS READY
+Track healthchecks after_healthcheck_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656516598&event=healthchecks&operation=after_healthcheck_ok&value=&comment=&tags=
+875f163f-abfe-4dee-968f-62c12d2323f6
+3920eeca-eb30-4a60-bd43-552a37b4351d
+Track final_ops add_local_k8scluster_ok: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656516604&event=final_ops&operation=add_local_k8scluster_ok&value=&comment=&tags=
+Track end end: https://osm.etsi.org/InstallLog.php?&installation_id=1656514104-XydIoxsPFxDU1fLG&local_ts=1656516604&event=end&operation=end&value=&comment=&tags=
+/etc/osm
+/etc/osm/docker
+/etc/osm/docker/ro.env
+/etc/osm/docker/lcm.env
+/etc/osm/docker/ro-db.env
+/etc/osm/docker/pol.env
+/etc/osm/docker/mon.env
+/etc/osm/docker/nbi.env
+/etc/osm/docker/keystone-db.env
+/etc/osm/docker/cluster-config.yaml
+/etc/osm/docker/metallb-config.yaml
+/etc/osm/docker/osm_pods
+/etc/osm/docker/osm_pods/keystone.yaml
+/etc/osm/docker/osm_pods/lcm.yaml
+/etc/osm/docker/osm_pods/ng-ui.yaml
+/etc/osm/docker/osm_pods/ro.yaml
+/etc/osm/docker/osm_pods/kafka.yaml
+/etc/osm/docker/osm_pods/mon.yaml
+/etc/osm/docker/osm_pods/prometheus.yaml
+/etc/osm/docker/osm_pods/mysql.yaml
+/etc/osm/docker/osm_pods/zookeeper.yaml
+/etc/osm/docker/osm_pods/nbi.yaml
+/etc/osm/docker/osm_pods/grafana.yaml
+/etc/osm/docker/osm_pods/pol.yaml
+/etc/osm/docker/keystone.env
+
+DONE

@@ -1,0 +1,5 @@
+# valid config but in the wrong file.
+targetDir: deploy.me
+fileExtensions:
+  - .ops.yaml
+connectionFile: deploy.me/secret.yaml
